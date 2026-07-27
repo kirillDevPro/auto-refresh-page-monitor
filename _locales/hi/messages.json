@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - स्वचालित रिफ्रेश | पेज मॉनिटर",
+    "description": "एक्सटेंशन का नाम"
+  },
+  "extDescription": {
+    "message": "निर्दिष्ट अंतराल पर पेजों को स्वचालित रूप से रिफ्रेश करता है उन्नत नियंत्रण और अनुकूलन के साथ।",
+    "description": "एक्सटेंशन का विवरण"
+  },
+  "advanced_settings": {
+    "message": "उन्नत सेटिंग्स",
+    "description": "सेटिंग्स पेज का शीर्षक"
+  },
+  "general": {
+    "message": "सामान्य",
+    "description": "सामान्य सेटिंग्स टैब"
+  },
+  "statistics": {
+    "message": "आंकड़े",
+    "description": "आंकड़े टैब"
+  },
+  "activity_log": {
+    "message": "गतिविधि लॉग",
+    "description": "गतिविधि लॉग टैब"
+  },
+  "general_settings": {
+    "message": "सामान्य सेटिंग्स",
+    "description": "सामान्य सेटिंग्स अनुभाग का शीर्षक"
+  },
+  "theme": {
+    "message": "थीम:",
+    "description": "थीम चयन लेबल"
+  },
+  "light": {
+    "message": "हल्का",
+    "description": "हल्की थीम"
+  },
+  "dark": {
+    "message": "गहरा",
+    "description": "गहरी थीम"
+  },
+  "interface_language": {
+    "message": "इंटरफेस भाषा:",
+    "description": "भाषा चयन लेबल"
+  },
+  "english": {
+    "message": "English",
+    "description": "अंग्रेजी भाषा"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "रूसी भाषा"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "स्पेनिश भाषा"
+  },
+  "french": {
+    "message": "Français",
+    "description": "फ्रेंच भाषा"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "जर्मन भाषा"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "इतालवी भाषा"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "पुर्तगाली भाषा"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "जापानी भाषा"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "चीनी भाषा (सरलीकृत)"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "कोरियाई भाषा"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "अरबी भाषा"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "हिन्दी भाषा"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "बल्गेरियाई भाषा"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "चेक भाषा"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "डेनिश भाषा"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "ग्रीक भाषा"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "एस्टोनियाई भाषा"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "यूक्रेनी भाषा"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "पोलिश भाषा"
+  },
+  "enable_sound_notifications": {
+    "message": "डिफ़ॉल्ट रूप से ध्वनि सूचनाएं सक्षम करें:",
+    "description": "ध्वनि सूचना सक्रियकरण लेबल"
+  },
+  "auto_restore_timers": {
+    "message": "ब्राउज़र पुनः आरंभ पर टाइमर स्वचालित रूप से पुनर्स्थापित करें:",
+    "description": "टाइमर स्वचालित पुनर्स्थापना लेबल"
+  },
+  "sound_notifications_desc": {
+    "message": "यह नए टाइमर के लिए पॉपअप में ध्वनि टॉगल के लिए डिफ़ॉल्ट मान सेट करता है।",
+    "description": "ध्वनि सूचनाओं का विवरण"
+  },
+  "auto_restore_desc": {
+    "message": "ब्राउज़र पुनः आरंभ होने पर सक्रिय टाइमर को स्वचालित रूप से फिर से शुरू करें।",
+    "description": "टाइमर स्वचालित पुनर्स्थापना का विवरण"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "नए टैब और शेड्यूल किए गए नियमों के लिए डिफ़ॉल्ट। चालू होने पर, रिफ्रेश कैश को बायपास करते हैं (Ctrl+Shift+R के समान); बंद होने पर, सामान्य रीलोड कैश किए गए संसाधनों का उपयोग करता है। प्रत्येक टैब और नियम अपने स्वयं के रिफ्रेश मोड से इसे ओवरराइड कर सकता है।",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "रिफ्रेश मोड:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "डिफ़ॉल्ट",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "हार्ड (कैश बायपास करें)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "सामान्य (कैश का उपयोग करें)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "शेड्यूल किया गया रिफ्रेश संपादित करें",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "सेटिंग्स प्रबंधन",
+    "description": "सेटिंग्स प्रबंधन अनुभाग का शीर्षक"
+  },
+  "export_settings": {
+    "message": "सेटिंग्स निर्यात करें",
+    "description": "सेटिंग्स निर्यात बटन"
+  },
+  "import_settings": {
+    "message": "सेटिंग्स आयात करें",
+    "description": "सेटिंग्स आयात बटन"
+  },
+  "settings_management_desc": {
+    "message": "थीम प्राथमिकताओं, URL नियमों और निर्धारित रिफ्रेश सहित अपनी वैश्विक सेटिंग्स निर्यात या आयात करें। यह आपको अपने कॉन्फ़िगरेशन का बैकअप लेने या डिवाइसों के बीच सेटिंग्स स्थानांतरित करने की अनुमति देता है।",
+    "description": "सेटिंग्स प्रबंधन का विवरण"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL व्हाइटलिस्ट और ब्लैकलिस्ट",
+    "description": "URL नियम अनुभाग का शीर्षक"
+  },
+  "whitelist_urls": {
+    "message": "व्हाइटलिस्ट URL (प्रति पंक्ति एक, regex समर्थित):",
+    "description": "व्हाइटलिस्ट URL लेबल"
+  },
+  "whitelist_placeholder": {
+    "message": "उदा., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "व्हाइटलिस्ट URL प्लेसहोल्डर"
+  },
+  "whitelist_desc": {
+    "message": "यदि व्हाइटलिस्ट खाली नहीं है, तो केवल इन पैटर्न से मेल खाने वाले URL रिफ्रेश होंगे।",
+    "description": "व्हाइटलिस्ट URL का विवरण"
+  },
+  "blacklist_urls": {
+    "message": "ब्लैकलिस्ट URL (प्रति पंक्ति एक, regex समर्थित):",
+    "description": "ब्लैकलिस्ट URL लेबल"
+  },
+  "blacklist_placeholder": {
+    "message": "उदा., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "ब्लैकलिस्ट URL प्लेसहोल्डर"
+  },
+  "blacklist_desc": {
+    "message": "इन पैटर्न से मेल खाने वाले URL कभी भी रिफ्रेश नहीं होंगे, भले ही वे व्हाइटलिस्ट में हों या निर्धारित हों।",
+    "description": "ब्लैकलिस्ट URL का विवरण"
+  },
+  "save_url_rules": {
+    "message": "URL नियम सहेजें",
+    "description": "URL नियम सहेजें बटन"
+  },
+  "scheduled_refreshes_title": {
+    "message": "निर्धारित रिफ्रेश",
+    "description": "निर्धारित रिफ्रेश अनुभाग का शीर्षक"
+  },
+  "scheduled_desc": {
+    "message": "निर्धारित अंतराल पर स्वचालित रूप से रिफ्रेश करने के लिए विशिष्ट URL परिभाषित करें। ये सेटिंग्स ब्राउज़र सत्रों के बीच बनी रहती हैं और मेल खाने वाला URL खोले जाने पर सक्रिय हो जाती हैं।",
+    "description": "निर्धारित रिफ्रेश का विवरण"
+  },
+  "add_new_scheduled": {
+    "message": "नया निर्धारित रिफ्रेश जोड़ें",
+    "description": "निर्धारित रिफ्रेश जोड़ने के फॉर्म का शीर्षक"
+  },
+  "scheduled_url": {
+    "message": "URL (सटीक मिलान या सरल पैटर्न जैसे example.com/path*):",
+    "description": "निर्धारित रिफ्रेश URL लेबल"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "निर्धारित रिफ्रेश URL प्लेसहोल्डर"
+  },
+  "refresh_interval": {
+    "message": "रिफ्रेश अंतराल:",
+    "description": "रिफ्रेश अंतराल लेबल"
+  },
+  "seconds_30": {
+    "message": "30 सेकंड",
+    "description": "30 सेकंड"
+  },
+  "minute_1": {
+    "message": "1 मिनट",
+    "description": "1 मिनट"
+  },
+  "minutes_3": {
+    "message": "3 मिनट",
+    "description": "3 मिनट"
+  },
+  "minutes_5": {
+    "message": "5 मिनट",
+    "description": "5 मिनट"
+  },
+  "minutes_10": {
+    "message": "10 मिनट",
+    "description": "10 मिनट"
+  },
+  "minutes_15": {
+    "message": "15 मिनट",
+    "description": "15 मिनट"
+  },
+  "minutes_30": {
+    "message": "30 मिनट",
+    "description": "30 मिनट"
+  },
+  "hour_1": {
+    "message": "1 घंटा",
+    "description": "1 घंटा"
+  },
+  "hours_3": {
+    "message": "3 घंटे",
+    "description": "3 घंटे"
+  },
+  "hours_6": {
+    "message": "6 घंटे",
+    "description": "6 घंटे"
+  },
+  "hours_12": {
+    "message": "12 घंटे",
+    "description": "12 घंटे"
+  },
+  "hours_24": {
+    "message": "24 घंटे",
+    "description": "24 घंटे"
+  },
+  "unit_sec_short": {
+    "message": "से",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "मि",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "घं",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "दि",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "कस्टम",
+    "description": "कस्टम अंतराल"
+  },
+  "custom_interval": {
+    "message": "कस्टम अंतराल:",
+    "description": "कस्टम अंतराल लेबल"
+  },
+  "enabled": {
+    "message": "सक्षम:",
+    "description": "सक्रियकरण लेबल"
+  },
+  "add_schedule": {
+    "message": "शेड्यूल जोड़ें",
+    "description": "शेड्यूल जोड़ें बटन"
+  },
+  "current_schedules": {
+    "message": "वर्तमान शेड्यूल",
+    "description": "वर्तमान शेड्यूल सूची का शीर्षक"
+  },
+  "no_schedules": {
+    "message": "अभी तक कोई शेड्यूल परिभाषित नहीं किया गया है।",
+    "description": "कोई शेड्यूल नहीं संदेश"
+  },
+  "usage_statistics": {
+    "message": "उपयोग आंकड़े",
+    "description": "आंकड़े अनुभाग का शीर्षक"
+  },
+  "general_statistics": {
+    "message": "सामान्य आंकड़े",
+    "description": "सामान्य आंकड़े का शीर्षक"
+  },
+  "total_refreshes": {
+    "message": "कुल रिफ्रेश",
+    "description": "कुल रिफ्रेश लेबल"
+  },
+  "active_time": {
+    "message": "सक्रिय समय",
+    "description": "सक्रिय समय लेबल"
+  },
+  "average_interval": {
+    "message": "औसत अंतराल",
+    "description": "औसत अंतराल लेबल"
+  },
+  "unique_urls": {
+    "message": "अद्वितीय URL",
+    "description": "अद्वितीय URL लेबल"
+  },
+  "detailed_statistics": {
+    "message": "विस्तृत आंकड़े",
+    "description": "विस्तृत आंकड़े का शीर्षक"
+  },
+  "last_7_days": {
+    "message": "पिछले 7 दिन",
+    "description": "पिछले 7 दिन"
+  },
+  "all_time": {
+    "message": "सभी समय",
+    "description": "सभी समय"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL कॉलम हेडर"
+  },
+  "refreshes": {
+    "message": "रिफ्रेश",
+    "description": "रिफ्रेश कॉलम हेडर"
+  },
+  "avg_interval": {
+    "message": "औसत अंतराल",
+    "description": "औसत अंतराल कॉलम हेडर"
+  },
+  "last_refresh": {
+    "message": "अंतिम रिफ्रेश",
+    "description": "अंतिम रिफ्रेश कॉलम हेडर"
+  },
+  "success_rate": {
+    "message": "सफलता दर",
+    "description": "सफलता दर कॉलम हेडर"
+  },
+  "statistics_management": {
+    "message": "आंकड़े प्रबंधन",
+    "description": "आंकड़े प्रबंधन अनुभाग का शीर्षक"
+  },
+  "export_statistics": {
+    "message": "आंकड़े निर्यात करें",
+    "description": "आंकड़े निर्यात करें बटन"
+  },
+  "reset_all_data": {
+    "message": "सभी डेटा रीसेट करें",
+    "description": "सभी डेटा रीसेट करें बटन"
+  },
+  "export_statistics_desc": {
+    "message": "अपने उपयोग आंकड़े निर्यात करें या सभी एकत्रित डेटा रीसेट करें।",
+    "description": "आंकड़े निर्यात का विवरण"
+  },
+  "activity_log_title": {
+    "message": "गतिविधि लॉग",
+    "description": "गतिविधि लॉग अनुभाग का शीर्षक"
+  },
+  "show_logs_for": {
+    "message": "लॉग दिखाएं:",
+    "description": "लॉग फिल्टर लेबल"
+  },
+  "today": {
+    "message": "आज",
+    "description": "आज"
+  },
+  "yesterday": {
+    "message": "कल",
+    "description": "कल"
+  },
+  "last_3_days": {
+    "message": "पिछले 3 दिन",
+    "description": "पिछले 3 दिन"
+  },
+  "refresh": {
+    "message": "रिफ्रेश",
+    "description": "रिफ्रेश बटन"
+  },
+  "export_log": {
+    "message": "लॉग निर्यात करें",
+    "description": "लॉग निर्यात करें बटन"
+  },
+  "clear_log": {
+    "message": "लॉग साफ करें",
+    "description": "लॉग साफ करें बटन"
+  },
+  "language_changed": {
+    "message": "भाषा बदल गई है। परिवर्तन देखने के लिए कृपया एक्सटेंशन पेज को पुनः लोड करें।",
+    "description": "भाषा परिवर्तन संदेश"
+  },
+  "status": {
+    "message": "स्थिति",
+    "description": "स्थिति लेबल"
+  },
+  "idle": {
+    "message": "निष्क्रिय",
+    "description": "निष्क्रिय स्थिति"
+  },
+  "time_until_refresh": {
+    "message": "अगले रिफ्रेश तक का समय",
+    "description": "काउंटडाउन टाइमर लेबल"
+  },
+  "presets": {
+    "message": "प्रीसेट",
+    "description": "प्रीसेट अनुभाग का शीर्षक"
+  },
+  "custom_interval_placeholder": {
+    "message": "सेकंड (उदा., 45)",
+    "description": "कस्टम अंतराल इनपुट प्लेसहोल्डर"
+  },
+  "set_custom": {
+    "message": "कस्टम सेट करें",
+    "description": "कस्टम अंतराल सेट करें बटन"
+  },
+  "start": {
+    "message": "शुरू",
+    "description": "शुरू बटन"
+  },
+  "pause": {
+    "message": "रोकें",
+    "description": "रोकें बटन"
+  },
+  "stop": {
+    "message": "बंद करें",
+    "description": "बंद करें बटन"
+  },
+  "sound_notification": {
+    "message": "ध्वनि सूचना:",
+    "description": "ध्वनि सूचना लेबल"
+  },
+  "max_schedules_reached": {
+    "message": "{max} निर्धारित रीफ्रेश की अधिकतम सीमा पहुंच गई है। कृपया नए जोड़ने से पहले कुछ मौजूदा शेड्यूल हटाएं।",
+    "description": "अधिकतम शेड्यूल सीमा पहुंचने पर त्रुटि संदेश"
+  },
+  "duplicate_schedule_url": {
+    "message": "यह URL पहले से शेड्यूल सूची में है।",
+    "description": "डुप्लिकेट URL जोड़ने का प्रयास करने पर त्रुटि संदेश"
+  },
+  "search_schedules_placeholder": {
+    "message": "URL द्वारा शेड्यूल खोजें...",
+    "description": "शेड्यूल खोज फ़ील्ड के लिए प्लेसहोल्डर"
+  },
+  "search_results": {
+    "message": "मिला: {total} में से {count} शेड्यूल",
+    "description": "खोज परिणाम जानकारी"
+  },
+  "no_search_results": {
+    "message": "\"{query}\" के लिए कोई परिणाम नहीं मिला",
+    "description": "जब खोज कोई परिणाम नहीं देती तो संदेश"
+  },
+  "cancel": {
+    "message": "रद्द करें",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "हटाएं",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "संपादित करें",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "सक्षम करें",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "अक्षम करें",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "साफ़ करें",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "रीसेट करें",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "सक्षम",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "अक्षम",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "शेड्यूल अपडेट करें",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "खोज साफ़ करें",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "संग्रहण उपयोग:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "पहला पृष्ठ",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "पिछला",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "अगला",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "अंतिम पृष्ठ",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "{total} में से {start}-{end} प्रविष्टियां दिखाई जा रही हैं",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "{total} में से {start}-{end} शेड्यूल दिखाए जा रहे हैं",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "{total} मिले शेड्यूल में से {start}-{end} दिखाए जा रहे हैं",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "क्या आप वाकई गतिविधि लॉग साफ़ करना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता।",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "गतिविधि लॉग साफ़ कर दिया गया।",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "लॉग लोड करने में त्रुटि",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "कोई डेटा नहीं",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "दिखाने के लिए कोई प्रविष्टि नहीं है।",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "निर्यात करने के लिए कोई लॉग नहीं",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "लॉग सफलतापूर्वक निर्यात किए गए!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "लॉग निर्यात करने में त्रुटि",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} प्रविष्टियां",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} आज",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "कोई गतिविधि नहीं",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "कुछ नया नहीं",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "स्थिर",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "दिखाने के लिए कोई डेटा नहीं",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "कभी नहीं",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "आंकड़े सफलतापूर्वक निर्यात किए गए!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "आंकड़े निर्यात करने में त्रुटि",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "क्या आप वाकई सभी आंकड़े रीसेट करना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता।",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "आंकड़े रीसेट करें",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "आंकड़े सफलतापूर्वक रीसेट किए गए!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "आंकड़े रीसेट करने में त्रुटि",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "त्रुटि",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "एक मान्य URL और धनात्मक अंतराल दर्ज करें (सेकंड > 0)।",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "क्या आप वाकई इस शेड्यूल को हटाना चाहते हैं?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "शेड्यूल हटाएं",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL नियम सहेजे गए!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "सेटिंग्स सफलतापूर्वक निर्यात की गईं!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "सेटिंग्स सफलतापूर्वक आयात की गईं!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "अमान्य या खाली सेटिंग्स फ़ाइल प्रारूप।",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "सेटिंग्स आयात करने में त्रुटि। विवरण के लिए कंसोल देखें।",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "न्यूनतम अंतराल 30 सेकंड है।",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "अंतराल यादृछिक करें:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "डिफ़ॉल्ट",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "चालू",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "बंद",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "अंतराल यादृछिक करें:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "भिन्नता (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "प्रत्येक रिफ़्रैश को यादृच्छिक ±प्रतिशत से बदलें ताकि पुनः लोड बिल्कुल निश्चित शेड्यूल पर न हों (क्यू, रीस्टॉक और नीलामी पृष्ठों पर एंटी-बॉट पहचान से बचने में मदद करता है)। प्रति-टैब और प्रति-नियम ओवरराइड उपलब्ध हैं।",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "यादृच्छिक",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "पेज की सामग्री तक कोई पहुँच नहीं",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "यह एक्सटेंशन सिर्फ़ टैब्स को रीलोड करता है; यह आपके पेज की सामग्री नहीं पढ़ सकता।",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "शुरुआत से ही प्राइवेसी को प्राथमिकता",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "यह एक्सटेंशन सिर्फ़ आपके टैब्स को रीलोड करता है। आप जिन वेबसाइटों पर जाते हैं, उनकी सामग्री तक यह कोई पहुँच नहीं माँगता, और आपके नियम और आँकड़े इसी डिवाइस पर रहते हैं।",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "\"सभी वेबसाइटों पर आपका डेटा पढ़ें\" अनुमति की आवश्यकता नहीं",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "आपका डेटा कभी हमें नहीं भेजा जाता",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "कोई बाहरी सर्वर नहीं, कोई ट्रैकिंग नहीं, कोई टेलीमेट्री नहीं",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "स्वचालित",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "क्या आपको यह एक्सटेंशन पसंद है?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Chrome वेब स्टोर पर एक त्वरित रेटिंग दूसरों को इसे खोजने में मदद करती है और विकास का समर्थन करती है। इसमें बस कुछ सेकंड लगते हैं।",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Chrome वेब स्टोर पर रेट करें",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "समीक्षा कैसे लिखें",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Chrome वेब स्टोर में एक्सटेंशन का पेज खोलें",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "“समीक्षाएं” टैब खोलें और “समीक्षा लिखें” पर क्लिक करें",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "★ रेटिंग चुनें और कुछ शब्द जोड़ें",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "“प्रकाशित करें” पर क्लिक करें",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Google साइन-इन ज़रूरी · हर उपयोगकर्ता एक समीक्षा (बाद में बदली जा सकती है) · कंप्यूटर पर करना बेहतर",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "त्रुटि पर स्वतः पुनर्प्राप्ति:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "डिफ़ॉल्ट",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "चालू",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "बंद",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "लोड विफलता पर स्वतः पुनर्प्राप्ति:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "ऐसे मॉनिटर किए गए टैब को स्वचालित रूप से फिर से लोड करता है जिसका पेज लोड नहीं हुआ (कनेक्शन नहीं, DNS त्रुटि, समय समाप्त) या लोड होते-होते अटक गया। यह बढ़ते अंतराल पर पुनः प्रयास करता रहता है (लगभग 30 सेकंड बाद, फिर 1, 2, 5, 10 और 30 मिनट) और उसके बाद हर 30 मिनट में, जब तक पेज लोड न हो जाए या आप इसे बंद न कर दें। इसके लिए एक बार की अनुमति आवश्यक है और यह केवल मॉनिटर किए गए टैब पर काम करता है। प्रति-टैब और प्रति-नियम सेटिंग्स उपलब्ध हैं।",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "स्वतः पुनर्प्राप्ति के लिए एक अतिरिक्त अनुमति आवश्यक है, जो नहीं दी गई।",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "स्वतः रिकवरी सक्षम करें?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "किसी निगरानी वाले टैब के लोड न होने का पता लगाने के लिए, एक्सटेंशन को ब्राउज़र की „webNavigation“ अनुमति चाहिए। Chrome इसे „अपना ब्राउज़िंग इतिहास पढ़ें“ के रूप में दिखाता है, लेकिन एक्सटेंशन इसका उपयोग केवल विफल पेज लोड का पता लगाने के लिए करता है और फिर भी आपके पेजों की सामग्री नहीं पढ़ सकता। इसे देने के लिए सक्षम करें पर क्लिक करें।",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "जब मैं सक्रिय हूँ तब रोकें:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "जब आप जिस टैब को देख रहे हैं उसका सक्रिय रूप से उपयोग कर रहे हों (टाइप कर रहे हों या माउस घुमा रहे हों), तो उस टैब का निर्धारित रीलोड छोड़ दिया जाता है और अगले अंतराल पर फिर से कोशिश की जाती है, ताकि कोई ऑटो-रिफ़्रेश आपके काम में कभी बाधा न डाले। यह ब्राउज़र की निष्क्रिय स्थिति का उपयोग करता है और केवल सक्रिय टैब पर लागू होता है — पृष्ठभूमि के टैब निर्धारित समय के अनुसार रिफ़्रेश होते रहते हैं।",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "फिर से शुरू करें",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "यह URL एक मौजूदा शेड्यूल नियम ({url}) से ओवरलैप करता है। डुप्लिकेट रिफ़्रेश से बचने के लिए पैटर्न समायोजित करें।",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "एक मान्य वेबसाइट पता दर्ज करें, उदाहरण के लिए example.com या https://example.com/page।",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "मौजूदा टैब पर ऑटो-रिफ़्रेश शुरू या बंद करें",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "मौजूदा टैब पर ऑटो-रिफ़्रेश रोकें या फिर से शुरू करें",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "इस विंडो के सभी टैब",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "सभी शुरू करें",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "सभी बंद करें",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "{started}/{total} शुरू",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "{stopped}/{total} बंद",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} छोड़े गए",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} विफल",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} सीमा से अधिक",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "कोई योग्य टैब नहीं",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "त्रुटि",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "विंडो के सभी टैब पर ऑटो-रिफ़्रेश शुरू या बंद करें",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "इस टैब का समूह",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "यह टैब किसी समूह में नहीं है",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "समूह के सभी टैब पर ऑटो-रिफ़्रेश शुरू या बंद करें",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "यादृच्छिक अंतराल सीमा",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "न्यून, से",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "अधि, से",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "मान्य सीमा दर्ज करें: 30 से 86400 सेकंड, न्यूनतम अधिकतम से अधिक नहीं",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "सीमा सेट करें",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "कीबोर्ड शॉर्टकट",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "शॉर्टकट अनुकूलित करें",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "सेट नहीं है",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Chrome के शॉर्टकट पेज पर शॉर्टकट बदलें या जोड़ें।",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "रीफ़्रेश और नियम",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "उन्नत",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Refresh | Page Monitor</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-controls">
+            <!-- Brand only, deliberately NOT localized via extName: that key is the store listing name,
+                 which appends a translation ("Auto Refresh | Page Monitor - Автообновление | Монитор
+                 страниц") and wraps to two lines here. The brand is a proper name — identical in all 27
+                 locales — so it always fits one line. extName is NOT orphaned by this: manifest.json
+                 (__MSG_extName__), background/contextMenu.js and popup/i18n.js (document.title) use it. -->
+            <h1>Auto Refresh | Page Monitor</h1>
+            <button id="settings-button" title="Settings" data-i18n-title="advanced_settings">⚙️</button>
+        </div>
+
+        <div class="status-section">
+            <p>
+                <span data-i18n="status">Status</span>: <span id="status-message" data-i18n="idle">Idle</span>
+                <span class="separator">|</span>
+                <span data-i18n="refreshes">Refreshes</span>: <span id="refresh-count">0</span>
+            </p>
+        </div>
+
+        <!-- Full-width countdown timer (hidden by ui.js on an idle tab; a full-width bar never leaves an
+             empty half beside it, unlike a 2-column pairing with a taller block). -->
+        <div class="timer-display-section">
+            <div class="timer-inner">
+                <div id="countdown-timer">00:00</div>
+                <div class="timer-meta">
+                    <p class="countdown-label" data-i18n="time_until_refresh">Time until next refresh</p>
+                    <div id="jitter-indicator" class="jitter-badge" style="display: none;">
+                        <span class="jitter-badge-icon" aria-hidden="true">🎲</span>
+                        <span id="jitter-indicator-text"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presets-section-container">
+            <h2 data-i18n="presets">Presets</h2>
+            <!-- Preset buttons are rendered from the shared list in shared/intervalPresets.js
+                 (popup/ui.js -> buildPresetButtons); they are not hardcoded here. -->
+            <div class="presets-section"></div>
+        </div>
+
+        <div class="custom-interval-section">
+            <h2 data-i18n="custom_interval">Custom Interval</h2>
+            <div class="custom-interval-row">
+                <input type="number" id="custom-interval-value" min="30" max="86400" step="1" data-i18n-placeholder="custom_interval_placeholder">
+                <button id="set-custom-interval" data-i18n="set_custom">Set Custom</button>
+            </div>
+            <small class="input-hint" data-i18n="min_interval_warning">Minimum interval is 30 seconds.</small>
+        </div>
+
+        <div class="controls-section">
+            <button id="start-refresh" data-i18n="start">Start</button>
+            <button id="pause-refresh" data-i18n="pause">Pause</button>
+            <button id="stop-refresh" data-i18n="stop">Stop</button>
+        </div>
+
+        <!-- Advanced drawer: the interval range and the four per-tab option overrides are set-once-and-
+             forget (they override the global defaults on the settings page), so they stay one click away
+             instead of loading the default view. Native <details> — no JS: ui.js/eventHandlers reach these
+             controls with getElementById, which works while the drawer is closed. -->
+        <details class="popup-drawer">
+            <summary data-i18n="popup_advanced">Advanced</summary>
+            <div class="popup-drawer-body">
+                <div class="range-section">
+                    <h2 data-i18n="interval_range">Random interval range</h2>
+                    <div class="range-inputs">
+                        <input type="number" id="range-min" min="30" max="86400" step="1" data-i18n-placeholder="interval_range_min">
+                        <span class="range-dash" aria-hidden="true">–</span>
+                        <input type="number" id="range-max" min="30" max="86400" step="1" data-i18n-placeholder="interval_range_max">
+                    </div>
+                    <small class="input-hint" data-i18n="min_interval_warning">Minimum interval is 30 seconds.</small>
+                    <button id="set-range" data-i18n="set_range">Set range</button>
+                </div>
+
+                <div class="options-section">
+                    <div class="option-row">
+                        <label for="sound-notification" data-i18n="sound_notification">Sound Notification:</label>
+                        <input type="checkbox" id="sound-notification">
+                    </div>
+                    <div class="option-row">
+                        <label for="refresh-mode" data-i18n="refresh_mode">Refresh Mode:</label>
+                        <select id="refresh-mode">
+                            <option value="default" data-i18n="refresh_mode_default">Default</option>
+                            <option value="hard" data-i18n="refresh_mode_hard">Hard (bypass cache)</option>
+                            <option value="normal" data-i18n="refresh_mode_normal">Normal (use cache)</option>
+                        </select>
+                    </div>
+                    <div class="option-row">
+                        <label for="jitter-mode" data-i18n="jitter_mode">Randomize Interval:</label>
+                        <select id="jitter-mode">
+                            <option value="default" data-i18n="jitter_mode_default">Default</option>
+                            <option value="on" data-i18n="jitter_mode_on">On</option>
+                            <option value="off" data-i18n="jitter_mode_off">Off</option>
+                        </select>
+                    </div>
+                    <div class="option-row">
+                        <label for="recover-mode" data-i18n="recover_mode">Auto-recover on error:</label>
+                        <select id="recover-mode">
+                            <option value="default" data-i18n="recover_mode_default">Default</option>
+                            <option value="on" data-i18n="recover_mode_on">On</option>
+                            <option value="off" data-i18n="recover_mode_off">Off</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <!-- Bulk drawer: a rare per-open action, and also reachable from the Alt+Shift+U / Alt+Shift+E
+             keyboard shortcuts (background/commands.js). The summary carries the heading, so the section
+             itself has none. -->
+        <details class="popup-drawer">
+            <summary data-i18n="bulk_heading">All tabs in this window</summary>
+            <div class="popup-drawer-body">
+                <div class="bulk-section">
+                    <div class="bulk-buttons">
+                        <button id="bulk-start-window" data-i18n="bulk_start_window">Start all</button>
+                        <button id="bulk-stop-window" data-i18n="bulk_stop_window">Stop all</button>
+                    </div>
+                    <div class="bulk-buttons bulk-group-buttons" id="bulk-group-row" hidden>
+                        <button id="bulk-toggle-group" data-i18n="bulk_group_button">This tab's group</button>
+                    </div>
+                    <small id="bulk-result" class="bulk-result" role="status" aria-live="polite"></small>
+                </div>
+            </div>
+        </details>
+
+        <!-- Privacy badge: highlights the main selling point - no access to site data is requested -->
+        <div class="privacy-footer" title="This extension only reloads tabs; it cannot read your page content." data-i18n-title="privacy_badge_tooltip">
+            <span class="privacy-footer-icon" aria-hidden="true">🛡️</span>
+            <span data-i18n="privacy_badge">No access to page content</span>
+        </div>
+    </div>
+    <script type="module" src="popup.js"></script>
+</body>
+</html>

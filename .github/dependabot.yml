@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # GitHub Actions used by the CI workflow. There is no npm/pip ecosystem —
+  # this extension has no package manifest and no build dependencies.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5

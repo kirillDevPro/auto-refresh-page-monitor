@@ -1,0 +1,38 @@
+# Chrome extension build artifacts and signing keys
+*.crx
+*.pem
+
+# Packaged store uploads and git history bundles — never committed
+*.zip
+*.tar.gz
+*.rar
+*.bundle
+
+# Node tooling. The extension has no build step and no package manifest; these
+# entries only keep a stray local install out of the repository.
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Logs and scratch directories
+logs/
+*.log
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local

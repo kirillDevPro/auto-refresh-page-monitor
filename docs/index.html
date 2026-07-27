@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto Refresh | Page Monitor — Privacy Policy</title>
+<style>
+  /* Standalone page: GitHub Pages serves it with no build step, so it cannot import the
+     extension's stylesheet. The palette below mirrors the dark-theme MD3 tokens in
+     settings/settings.css — keep them in step if the theme is retuned. */
+  :root {
+    color-scheme: dark;
+    --primary: #60A5FA;
+    --bg: #161618;
+    --surface: #1E1E21;
+    --card: #252528;
+    --on-surface: #ECECEF;
+    --muted: #A8A8B0;
+    --outline: #414145;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 16px 64px;
+    background: var(--bg);
+    color: var(--on-surface);
+    font-family: 'Google Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--outline);
+    border-radius: 16px;
+    padding: 32px 36px;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; color: var(--primary); }
+  a { color: var(--primary); }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 16px; }
+  .lead { color: var(--muted); }
+  code { background: var(--card); padding: 1px 6px; border-radius: 6px; font-size: 0.9em; }
+  .note { background: var(--card); border-left: 3px solid var(--primary); padding: 12px 16px; border-radius: 8px; margin: 16px 0; }
+  footer { max-width: 760px; margin: 24px auto 0; color: var(--muted); font-size: 0.85rem; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Auto Refresh | Page Monitor — Privacy Policy</h1>
+  <p class="updated">Last updated: 27 July 2026</p>
+  <p class="lead">Auto Refresh | Page Monitor is a Chrome extension that reloads browser tabs on a schedule you choose. It is built to need as little of your data as possible, and never to send any of it to us. This page explains exactly what it does and does not do with data.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li>No accounts, no sign-up, no advertising, and no remote or third-party analytics.</li>
+    <li>We operate <strong>no servers</strong> of our own and <strong>never sell or share</strong> your data.</li>
+    <li>The extension <strong>originates no network request of its own</strong> — nothing is transmitted to us or to anyone else.</li>
+    <li>It requests <strong>no host permissions</strong> and injects no script, so it cannot read the content of the pages you visit.</li>
+  </ul>
+
+  <h2>What is sent off your device</h2>
+  <p><strong>Nothing.</strong> The extension has no backend and contacts no external service. The only <code>fetch()</code> calls in its code load the extension's own bundled translation files (<code>_locales/&lt;lang&gt;/messages.json</code>) through <code>chrome.runtime.getURL()</code>, which reads a file packaged inside the extension and never touches the network.</p>
+  <p>To be precise about one obvious thing: reloading a tab makes <em>that page</em> request itself from its own server again, exactly as pressing F5 would, with whatever cookies and third-party resources that page normally uses. That traffic is the page's, not the extension's — the extension adds nothing to it and reads nothing from it.</p>
+  <div class="note">There is one indirect exception, described under “What is stored, and where”: if you have <strong>Chrome Sync</strong> enabled, Chrome itself replicates the extension's <em>preferences</em> to your other signed-in browsers. That transfer is performed by Chrome under your Google account, not by this extension, and it does not include your statistics, activity log, or scheduled rules.</div>
+
+  <h2>What the extension can and cannot see</h2>
+  <ul>
+    <li>It reloads tabs with <code>chrome.tabs.reload()</code>, which requires <strong>no host permission</strong>. It injects no content script and therefore <strong>cannot read or modify page content</strong> — not the text, not form fields, not cookies.</li>
+    <li>It does use the <code>tabs</code> permission, which gives it access to tab <strong>URLs and titles</strong>. Chrome describes this at install time as “Read your browsing history”. The extension uses it to show the state of the current tab, to match URL-pattern rules, and to count refreshes per URL.</li>
+    <li>It uses the <code>idle</code> permission for the optional <strong>smart pause</strong> feature: it asks Chrome whether you have been active in the last 60 seconds, so it can skip reloading the tab you are currently looking at. It receives only an active/idle/locked state — never what you typed, clicked, or looked at.</li>
+    <li>If you enable <strong>auto-recover</strong>, the extension asks at that moment for the optional <code>webNavigation</code> permission, which lets it observe when a top-level page load fails or hangs so it can retry. It is not requested at install, and auto-recover is off by default.</li>
+  </ul>
+
+  <h2>What is stored, and where</h2>
+  <ul>
+    <li><strong>Preferences</strong> (theme, language, sound, auto-restore timers, cache mode, interval jitter and its percentage, auto-recover, smart pause) are stored in <code>chrome.storage.sync</code>. With Chrome Sync enabled, Chrome syncs them across your signed-in browsers; otherwise they stay on this device. This is handled by Chrome, not by us.</li>
+    <li><strong>Scheduled refresh rules, the URL whitelist and blacklist, per-tab timer state, the activity log, and statistics</strong> are stored in <code>chrome.storage.local</code> and <strong>stay on this device only</strong> — they are never transmitted or synced.</li>
+  </ul>
+  <div class="note">The statistics and the activity log record <strong>full page URLs</strong>, including path and query string, for the tabs you refresh. They never leave your device, but they are the most sensitive thing the extension keeps — bear that in mind before sharing an exported log or a screenshot of the statistics page.</div>
+
+  <h2>Data retention and deletion</h2>
+  <p>Retention is enforced <strong>when the extension next writes to a store</strong>, not by a background clock. In normal use that is every refresh cycle, so the windows below hold. If you stop using the extension, whatever was last written simply stays until you reset it or uninstall — nothing expires on its own while the extension is idle.</p>
+  <ul>
+    <li><strong>Statistics</strong> are pruned to the last 90 days on each write. If local storage approaches its quota, that window shrinks to 30 days and, if still needed, the per-URL totals are cut to the 100 most recently used URLs; the per-day breakdown keeps ageing out on the 30-day window rather than on that cut.</li>
+    <li><strong>The activity log</strong> keeps at most 200 entries and drops anything older than 7 days — applied when a new entry is written, and again whenever you open the log in Settings.</li>
+    <li>You can reset the statistics and clear the activity log at any time from the extension's Settings page. That is the only way to remove data immediately.</li>
+    <li><strong>Uninstalling the extension</strong> removes all of its local data from your browser.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>None. The extension loads no remote code and embeds no analytics, advertising, or tracking library of any kind.</p>
+
+  <h2>Google API Limited Use</h2>
+  <p>The use of information received from Google APIs will adhere to the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or concerns? Please open an issue at <a href="https://github.com/kirillDevPro/auto-refresh-page-monitor">github.com/kirillDevPro/auto-refresh-page-monitor</a>.</p>
+</main>
+<footer>Auto Refresh | Page Monitor · Source-available, personal use only · © 2026 kirillDevPro</footer>
+</body>
+</html>

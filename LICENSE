@@ -1,0 +1,59 @@
+Auto Refresh | Page Monitor — Source-Available License
+Copyright (c) 2026 kirillDevPro. All rights reserved.
+
+This source code is published publicly for transparency and personal use only.
+It is NOT open-source software; only the limited rights below are granted.
+
+0. Scope. These terms govern this repository and any copy of the software
+   obtained from it, and they serve as the end-user licence for Chrome Web Store
+   packages published on or after the date of this notice. They do not purport to
+   withdraw rights already granted to anyone who installed an earlier release
+   from the Chrome Web Store under the Store's own terms.
+
+1. Permitted use. You may (a) view, read, and study the source code in this
+   repository; and (b) download and run the extension for your own private,
+   personal, non-commercial use (e.g. loading it unpacked in your own browser).
+
+2. Restrictions. Except as permitted above, as permitted in sections 3 and 4, and
+   except where applicable law grants a right that cannot lawfully be waived, and
+   without prior written permission of the copyright holder, you may NOT:
+   (a) copy, redistribute, publish, upload, sublicense, or sell this software or
+   any part or derivative of it — in particular you may NOT submit or publish it,
+   or any modified or rebranded version, to the Chrome Web Store or any other
+   browser-extension marketplace, app store, website, or distribution platform;
+   (b) use it or any derivative for any commercial purpose; or (c) remove or
+   alter this notice or the copyright notice.
+
+3. Hosting platform. This repository is hosted publicly on GitHub, and doing so
+   necessarily grants rights under GitHub's Terms of Service — both to other
+   users of that platform, who may view the repository and create a fork of it
+   within GitHub, and to GitHub itself and its affiliates, whose granted rights
+   include use of public content in ways the copyright holder does not control.
+   Section 2 does not restrict those platform rights, and to that extent the
+   restrictions in section 2 cannot be, and are not, absolute. Those rights do
+   not extend to distribution outside the platform, and every other restriction
+   in section 2 continues to apply to any such copy or fork.
+
+4. Contributions. Solely for the purpose of preparing and submitting a
+   contribution to this repository — an issue reproduction, a patch, or a pull
+   request — you may copy, fork, and modify the source code, and upload the
+   resulting material to this repository or to a fork of it on GitHub. By
+   submitting a contribution you grant the copyright holder a perpetual,
+   worldwide, irrevocable, royalty-free, sublicensable licence to use, reproduce,
+   modify, publish, and distribute it as part of this software, including in the
+   Chrome Web Store release, and you confirm that you are entitled to grant that
+   licence.
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR
+   A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. YOU USE THE SOFTWARE
+   ENTIRELY AT YOUR OWN RISK.
+
+6. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW,
+   IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING
+   FROM OR IN CONNECTION WITH THE SOFTWARE, ITS USE, OR ANY INABILITY TO USE IT.
+
+7. Severability. If any provision of this licence is held unenforceable in a
+   given jurisdiction, it applies there only to the extent permitted, and the
+   remaining provisions remain in full force.

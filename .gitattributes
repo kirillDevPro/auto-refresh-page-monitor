@@ -1,0 +1,24 @@
+# Normalize line endings: store text files with LF in the repository, regardless
+# of the contributor's OS.
+* text=auto eol=lf
+
+# Development files that must NOT ship inside the Chrome Web Store package.
+# `git archive` reads HEAD, so these rules only take effect once committed.
+#
+# A directory takes the bare `dir/` form: it drops the whole tree, the directory
+# entry included. (`dir/**` excludes the files but leaves an empty directory
+# entry behind, and `git check-attr` reports the bare form as `unspecified` —
+# so trust the archive listing, which tests/test_archive_contents.mjs asserts
+# on every CI run.)
+#
+# LICENSE is intentionally absent from this list: the licence terms must travel
+# with any distributed copy, so LICENSE stays inside the uploaded zip.
+.gitignore export-ignore
+.gitattributes export-ignore
+README.md export-ignore
+SECURITY.md export-ignore
+CHANGELOG.md export-ignore
+tests/ export-ignore
+.github/ export-ignore
+docs/ export-ignore
+assets/ export-ignore

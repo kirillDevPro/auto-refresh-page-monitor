@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Automatická aktualizace | Monitor stránek",
+    "description": "Název rozšíření"
+  },
+  "extDescription": {
+    "message": "Automaticky obnovuje stránky v zadaných intervalech s pokročilými ovládacími prvky a přizpůsobením.",
+    "description": "Popis rozšíření"
+  },
+  "advanced_settings": {
+    "message": "Pokročilá nastavení",
+    "description": "Název stránky nastavení"
+  },
+  "general": {
+    "message": "Obecné",
+    "description": "Záložka obecných nastavení"
+  },
+  "statistics": {
+    "message": "Statistiky",
+    "description": "Záložka statistik"
+  },
+  "activity_log": {
+    "message": "Protokol aktivit",
+    "description": "Záložka protokolu aktivit"
+  },
+  "general_settings": {
+    "message": "Obecná nastavení",
+    "description": "Název sekce obecných nastavení"
+  },
+  "theme": {
+    "message": "Téma:",
+    "description": "Štítek pro výběr tématu"
+  },
+  "light": {
+    "message": "Světlé",
+    "description": "Světlé téma"
+  },
+  "dark": {
+    "message": "Tmavé",
+    "description": "Tmavé téma"
+  },
+  "interface_language": {
+    "message": "Jazyk rozhraní:",
+    "description": "Štítek pro výběr jazyka"
+  },
+  "english": {
+    "message": "English",
+    "description": "Anglický jazyk"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Ruský jazyk"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Španělský jazyk"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Francouzský jazyk"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Německý jazyk"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Italský jazyk"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portugalský jazyk"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japonský jazyk"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Čínština zjednodušená"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Korejský jazyk"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Arabský jazyk"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hindský jazyk"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulharský jazyk"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Český jazyk"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Dánský jazyk"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Řecký jazyk"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Estonský jazyk"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukrajinský jazyk"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Polský jazyk"
+  },
+  "enable_sound_notifications": {
+    "message": "Povolit zvukové oznámení ve výchozím nastavení:",
+    "description": "Štítek pro povolení zvukových oznámení"
+  },
+  "auto_restore_timers": {
+    "message": "Automaticky obnovit časovače při restartu prohlížeče:",
+    "description": "Štítek pro automatické obnovení časovačů"
+  },
+  "sound_notifications_desc": {
+    "message": "Toto nastavuje výchozí hodnotu pro přepínač zvuku ve vyskakovacím okně pro nové časovače.",
+    "description": "Popis zvukových oznámení"
+  },
+  "auto_restore_desc": {
+    "message": "Automaticky obnoví aktivní časovače při restartu prohlížeče.",
+    "description": "Popis automatického obnovení časovačů"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Výchozí nastavení pro nové karty a naplánovaná pravidla. Když je zapnuto, obnovení obchází mezipaměť (odpovídá Ctrl+Shift+R); když je vypnuto, normální načtení použije uložené prostředky z mezipaměti. Každá karta a pravidlo může toto nastavení přepsat vlastním režimem obnovení.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Režim obnovení:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Výchozí",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Tvrdé (obejít mezipaměť)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normální (použít mezipaměť)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Upravit naplánované obnovení",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Správa nastavení",
+    "description": "Název sekce správy nastavení"
+  },
+  "export_settings": {
+    "message": "Exportovat nastavení",
+    "description": "Tlačítko pro export nastavení"
+  },
+  "import_settings": {
+    "message": "Importovat nastavení",
+    "description": "Tlačítko pro import nastavení"
+  },
+  "settings_management_desc": {
+    "message": "Exportujte nebo importujte vaše globální nastavení včetně předvoleb tématu, pravidel URL a naplánovaných obnovení. To vám umožní zálohovat vaši konfiguraci nebo přenést nastavení mezi zařízeními.",
+    "description": "Popis správy nastavení"
+  },
+  "url_whitelist_blacklist": {
+    "message": "Bílý a černý seznam URL",
+    "description": "Název sekce pravidel URL"
+  },
+  "whitelist_urls": {
+    "message": "URL na bílém seznamu (jedna na řádek, podporuje regex):",
+    "description": "Štítek pro URL na bílém seznamu"
+  },
+  "whitelist_placeholder": {
+    "message": "např. https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Zástupný text pro URL na bílém seznamu"
+  },
+  "whitelist_desc": {
+    "message": "Pokud bílý seznam není prázdný, budou obnoveny pouze URL odpovídající těmto vzorům.",
+    "description": "Popis URL na bílém seznamu"
+  },
+  "blacklist_urls": {
+    "message": "URL na černém seznamu (jedna na řádek, podporuje regex):",
+    "description": "Štítek pro URL na černém seznamu"
+  },
+  "blacklist_placeholder": {
+    "message": "např. https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Zástupný text pro URL na černém seznamu"
+  },
+  "blacklist_desc": {
+    "message": "URL odpovídající těmto vzorům nebudou nikdy obnoveny, ani když jsou na bílém seznamu nebo naplánované.",
+    "description": "Popis URL na černém seznamu"
+  },
+  "save_url_rules": {
+    "message": "Uložit pravidla URL",
+    "description": "Tlačítko pro uložení pravidel URL"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Naplánované obnovení",
+    "description": "Název sekce naplánovaných obnovení"
+  },
+  "scheduled_desc": {
+    "message": "Definujte konkrétní URL pro automatické obnovení v nastavených intervalech. Tato nastavení přetrvávají mezi relacemi prohlížeče a aktivují se při otevření odpovídající URL.",
+    "description": "Popis naplánovaných obnovení"
+  },
+  "add_new_scheduled": {
+    "message": "Přidat nové naplánované obnovení",
+    "description": "Název formuláře pro přidání naplánovaného obnovení"
+  },
+  "scheduled_url": {
+    "message": "URL (přesná shoda nebo jednoduchý vzor jako example.com/path*):",
+    "description": "Štítek pro naplánovanou URL"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Zástupný text pro naplánovanou URL"
+  },
+  "refresh_interval": {
+    "message": "Interval obnovení:",
+    "description": "Štítek pro interval obnovení"
+  },
+  "seconds_30": {
+    "message": "30 sekund",
+    "description": "30 sekund"
+  },
+  "minute_1": {
+    "message": "1 minuta",
+    "description": "1 minuta"
+  },
+  "minutes_3": {
+    "message": "3 minuty",
+    "description": "3 minuty"
+  },
+  "minutes_5": {
+    "message": "5 minut",
+    "description": "5 minut"
+  },
+  "minutes_10": {
+    "message": "10 minut",
+    "description": "10 minut"
+  },
+  "minutes_15": {
+    "message": "15 minut",
+    "description": "15 minut"
+  },
+  "minutes_30": {
+    "message": "30 minut",
+    "description": "30 minut"
+  },
+  "hour_1": {
+    "message": "1 hodina",
+    "description": "1 hodina"
+  },
+  "hours_3": {
+    "message": "3 hodiny",
+    "description": "3 hodiny"
+  },
+  "hours_6": {
+    "message": "6 hodin",
+    "description": "6 hodin"
+  },
+  "hours_12": {
+    "message": "12 hodin",
+    "description": "12 hodin"
+  },
+  "hours_24": {
+    "message": "24 hodin",
+    "description": "24 hodin"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "h",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "d",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Vlastní",
+    "description": "Vlastní interval"
+  },
+  "custom_interval": {
+    "message": "Vlastní interval:",
+    "description": "Štítek pro vlastní interval"
+  },
+  "enabled": {
+    "message": "Povoleno:",
+    "description": "Štítek pro povolení"
+  },
+  "add_schedule": {
+    "message": "Přidat plán",
+    "description": "Tlačítko pro přidání plánu"
+  },
+  "current_schedules": {
+    "message": "Aktuální plány",
+    "description": "Název seznamu aktuálních plánů"
+  },
+  "no_schedules": {
+    "message": "Zatím nejsou definovány žádné plány.",
+    "description": "Zpráva o absenci plánů"
+  },
+  "usage_statistics": {
+    "message": "Statistiky použití",
+    "description": "Název sekce statistik"
+  },
+  "general_statistics": {
+    "message": "Obecné statistiky",
+    "description": "Název obecných statistik"
+  },
+  "total_refreshes": {
+    "message": "Celkem obnovení",
+    "description": "Štítek pro celkový počet obnovení"
+  },
+  "active_time": {
+    "message": "Aktivní čas",
+    "description": "Štítek pro aktivní čas"
+  },
+  "average_interval": {
+    "message": "Průměrný interval",
+    "description": "Štítek pro průměrný interval"
+  },
+  "unique_urls": {
+    "message": "Jedinečné URL",
+    "description": "Štítek pro jedinečné URL"
+  },
+  "detailed_statistics": {
+    "message": "Podrobné statistiky",
+    "description": "Název podrobných statistik"
+  },
+  "last_7_days": {
+    "message": "Posledních 7 dní",
+    "description": "Posledních 7 dní"
+  },
+  "all_time": {
+    "message": "Celý čas",
+    "description": "Celý čas"
+  },
+  "url": {
+    "message": "URL",
+    "description": "Záhlaví sloupce URL"
+  },
+  "refreshes": {
+    "message": "Obnovení",
+    "description": "Záhlaví sloupce obnovení"
+  },
+  "avg_interval": {
+    "message": "Průměr. interval",
+    "description": "Záhlaví sloupce průměrného intervalu"
+  },
+  "last_refresh": {
+    "message": "Poslední obnovení",
+    "description": "Záhlaví sloupce posledního obnovení"
+  },
+  "success_rate": {
+    "message": "Míra úspěšnosti",
+    "description": "Záhlaví sloupce míry úspěšnosti"
+  },
+  "statistics_management": {
+    "message": "Správa statistik",
+    "description": "Název sekce správy statistik"
+  },
+  "export_statistics": {
+    "message": "Exportovat statistiky",
+    "description": "Tlačítko pro export statistik"
+  },
+  "reset_all_data": {
+    "message": "Resetovat všechna data",
+    "description": "Tlačítko pro reset všech dat"
+  },
+  "export_statistics_desc": {
+    "message": "Exportujte vaše statistiky použití nebo resetujte všechna shromážděná data.",
+    "description": "Popis exportu statistik"
+  },
+  "activity_log_title": {
+    "message": "Protokol aktivit",
+    "description": "Název sekce protokolu aktivit"
+  },
+  "show_logs_for": {
+    "message": "Zobrazit protokoly pro:",
+    "description": "Štítek pro filtr protokolů"
+  },
+  "today": {
+    "message": "Dnes",
+    "description": "Dnes"
+  },
+  "yesterday": {
+    "message": "Včera",
+    "description": "Včera"
+  },
+  "last_3_days": {
+    "message": "Posledních 3 dní",
+    "description": "Posledních 3 dní"
+  },
+  "refresh": {
+    "message": "Obnovit",
+    "description": "Tlačítko obnovení"
+  },
+  "export_log": {
+    "message": "Exportovat protokol",
+    "description": "Tlačítko pro export protokolu"
+  },
+  "clear_log": {
+    "message": "Vymazat protokol",
+    "description": "Tlačítko pro vymazání protokolu"
+  },
+  "language_changed": {
+    "message": "Jazyk byl změněn. Prosím znovu načtěte stránky rozšíření, abyste viděli změny.",
+    "description": "Zpráva o změně jazyka"
+  },
+  "status": {
+    "message": "Stav",
+    "description": "Štítek stavu"
+  },
+  "idle": {
+    "message": "Nečinný",
+    "description": "Nečinný stav"
+  },
+  "time_until_refresh": {
+    "message": "Čas do dalšího obnovení",
+    "description": "Štítek odpočítávání času"
+  },
+  "presets": {
+    "message": "Předvolby",
+    "description": "Název sekce předvoleb"
+  },
+  "custom_interval_placeholder": {
+    "message": "Sekundy (např. 45)",
+    "description": "Zástupný text pro zadání vlastního intervalu"
+  },
+  "set_custom": {
+    "message": "Nastavit vlastní",
+    "description": "Tlačítko pro nastavení vlastního intervalu"
+  },
+  "start": {
+    "message": "Spustit",
+    "description": "Tlačítko spuštění"
+  },
+  "pause": {
+    "message": "Pozastavit",
+    "description": "Tlačítko pozastavení"
+  },
+  "stop": {
+    "message": "Zastavit",
+    "description": "Tlačítko zastavení"
+  },
+  "sound_notification": {
+    "message": "Zvukové oznámení:",
+    "description": "Štítek zvukového oznámení"
+  },
+  "max_schedules_reached": {
+    "message": "Dosažen maximální limit {max} naplánovaných obnovení. Prosím smažte některé existující plány před přidáním nových.",
+    "description": "Chybová zpráva při dosažení maximálního limitu plánů"
+  },
+  "duplicate_schedule_url": {
+    "message": "Tato URL již je v seznamu plánů.",
+    "description": "Chybová zpráva při pokusu o přidání duplicitní URL"
+  },
+  "search_schedules_placeholder": {
+    "message": "Hledat plány podle URL...",
+    "description": "Zástupný text pro pole vyhledávání plánů"
+  },
+  "search_results": {
+    "message": "Nalezeno: {count} z {total} plánů",
+    "description": "Informace o výsledcích vyhledávání"
+  },
+  "no_search_results": {
+    "message": "Žádné výsledky pro \"{query}\"",
+    "description": "Zpráva když vyhledávání nevrátí žádné výsledky"
+  },
+  "cancel": {
+    "message": "Zrušit",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Smazat",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Upravit",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Povolit",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Zakázat",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Vymazat",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Resetovat",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Povoleno",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Zakázáno",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Aktualizovat plán",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Vymazat vyhledávání",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Využití úložiště:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "První stránka",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Předchozí",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Další",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Poslední stránka",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Zobrazeno {start}-{end} z {total} záznamů",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Zobrazeno {start}-{end} z {total} plánů",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Zobrazeno {start}-{end} z {total} nalezených plánů",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Opravdu chcete vymazat protokol aktivit? Tuto akci nelze vrátit zpět.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Protokol aktivit byl vymazán.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Chyba při načítání protokolů",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Žádná data",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Žádné záznamy k zobrazení.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Žádné protokoly k exportu",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Protokoly byly úspěšně exportovány!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Chyba při exportu protokolů",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} záznamů",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} dnes",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Žádná aktivita",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Žádné nové",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Stabilní",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Žádná data k zobrazení",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Nikdy",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Statistiky byly úspěšně exportovány!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Chyba při exportu statistik",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Opravdu chcete resetovat všechny statistiky? Tuto akci nelze vrátit zpět.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Resetovat statistiky",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Statistiky byly úspěšně resetovány!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Chyba při resetování statistik",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Chyba",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Zadejte platnou URL adresu a kladný interval (sekundy > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Opravdu chcete smazat tento plán?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Smazat plán",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "Pravidla URL byla uložena!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Nastavení bylo úspěšně exportováno!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Nastavení bylo úspěšně importováno!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Neplatný nebo prázdný formát souboru s nastavením.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Chyba při importu nastavení. Podrobnosti najdete v konzoli.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Minimální interval je 30 sekund.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Náhodný interval:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Výchozí",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Zapnuto",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Vypnuto",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Náhodný interval:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Rozptyl (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Měnit každé obnovení o náhodné ±procento, aby k načítání nedocházelo podle přesně pevného plánu (pomáhá obejít detekci botů ve frontách, při doskladnění a aukcích). K dispozici jsou výjimky pro kartu a pro pravidlo.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Náhodně",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Žádný přístup k obsahu stránek",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Toto rozšíření pouze obnovuje karty; nedokáže číst obsah vašich stránek.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Soukromí na prvním místě",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Toto rozšíření pouze obnovuje vaše karty. Nevyžaduje přístup k obsahu webů, které navštěvujete, a vaše pravidla i statistiky zůstávají v tomto zařízení.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Žádné oprávnění „číst vaše data na všech webech“",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Vaše data se k nám nikdy neodesílají",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Žádné externí servery, žádné sledování, žádná telemetrie",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automaticky",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Líbí se vám rozšíření?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Rychlé hodnocení v Chrome Web Store pomůže ostatním ho najít a podpoří vývoj. Zabere jen pár sekund.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Ohodnotit v Chrome Web Store",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Jak napsat recenzi",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Otevřete stránku rozšíření v Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Přejděte na kartu „Recenze“ a klikněte na „Napsat recenzi“",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Vyberte hodnocení ★ a připište pár slov",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Klikněte na „Zveřejnit“",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Vyžaduje přihlášení k účtu Google · jedna recenze na uživatele (lze později upravit) · nejlépe na počítači",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Automatické obnovení při chybě:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Výchozí",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Zapnuto",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Vypnuto",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Automatické obnovení při selhání načítání:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Automaticky znovu načte sledovanou kartu, jejíž stránka se nenačetla (žádné připojení, chyba DNS, vypršení časového limitu) nebo se zasekla při načítání. Pokusy opakuje podle rostoucího plánu (přibližně po 30 s, poté 1, 2, 5, 10 a 30 min) a následně každých 30 minut, dokud se stránka nenačte nebo dokud funkci nevypnete. Vyžaduje jednorázové oprávnění a funguje pouze na sledovaných kartách. K dispozici jsou výjimky pro jednotlivé karty i pravidla.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Automatické obnovení vyžaduje další oprávnění, které nebylo uděleno.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Zapnout automatické obnovení?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Aby rozšíření zjistilo, kdy se sledovaná karta nenačte, potřebuje oprávnění prohlížeče „webNavigation“. Chrome jej zobrazuje jako „Číst historii prohlížení“, rozšíření jej však používá pouze k zjištění neúspěšných načtení stránek a obsah vašich stránek i nadále nemůže číst. Klikněte na Zapnout a udělte jej.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Pozastavit, když jsem aktivní:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Když aktivně používáte kartu, kterou si prohlížíte (píšete nebo pohybujete myší), naplánované znovunačtení této karty se přeskočí a zkusí se znovu v dalším intervalu, takže automatické obnovení nikdy nepřeruší vaši práci. Využívá stav nečinnosti prohlížeče a platí jen pro aktivní kartu — karty na pozadí se obnovují podle plánu dál.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Pokračovat",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Tato adresa URL se překrývá s existujícím pravidlem plánu ({url}). Upravte vzor, abyste předešli duplicitním obnovením.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Zadejte platnou adresu webu, například example.com nebo https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Spustit nebo zastavit automatické obnovování na aktuální kartě",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Pozastavit nebo obnovit automatické obnovování na aktuální kartě",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Všechny karty v tomto okně",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Spustit vše",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Zastavit vše",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Spuštěno {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Zastaveno {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} přeskočeno",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} selhalo",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} nad limit",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Žádné vhodné karty",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Chyba",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Spustit nebo zastavit automatické obnovování na všech kartách okna",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Skupina této karty",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Tato karta není ve skupině",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Spustit nebo zastavit automatické obnovování na všech kartách skupiny",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Rozsah náhodného intervalu",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Max, s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Zadejte platný rozsah: 30 až 86400 sekund, min ne větší než max",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Nastavit rozsah",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Klávesové zkratky",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Přizpůsobit zkratky",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Nenastaveno",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Zkratky změníte nebo přidáte na stránce zkratek prohlížeče Chrome.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Obnovování a pravidla",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Pokročilé",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

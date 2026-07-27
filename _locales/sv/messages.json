@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Automatisk uppdatering | Sidövervakning",
+    "description": "Uzantı adı"
+  },
+  "extDescription": {
+    "message": "Uppdaterar automatiskt sidor med angivna intervaller med avancerade kontroller och anpassning.",
+    "description": "Uzantı açıklaması"
+  },
+  "advanced_settings": {
+    "message": "Avancerade inställningar",
+    "description": "Ayarlar sayfası başlığı"
+  },
+  "general": {
+    "message": "Allmänt",
+    "description": "Genel ayarlar sekmesi"
+  },
+  "statistics": {
+    "message": "Statistik",
+    "description": "İstatistikler sekmesi"
+  },
+  "activity_log": {
+    "message": "Aktivitetslogg",
+    "description": "Etkinlik günlüğü sekmesi"
+  },
+  "general_settings": {
+    "message": "Allmänna inställningar",
+    "description": "Genel ayarlar bölümü başlığı"
+  },
+  "theme": {
+    "message": "Tema:",
+    "description": "Tema seçimi etiketi"
+  },
+  "light": {
+    "message": "Ljus",
+    "description": "Açık tema"
+  },
+  "dark": {
+    "message": "Mörk",
+    "description": "Karanlık tema"
+  },
+  "interface_language": {
+    "message": "Gränssnittsspråk:",
+    "description": "Dil seçimi etiketi"
+  },
+  "english": {
+    "message": "English",
+    "description": "İngilizce dili"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Rusça dili"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "İspanyolca dili"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Fransızca dili"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Almanca dili"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "İtalyanca dili"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portekizce dili"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japonca dili"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Basitleştirilmiş Çince dili"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Korece dili"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Arapça dili"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hintçe dili"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulgarca dili"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Çekçe dili"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Danca dili"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Yunanca dili"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Estonca dili"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukraynaca dili"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Lehçe dili"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "enable_sound_notifications": {
+    "message": "Aktivera ljudaviseringar som standard:",
+    "description": "Sesli bildirimler geçiş etiketi"
+  },
+  "auto_restore_timers": {
+    "message": "Återställ timers automatiskt vid omstart av webbläsaren:",
+    "description": "Zamanlayıcıları otomatik geri yükle geçiş etiketi"
+  },
+  "sound_notifications_desc": {
+    "message": "Detta ställer in standard för ljudväxeln i popup-fönstret för nya timers.",
+    "description": "Sesli bildirimler açıklaması"
+  },
+  "auto_restore_desc": {
+    "message": "Återuppta aktiva timers automatiskt när webbläsaren startas om.",
+    "description": "Zamanlayıcıları otomatik geri yükle açıklaması"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Standard för nya flikar och schemalagda regler. När det är på kringgår uppdateringar cachen (motsvarar Ctrl+Shift+R); när det är av använder en normal omladdning cachade resurser. Varje flik och regel kan åsidosätta detta med sitt eget uppdateringsläge.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Uppdateringsläge:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Standard",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Hård (kringgå cache)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normal (använd cache)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Redigera schemalagd uppdatering",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Inställningshantering",
+    "description": "Ayarları yönet bölümü başlığı"
+  },
+  "export_settings": {
+    "message": "Exportera inställningar",
+    "description": "Ayarları dışa aktar düğmesi"
+  },
+  "import_settings": {
+    "message": "Importera inställningar",
+    "description": "Ayarları içe aktar düğmesi"
+  },
+  "settings_management_desc": {
+    "message": "Exportera eller importera dina globala inställningar inklusive temapreferenser, URL-regler och schemalagda uppdateringar. Detta låter dig säkerhetskopiera din konfiguration eller överföra inställningar mellan enheter.",
+    "description": "Ayarları yönet açıklaması"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL vitlista & svartlista",
+    "description": "URL kuralları bölümü başlığı"
+  },
+  "whitelist_urls": {
+    "message": "Vitlista URL:er (en per rad, regex stöds):",
+    "description": "Beyaz liste URL'leri etiketi"
+  },
+  "whitelist_placeholder": {
+    "message": "t.ex., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Beyaz liste URL'leri yer tutucusu"
+  },
+  "whitelist_desc": {
+    "message": "Om vitlistan inte är tom kommer endast URL:er som matchar dessa mönster att uppdateras.",
+    "description": "Beyaz liste URL'leri açıklaması"
+  },
+  "blacklist_urls": {
+    "message": "Svartlista URL:er (en per rad, regex stöds):",
+    "description": "Kara liste URL'leri etiketi"
+  },
+  "blacklist_placeholder": {
+    "message": "t.ex., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Kara liste URL'leri yer tutucusu"
+  },
+  "blacklist_desc": {
+    "message": "URL:er som matchar dessa mönster kommer aldrig att uppdateras, även om de är vitlistade eller schemalagda.",
+    "description": "Kara liste URL'leri açıklaması"
+  },
+  "save_url_rules": {
+    "message": "Spara URL-regler",
+    "description": "URL kurallarını kaydet düğmesi"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Schemalagda uppdateringar",
+    "description": "Zamanlanmış yenilemeler bölümü başlığı"
+  },
+  "scheduled_desc": {
+    "message": "Definiera specifika URL:er som ska uppdateras automatiskt med angivna intervaller. Dessa inställningar kvarstår över webbläsarsessioner och aktiveras när en matchande URL öppnas.",
+    "description": "Zamanlanmış yenilemeler açıklaması"
+  },
+  "add_new_scheduled": {
+    "message": "Lägg till ny schemalagd uppdatering",
+    "description": "Yeni zamanlanmış yenileme formu başlığı"
+  },
+  "scheduled_url": {
+    "message": "URL (exakt matchning eller enkelt mönster som example.com/path*):",
+    "description": "Zamanlanmış URL etiketi"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Zamanlanmış URL yer tutucusu"
+  },
+  "refresh_interval": {
+    "message": "Uppdateringsintervall:",
+    "description": "Yenileme aralığı etiketi"
+  },
+  "seconds_30": {
+    "message": "30 sekunder",
+    "description": "30 saniye"
+  },
+  "minute_1": {
+    "message": "1 minut",
+    "description": "1 dakika"
+  },
+  "minutes_3": {
+    "message": "3 minuter",
+    "description": "3 minuter"
+  },
+  "minutes_5": {
+    "message": "5 minuter",
+    "description": "5 dakika"
+  },
+  "minutes_10": {
+    "message": "10 minuter",
+    "description": "10 minuter"
+  },
+  "minutes_15": {
+    "message": "15 minuter",
+    "description": "15 dakika"
+  },
+  "minutes_30": {
+    "message": "30 minuter",
+    "description": "30 dakika"
+  },
+  "hour_1": {
+    "message": "1 timme",
+    "description": "1 saat"
+  },
+  "hours_3": {
+    "message": "3 timmar",
+    "description": "3 timmar"
+  },
+  "hours_6": {
+    "message": "6 timmar",
+    "description": "6 timmar"
+  },
+  "hours_12": {
+    "message": "12 timmar",
+    "description": "12 timmar"
+  },
+  "hours_24": {
+    "message": "24 timmar",
+    "description": "24 timmar"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "h",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "d",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Anpassad",
+    "description": "Özel aralık"
+  },
+  "custom_interval": {
+    "message": "Anpassat intervall:",
+    "description": "Özel aralık etiketi"
+  },
+  "enabled": {
+    "message": "Aktiverad:",
+    "description": "Etkin geçiş etiketi"
+  },
+  "add_schedule": {
+    "message": "Lägg till schema",
+    "description": "Zamanlama ekle düğmesi"
+  },
+  "current_schedules": {
+    "message": "Nuvarande scheman",
+    "description": "Mevcut zamanlamalar listesi başlığı"
+  },
+  "no_schedules": {
+    "message": "Inga scheman definierade ännu.",
+    "description": "Zamanlama yok mesajı"
+  },
+  "usage_statistics": {
+    "message": "Användningsstatistik",
+    "description": "İstatistikler bölümü başlığı"
+  },
+  "general_statistics": {
+    "message": "Allmän statistik",
+    "description": "Genel istatistikler başlığı"
+  },
+  "total_refreshes": {
+    "message": "Totalt antal uppdateringar",
+    "description": "Toplam yenileme etiketi"
+  },
+  "active_time": {
+    "message": "Aktiv tid",
+    "description": "Aktif süre etiketi"
+  },
+  "average_interval": {
+    "message": "Genomsnittligt intervall",
+    "description": "Ortalama aralık etiketi"
+  },
+  "unique_urls": {
+    "message": "Unika URL:er",
+    "description": "Benzersiz URL'ler etiketi"
+  },
+  "detailed_statistics": {
+    "message": "Detaljerad statistik",
+    "description": "Ayrıntılı istatistikler başlığı"
+  },
+  "last_7_days": {
+    "message": "Senaste 7 dagarna",
+    "description": "Son 7 gün"
+  },
+  "all_time": {
+    "message": "All tid",
+    "description": "Tüm zamanlar"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL sütun başlığı"
+  },
+  "refreshes": {
+    "message": "Uppdateringar",
+    "description": "Yenilemeler sütun başlığı"
+  },
+  "avg_interval": {
+    "message": "Genomsn. intervall",
+    "description": "Ortalama aralık sütun başlığı"
+  },
+  "last_refresh": {
+    "message": "Senaste uppdatering",
+    "description": "Son yenileme sütun başlığı"
+  },
+  "success_rate": {
+    "message": "Framgångsfrekvens",
+    "description": "Başarı oranı sütun başlığı"
+  },
+  "statistics_management": {
+    "message": "Statistikhantering",
+    "description": "İstatistik yönetimi bölümü başlığı"
+  },
+  "export_statistics": {
+    "message": "Exportera statistik",
+    "description": "İstatistikleri dışa aktar düğmesi"
+  },
+  "reset_all_data": {
+    "message": "Återställ all data",
+    "description": "Tüm verileri sıfırla düğmesi"
+  },
+  "export_statistics_desc": {
+    "message": "Exportera din användningsstatistik eller återställ all insamlad data.",
+    "description": "İstatistikleri dışa aktar açıklaması"
+  },
+  "activity_log_title": {
+    "message": "Aktivitetslogg",
+    "description": "Etkinlik günlüğü bölümü başlığı"
+  },
+  "show_logs_for": {
+    "message": "Visa loggar för:",
+    "description": "Günlük filtresi etiketi"
+  },
+  "today": {
+    "message": "Idag",
+    "description": "Bugün"
+  },
+  "yesterday": {
+    "message": "Igår",
+    "description": "Dün"
+  },
+  "last_3_days": {
+    "message": "Senaste 3 dagarna",
+    "description": "Son 3 gün"
+  },
+  "refresh": {
+    "message": "Uppdatera",
+    "description": "Yenile düğmesi"
+  },
+  "export_log": {
+    "message": "Exportera logg",
+    "description": "Günlüğü dışa aktar düğmesi"
+  },
+  "clear_log": {
+    "message": "Rensa logg",
+    "description": "Günlüğü temizle düğmesi"
+  },
+  "language_changed": {
+    "message": "Språket har ändrats. Ladda om tilläggssidorna för att se ändringarna.",
+    "description": "Dil değiştirildi mesajı"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Durum etiketi"
+  },
+  "idle": {
+    "message": "Inaktiv",
+    "description": "Boşta durumu"
+  },
+  "time_until_refresh": {
+    "message": "Tid till nästa uppdatering",
+    "description": "Geri sayım sayacı etiketi"
+  },
+  "presets": {
+    "message": "Förinställningar",
+    "description": "Ön ayarlar bölümü başlığı"
+  },
+  "custom_interval_placeholder": {
+    "message": "Sekunder (t.ex., 45)",
+    "description": "Özel aralık giriş yer tutucusu"
+  },
+  "set_custom": {
+    "message": "Ställ in anpassad",
+    "description": "Özel aralık ayarla düğmesi"
+  },
+  "start": {
+    "message": "Starta",
+    "description": "Başlat düğmesi"
+  },
+  "pause": {
+    "message": "Pausa",
+    "description": "Duraklat düğmesi"
+  },
+  "stop": {
+    "message": "Stoppa",
+    "description": "Durdur düğmesi"
+  },
+  "sound_notification": {
+    "message": "Ljudavisering:",
+    "description": "Sesli bildirim etiketi"
+  },
+  "max_schedules_reached": {
+    "message": "Maximal gräns på {max} schemalagda uppdateringar har nåtts. Ta bort några befintliga scheman innan du lägger till nya.",
+    "description": "Felmeddelande när maxgränsen för scheman har nåtts"
+  },
+  "duplicate_schedule_url": {
+    "message": "Denna URL finns redan i schemalistan.",
+    "description": "Felmeddelande vid försök att lägga till en dubblett-URL"
+  },
+  "search_schedules_placeholder": {
+    "message": "Sök scheman efter URL...",
+    "description": "Zamanlama arama alanı için yer tutucu"
+  },
+  "search_results": {
+    "message": "Hittade: {count} av {total} scheman",
+    "description": "Arama sonuçları bilgisi"
+  },
+  "no_search_results": {
+    "message": "Inga resultat hittades för \"{query}\"",
+    "description": "Arama sonuç vermediğinde mesaj"
+  },
+  "cancel": {
+    "message": "Avbryt",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Ta bort",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Redigera",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Aktivera",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Inaktivera",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Rensa",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Återställ",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Aktiverad",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Inaktiverad",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Uppdatera schema",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Rensa sökning",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Lagringsanvändning:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Första sidan",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Föregående",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Nästa",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Sista sidan",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Visar {start}-{end} av {total} poster",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Visar {start}-{end} av {total} scheman",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Visar {start}-{end} av {total} hittade scheman",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Är du säker på att du vill rensa aktivitetsloggen? Den här åtgärden kan inte ångras.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Aktivitetsloggen har rensats.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Fel vid inläsning av loggar",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Inga data",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Inga poster att visa.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Inga loggar att exportera",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Loggarna har exporterats!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Fel vid export av loggar",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} poster",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} idag",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Ingen aktivitet",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Inga nya",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Stabil",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Inga data att visa",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Aldrig",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Statistiken har exporterats!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Fel vid export av statistik",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Är du säker på att du vill återställa all statistik? Den här åtgärden kan inte ångras.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Återställ statistik",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Statistiken har återställts!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Fel vid återställning av statistik",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Fel",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Ange en giltig URL och ett positivt intervall (sekunder > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Är du säker på att du vill ta bort det här schemat?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Ta bort schema",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL-reglerna har sparats!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Inställningarna har exporterats!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Inställningarna har importerats!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Ogiltigt eller tomt format på inställningsfilen.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Fel vid import av inställningar. Se konsolen för detaljer.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Minsta intervall är 30 sekunder.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Slumpa intervall:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Standard",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "På",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Av",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Slumpa intervall:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Variation (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Variera varje uppdatering med en slumpmässig ±procent så att omladdningar inte sker enligt ett helt fast schema (hjälper till att undvika anti-bot-detektering i köer, restock och auktioner). Åsidosättningar per flik och per regel är tillgängliga.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Slumpmässig",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Ingen åtkomst till sidinnehåll",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Det här tillägget laddar bara om flikar – det kan inte läsa innehållet på dina sidor.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Integritet i fokus från grunden",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Det här tillägget laddar bara om dina flikar. Det begär ingen åtkomst till innehållet på de webbplatser du besöker, och dina regler och din statistik stannar på den här enheten.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Ingen behörighet att ”läsa dina data på alla webbplatser”",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Dina data skickas aldrig till oss",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Inga externa servrar, ingen spårning, ingen telemetri",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automatiskt",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Gillar du tillägget?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Ett snabbt betyg i Chrome Web Store hjälper andra att hitta det och stöder utvecklingen. Det tar bara några sekunder.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Betygsätt i Chrome Web Store",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Så här lämnar du ett omdöme",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Öppna tilläggets sida i Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Gå till fliken ”Recensioner” och klicka på ”Skriv en recension”",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Välj ett ★-betyg och skriv några ord",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Klicka på ”Publicera”",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Kräver inloggning med Google · ett omdöme per användare (kan ändras senare) · görs bäst på en dator",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Automatisk återhämtning vid fel:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Standard",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "På",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Av",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Automatisk återhämtning vid misslyckad laddning:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Läser automatiskt om en övervakad flik vars sida inte gick att läsa in (ingen anslutning, DNS-fel, timeout) eller fastnade vid inläsning. Den fortsätter att försöka enligt ett växande schema (efter cirka 30 s, sedan 1, 2, 5, 10 och 30 min) och därefter var 30:e minut tills sidan läses in eller du stänger av det. Kräver en engångsbehörighet och fungerar bara på övervakade flikar. Åsidosättningar per flik och per regel finns tillgängliga.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Automatisk återhämtning kräver en extra behörighet som inte beviljades.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Aktivera automatisk återhämtning?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "För att upptäcka när en övervakad flik inte kan laddas behöver tillägget webbläsarens behörighet ”webNavigation”. Chrome visar den som ”Läsa din webbhistorik”, men tillägget använder den bara för att märka misslyckade sidladdningar och kan fortfarande inte läsa innehållet på dina sidor. Klicka på Aktivera för att bevilja den.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Pausa medan jag är aktiv:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "När du aktivt använder fliken du tittar på (skriver eller rör musen) hoppas den schemalagda omladdningen av den fliken över och försöks igen vid nästa intervall, så att en automatisk uppdatering aldrig avbryter det du håller på med. Använder webbläsarens inaktivitetsläge och gäller bara den aktiva fliken — flikar i bakgrunden fortsätter att uppdateras enligt schemat.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Återuppta",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Denna URL överlappar en befintlig schemaregel ({url}). Justera mönstret för att undvika dubbla uppdateringar.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Ange en giltig webbadress, till exempel example.com eller https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Starta eller stoppa automatisk uppdatering på den aktuella fliken",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Pausa eller återuppta automatisk uppdatering på den aktuella fliken",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Alla flikar i det här fönstret",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Starta alla",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Stoppa alla",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Startade {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Stoppade {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} hoppades över",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} misslyckades",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} över gränsen",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Inga lämpliga flikar",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Fel",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Starta eller stoppa automatisk uppdatering på alla flikar i fönstret",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Den här flikens grupp",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Den här fliken är inte i en grupp",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Starta eller stoppa automatisk uppdatering på alla flikar i gruppen",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Intervall för slumpmässig uppdatering",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Max, s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Ange ett giltigt intervall: 30 till 86400 sekunder, min inte över max",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Ange intervall",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Kortkommandon",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Anpassa kortkommandon",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Inte angivet",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Ändra eller lägg till kortkommandon på Chromes sida för kortkommandon.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Uppdateringar och regler",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Avancerat",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

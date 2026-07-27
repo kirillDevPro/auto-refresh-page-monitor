@@ -1,0 +1,85 @@
+name: Bug report
+description: Report a problem with the extension
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report.
+
+        **Before you paste anything:** the extension's activity log and the browser console contain
+        **full page URLs**, including private hostnames and query strings. Please redact them.
+
+        Found a **security** problem? Do not file it here — see
+        [SECURITY.md](https://github.com/kirillDevPro/auto-refresh-page-monitor/blob/main/SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      description: Shown on `chrome://extensions`.
+      placeholder: "2.8.1"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser & version
+      placeholder: "e.g. Chrome 126.0.6478.126"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: >
+        Include the interval you used, whether jitter / smart pause / auto-recover were on, and whether the
+        tab was started manually or by a URL rule. Redact private URLs.
+      placeholder: |
+        1. Open ...
+        2. Set the interval to ...
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      options:
+        - Per-tab auto-refresh (popup Start / Pause / Stop)
+        - Bulk window or tab-group actions
+        - Scheduled refreshes / URL rules
+        - Keyboard shortcuts
+        - Context menu
+        - Smart pause
+        - Auto-recover
+        - Statistics / activity log
+        - Settings page
+        - Notification sound
+        - Translation / wrong language
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output (optional)
+      description: >
+        Open the extension card on `chrome://extensions`, click **Inspect** on the service worker, and paste
+        any errors. Redact URLs first.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I removed private URLs and hostnames from anything I pasted above.
+          required: true

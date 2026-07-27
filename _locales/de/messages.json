@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Automatische Aktualisierung | Seitenmonitor",
+    "description": "Name der Erweiterung"
+  },
+  "extDescription": {
+    "message": "Aktualisiert Seiten automatisch in festgelegten Intervallen mit erweiterten Kontrollen und Anpassungen.",
+    "description": "Beschreibung der Erweiterung"
+  },
+  "advanced_settings": {
+    "message": "Erweiterte Einstellungen",
+    "description": "Titel der Einstellungsseite"
+  },
+  "general": {
+    "message": "Allgemein",
+    "description": "Registerkarte für allgemeine Einstellungen"
+  },
+  "statistics": {
+    "message": "Statistiken",
+    "description": "Registerkarte für Statistiken"
+  },
+  "activity_log": {
+    "message": "Aktivitätsprotokoll",
+    "description": "Registerkarte für Aktivitätsprotokoll"
+  },
+  "general_settings": {
+    "message": "Allgemeine Einstellungen",
+    "description": "Titel des Abschnitts für allgemeine Einstellungen"
+  },
+  "theme": {
+    "message": "Design:",
+    "description": "Bezeichnung für Design-Auswahl"
+  },
+  "light": {
+    "message": "Hell",
+    "description": "Helles Design"
+  },
+  "dark": {
+    "message": "Dunkel",
+    "description": "Dunkles Design"
+  },
+  "interface_language": {
+    "message": "Sprache der Benutzeroberfläche:",
+    "description": "Bezeichnung für Sprachauswahl"
+  },
+  "english": {
+    "message": "English",
+    "description": "Englische Sprache"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Russische Sprache"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Spanische Sprache"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Französische Sprache"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Deutsche Sprache"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Italienische Sprache"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portugiesische Sprache"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japanische Sprache"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Chinesische Sprache (vereinfacht)"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Koreanische Sprache"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Arabische Sprache"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hindi-Sprache"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulgarische Sprache"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Tschechische Sprache"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Dänische Sprache"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Griechische Sprache"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Estnische Sprache"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukrainische Sprache"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Polnische Sprache"
+  },
+  "enable_sound_notifications": {
+    "message": "Tonbenachrichtigungen standardmäßig aktivieren:",
+    "description": "Bezeichnung für Aktivierung von Tonbenachrichtigungen"
+  },
+  "auto_restore_timers": {
+    "message": "Timer beim Neustart des Browsers automatisch wiederherstellen:",
+    "description": "Bezeichnung für automatische Wiederherstellung von Timern"
+  },
+  "sound_notifications_desc": {
+    "message": "Dies legt den Standardwert für den Ton-Schalter im Popup für neue Timer fest.",
+    "description": "Beschreibung der Tonbenachrichtigungen"
+  },
+  "auto_restore_desc": {
+    "message": "Aktive Timer automatisch fortsetzen, wenn der Browser neu gestartet wird.",
+    "description": "Beschreibung der automatischen Wiederherstellung von Timern"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Standard für neue Tabs und geplante Regeln. Wenn aktiviert, umgehen Aktualisierungen den Cache (entspricht Strg+Umschalt+R); wenn deaktiviert, verwendet ein normales Neuladen zwischengespeicherte Ressourcen. Jeder Tab und jede Regel kann dies mit einem eigenen Aktualisierungsmodus überschreiben.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Aktualisierungsmodus:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Standard",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Hart (Cache umgehen)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normal (Cache verwenden)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Geplante Aktualisierung bearbeiten",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Einstellungsverwaltung",
+    "description": "Titel des Abschnitts für Einstellungsverwaltung"
+  },
+  "export_settings": {
+    "message": "Einstellungen exportieren",
+    "description": "Schaltfläche zum Exportieren von Einstellungen"
+  },
+  "import_settings": {
+    "message": "Einstellungen importieren",
+    "description": "Schaltfläche zum Importieren von Einstellungen"
+  },
+  "settings_management_desc": {
+    "message": "Exportieren oder importieren Sie Ihre globalen Einstellungen einschließlich Design-Präferenzen, URL-Regeln und geplante Aktualisierungen. Dies ermöglicht es Ihnen, Ihre Konfiguration zu sichern oder Einstellungen zwischen Geräten zu übertragen.",
+    "description": "Beschreibung der Einstellungsverwaltung"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL-Whitelist & Blacklist",
+    "description": "Titel des Abschnitts für URL-Regeln"
+  },
+  "whitelist_urls": {
+    "message": "Whitelist-URLs (eine pro Zeile, Regex unterstützt):",
+    "description": "Bezeichnung für Whitelist-URLs"
+  },
+  "whitelist_placeholder": {
+    "message": "z.B., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Platzhalter für Whitelist-URLs"
+  },
+  "whitelist_desc": {
+    "message": "Wenn die Whitelist nicht leer ist, werden nur URLs aktualisiert, die diesen Mustern entsprechen.",
+    "description": "Beschreibung der Whitelist-URLs"
+  },
+  "blacklist_urls": {
+    "message": "Blacklist-URLs (eine pro Zeile, Regex unterstützt):",
+    "description": "Bezeichnung für Blacklist-URLs"
+  },
+  "blacklist_placeholder": {
+    "message": "z.B., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Platzhalter für Blacklist-URLs"
+  },
+  "blacklist_desc": {
+    "message": "URLs, die diesen Mustern entsprechen, werden niemals aktualisiert, auch wenn sie auf der Whitelist stehen oder geplant sind.",
+    "description": "Beschreibung der Blacklist-URLs"
+  },
+  "save_url_rules": {
+    "message": "URL-Regeln speichern",
+    "description": "Schaltfläche zum Speichern von URL-Regeln"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Geplante Aktualisierungen",
+    "description": "Titel des Abschnitts für geplante Aktualisierungen"
+  },
+  "scheduled_desc": {
+    "message": "Definieren Sie spezifische URLs, die automatisch in festgelegten Intervallen aktualisiert werden. Diese Einstellungen bleiben zwischen Browser-Sitzungen bestehen und werden aktiviert, wenn eine passende URL geöffnet wird.",
+    "description": "Beschreibung der geplanten Aktualisierungen"
+  },
+  "add_new_scheduled": {
+    "message": "Neue geplante Aktualisierung hinzufügen",
+    "description": "Titel des Formulars zum Hinzufügen geplanter Aktualisierungen"
+  },
+  "scheduled_url": {
+    "message": "URL (exakte Übereinstimmung oder einfaches Muster wie example.com/path*):",
+    "description": "Bezeichnung für URL der geplanten Aktualisierung"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Platzhalter für URL der geplanten Aktualisierung"
+  },
+  "refresh_interval": {
+    "message": "Aktualisierungsintervall:",
+    "description": "Bezeichnung für Aktualisierungsintervall"
+  },
+  "seconds_30": {
+    "message": "30 Sekunden",
+    "description": "30 Sekunden"
+  },
+  "minute_1": {
+    "message": "1 Minute",
+    "description": "1 Minute"
+  },
+  "minutes_3": {
+    "message": "3 Minuten",
+    "description": "3 Minuten"
+  },
+  "minutes_5": {
+    "message": "5 Minuten",
+    "description": "5 Minuten"
+  },
+  "minutes_10": {
+    "message": "10 Minuten",
+    "description": "10 Minuten"
+  },
+  "minutes_15": {
+    "message": "15 Minuten",
+    "description": "15 Minuten"
+  },
+  "minutes_30": {
+    "message": "30 Minuten",
+    "description": "30 Minuten"
+  },
+  "hour_1": {
+    "message": "1 Stunde",
+    "description": "1 Stunde"
+  },
+  "hours_3": {
+    "message": "3 Stunden",
+    "description": "3 Stunden"
+  },
+  "hours_6": {
+    "message": "6 Stunden",
+    "description": "6 Stunden"
+  },
+  "hours_12": {
+    "message": "12 Stunden",
+    "description": "12 Stunden"
+  },
+  "hours_24": {
+    "message": "24 Stunden",
+    "description": "24 Stunden"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "h",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "T",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Benutzerdefiniert",
+    "description": "Benutzerdefiniertes Intervall"
+  },
+  "custom_interval": {
+    "message": "Benutzerdefiniertes Intervall:",
+    "description": "Bezeichnung für benutzerdefiniertes Intervall"
+  },
+  "enabled": {
+    "message": "Aktiviert:",
+    "description": "Bezeichnung für Aktivierung"
+  },
+  "add_schedule": {
+    "message": "Zeitplan hinzufügen",
+    "description": "Schaltfläche zum Hinzufügen eines Zeitplans"
+  },
+  "current_schedules": {
+    "message": "Aktuelle Zeitpläne",
+    "description": "Titel der Liste aktueller Zeitpläne"
+  },
+  "no_schedules": {
+    "message": "Noch keine Zeitpläne definiert.",
+    "description": "Nachricht bei fehlenden Zeitplänen"
+  },
+  "usage_statistics": {
+    "message": "Nutzungsstatistiken",
+    "description": "Titel des Statistik-Abschnitts"
+  },
+  "general_statistics": {
+    "message": "Allgemeine Statistiken",
+    "description": "Titel der allgemeinen Statistiken"
+  },
+  "total_refreshes": {
+    "message": "Gesamte Aktualisierungen",
+    "description": "Bezeichnung für gesamte Aktualisierungen"
+  },
+  "active_time": {
+    "message": "Aktive Zeit",
+    "description": "Bezeichnung für aktive Zeit"
+  },
+  "average_interval": {
+    "message": "Durchschnittliches Intervall",
+    "description": "Bezeichnung für durchschnittliches Intervall"
+  },
+  "unique_urls": {
+    "message": "Eindeutige URLs",
+    "description": "Bezeichnung für eindeutige URLs"
+  },
+  "detailed_statistics": {
+    "message": "Detaillierte Statistiken",
+    "description": "Titel der detaillierten Statistiken"
+  },
+  "last_7_days": {
+    "message": "Letzte 7 Tage",
+    "description": "Letzte 7 Tage"
+  },
+  "all_time": {
+    "message": "Gesamte Zeit",
+    "description": "Gesamte Zeit"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL-Spaltenüberschrift"
+  },
+  "refreshes": {
+    "message": "Aktualisierungen",
+    "description": "Spaltenüberschrift für Aktualisierungen"
+  },
+  "avg_interval": {
+    "message": "Durchschn. Intervall",
+    "description": "Spaltenüberschrift für durchschnittliches Intervall"
+  },
+  "last_refresh": {
+    "message": "Letzte Aktualisierung",
+    "description": "Spaltenüberschrift für letzte Aktualisierung"
+  },
+  "success_rate": {
+    "message": "Erfolgsrate",
+    "description": "Spaltenüberschrift für Erfolgsrate"
+  },
+  "statistics_management": {
+    "message": "Statistikverwaltung",
+    "description": "Titel des Abschnitts für Statistikverwaltung"
+  },
+  "export_statistics": {
+    "message": "Statistiken exportieren",
+    "description": "Schaltfläche zum Exportieren von Statistiken"
+  },
+  "reset_all_data": {
+    "message": "Alle Daten zurücksetzen",
+    "description": "Schaltfläche zum Zurücksetzen aller Daten"
+  },
+  "export_statistics_desc": {
+    "message": "Exportieren Sie Ihre Nutzungsstatistiken oder setzen Sie alle gesammelten Daten zurück.",
+    "description": "Beschreibung des Statistikexports"
+  },
+  "activity_log_title": {
+    "message": "Aktivitätsprotokoll",
+    "description": "Titel des Abschnitts für Aktivitätsprotokoll"
+  },
+  "show_logs_for": {
+    "message": "Protokolle anzeigen für:",
+    "description": "Bezeichnung für Protokollfilter"
+  },
+  "today": {
+    "message": "Heute",
+    "description": "Heute"
+  },
+  "yesterday": {
+    "message": "Gestern",
+    "description": "Gestern"
+  },
+  "last_3_days": {
+    "message": "Letzte 3 Tage",
+    "description": "Letzte 3 Tage"
+  },
+  "refresh": {
+    "message": "Aktualisieren",
+    "description": "Schaltfläche zum Aktualisieren"
+  },
+  "export_log": {
+    "message": "Protokoll exportieren",
+    "description": "Schaltfläche zum Exportieren des Protokolls"
+  },
+  "clear_log": {
+    "message": "Protokoll löschen",
+    "description": "Schaltfläche zum Löschen des Protokolls"
+  },
+  "language_changed": {
+    "message": "Sprache geändert. Bitte laden Sie die Erweiterungsseiten neu, um die Änderungen zu sehen.",
+    "description": "Nachricht bei Sprachänderung"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status-Bezeichnung"
+  },
+  "idle": {
+    "message": "Inaktiv",
+    "description": "Inaktiver Status"
+  },
+  "time_until_refresh": {
+    "message": "Zeit bis zur nächsten Aktualisierung",
+    "description": "Bezeichnung für Countdown-Timer"
+  },
+  "presets": {
+    "message": "Voreinstellungen",
+    "description": "Titel des Abschnitts für Voreinstellungen"
+  },
+  "custom_interval_placeholder": {
+    "message": "Sekunden (z.B. 45)",
+    "description": "Platzhalter für benutzerdefinierte Intervalleingabe"
+  },
+  "set_custom": {
+    "message": "Benutzerdefiniert festlegen",
+    "description": "Schaltfläche zum Festlegen eines benutzerdefinierten Intervalls"
+  },
+  "start": {
+    "message": "Starten",
+    "description": "Start-Schaltfläche"
+  },
+  "pause": {
+    "message": "Pausieren",
+    "description": "Pause-Schaltfläche"
+  },
+  "stop": {
+    "message": "Stoppen",
+    "description": "Stopp-Schaltfläche"
+  },
+  "sound_notification": {
+    "message": "Tonbenachrichtigung:",
+    "description": "Bezeichnung für Tonbenachrichtigung"
+  },
+  "max_schedules_reached": {
+    "message": "Maximales Limit von {max} geplanten Aktualisierungen erreicht. Bitte löschen Sie einige bestehende Zeitpläne, bevor Sie neue hinzufügen.",
+    "description": "Fehlermeldung bei Erreichen des maximalen Zeitplan-Limits"
+  },
+  "duplicate_schedule_url": {
+    "message": "Diese URL ist bereits in der Zeitplanliste.",
+    "description": "Fehlermeldung beim Versuch, eine doppelte URL hinzuzufügen"
+  },
+  "search_schedules_placeholder": {
+    "message": "Zeitpläne nach URL suchen...",
+    "description": "Platzhalter für das Suchfeld für Zeitpläne"
+  },
+  "search_results": {
+    "message": "Gefunden: {count} von {total} Zeitplänen",
+    "description": "Informationen zu Suchergebnissen"
+  },
+  "no_search_results": {
+    "message": "Keine Ergebnisse für \"{query}\" gefunden",
+    "description": "Nachricht, wenn die Suche keine Ergebnisse liefert"
+  },
+  "cancel": {
+    "message": "Abbrechen",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Löschen",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Bearbeiten",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Aktivieren",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Deaktivieren",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Leeren",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Zurücksetzen",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Aktiviert",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Deaktiviert",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Zeitplan aktualisieren",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Suche löschen",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Speichernutzung:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Erste Seite",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Zurück",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Weiter",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Letzte Seite",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Zeige {start}-{end} von {total} Einträgen",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Zeige {start}-{end} von {total} Zeitplänen",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Zeige {start}-{end} von {total} gefundenen Zeitplänen",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Möchten Sie das Aktivitätsprotokoll wirklich leeren? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Aktivitätsprotokoll geleert.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Fehler beim Laden der Protokolle",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Keine Daten",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Keine Einträge zum Anzeigen.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Keine Protokolle zum Exportieren",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Protokolle erfolgreich exportiert!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Fehler beim Exportieren der Protokolle",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} Einträge",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} heute",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Keine Aktivität",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Nichts Neues",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Stabil",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Keine Daten zum Anzeigen",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Nie",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Statistiken erfolgreich exportiert!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Fehler beim Exportieren der Statistiken",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Möchten Sie wirklich alle Statistiken zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Statistiken zurücksetzen",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Statistiken erfolgreich zurückgesetzt!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Fehler beim Zurücksetzen der Statistiken",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Fehler",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Geben Sie eine gültige URL und ein positives Intervall ein (Sekunden > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Möchten Sie diesen Zeitplan wirklich löschen?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Zeitplan löschen",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL-Regeln gespeichert!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Einstellungen erfolgreich exportiert!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Einstellungen erfolgreich importiert!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Ungültiges oder leeres Format der Einstellungsdatei.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Fehler beim Importieren der Einstellungen. Details finden Sie in der Konsole.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Das Mindestintervall beträgt 30 Sekunden.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Intervall variieren:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Standard",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Ein",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Aus",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Intervall variieren:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Variation (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Jede Aktualisierung um einen zufälligen ±Prozentsatz variieren, damit das Neuladen nicht nach einem exakt festen Zeitplan erfolgt (hilft, Anti-Bot-Erkennung in Warteschlangen, bei Restocks und Auktionen zu umgehen). Überschreibungen pro Tab und pro Regel sind verfügbar.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Zufällig",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Kein Zugriff auf Seiteninhalte",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Diese Erweiterung lädt nur Tabs neu; sie kann Ihre Seiteninhalte nicht lesen.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Datenschutz von Grund auf",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Diese Erweiterung lädt lediglich Ihre Tabs neu. Sie fordert keinen Zugriff auf die Inhalte der von Ihnen besuchten Websites an, und Ihre Regeln und Statistiken bleiben auf diesem Gerät.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Keine Berechtigung zum „Lesen und Ändern aller Ihrer Daten auf allen Websites“",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Deine Daten werden niemals an uns gesendet",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Keine externen Server, kein Tracking, keine Telemetrie",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automatisch",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Gefällt dir die Erweiterung?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Eine kurze Bewertung im Chrome Web Store hilft anderen, sie zu finden, und unterstützt die Entwicklung. Es dauert nur wenige Sekunden.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Im Chrome Web Store bewerten",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "So hinterlassen Sie eine Bewertung",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Öffnen Sie die Seite der Erweiterung im Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Öffnen Sie den Tab „Rezensionen“ und klicken Sie auf „Rezension schreiben“",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Wählen Sie eine ★-Bewertung und schreiben Sie ein paar Worte",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Klicken Sie auf „Veröffentlichen“",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Google-Anmeldung erforderlich · eine Bewertung pro Nutzer (später änderbar) · am besten am Computer",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Autom. Wiederherstellung bei Fehler:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Standard",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Ein",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Aus",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Autom. Wiederherstellung bei Ladefehler:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Lädt automatisch einen überwachten Tab neu, dessen Seite nicht geladen werden konnte (keine Verbindung, DNS-Fehler, Zeitüberschreitung) oder beim Laden hängen geblieben ist. Es wird nach einem ansteigenden Zeitplan immer wieder versucht (nach etwa 30 Sek., dann 1, 2, 5, 10 und 30 Min.) und anschließend alle 30 Minuten, bis die Seite geladen ist oder du die Funktion deaktivierst. Erfordert eine einmalige Berechtigung und funktioniert nur bei überwachten Tabs. Überschreibungen pro Tab und pro Regel sind verfügbar.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Die automatische Wiederherstellung benötigt eine zusätzliche Berechtigung, die nicht erteilt wurde.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Automatische Wiederherstellung aktivieren?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Um zu erkennen, wenn ein überwachter Tab nicht geladen werden kann, benötigt die Erweiterung die Browserberechtigung „webNavigation“. Chrome zeigt sie als „Browserverlauf lesen“ an, doch die Erweiterung nutzt sie nur, um fehlgeschlagene Seitenladevorgänge zu erkennen, und kann den Inhalt Ihrer Seiten weiterhin nicht lesen. Klicken Sie auf „Aktivieren“, um sie zu erteilen.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Pausieren, während ich aktiv bin:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Wenn Sie den Tab, den Sie gerade ansehen, aktiv nutzen (tippen oder die Maus bewegen), wird das geplante Neuladen dieses Tabs übersprungen und beim nächsten Intervall erneut versucht, damit eine automatische Aktualisierung Ihre Arbeit nie unterbricht. Nutzt den Leerlaufstatus des Browsers und gilt nur für den aktiven Tab – Tabs im Hintergrund werden weiterhin planmäßig aktualisiert.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Fortsetzen",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Diese URL überschneidet sich mit einer vorhandenen Zeitplanregel ({url}). Passen Sie das Muster an, um doppelte Aktualisierungen zu vermeiden.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Gib eine gültige Webadresse ein, zum Beispiel example.com oder https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Automatische Aktualisierung im aktuellen Tab starten oder stoppen",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Automatische Aktualisierung im aktuellen Tab pausieren oder fortsetzen",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Alle Tabs in diesem Fenster",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Alle starten",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Alle stoppen",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "{started}/{total} gestartet",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "{stopped}/{total} gestoppt",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} übersprungen",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} fehlgeschlagen",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} über dem Limit",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Keine geeigneten Tabs",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Fehler",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Automatische Aktualisierung für alle Tabs im Fenster starten oder stoppen",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Gruppe dieses Tabs",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Dieser Tab ist in keiner Gruppe",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Automatische Aktualisierung für alle Tabs der Gruppe starten oder stoppen",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Zufälliger Intervallbereich",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Max, s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Gültigen Bereich eingeben: 30 bis 86400 Sekunden, Min nicht über Max",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Bereich festlegen",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Tastenkürzel",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Kürzel anpassen",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Nicht festgelegt",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Ändere oder ergänze Kürzel auf der Kürzel-Seite von Chrome.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Aktualisierungen & Regeln",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Erweitert",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

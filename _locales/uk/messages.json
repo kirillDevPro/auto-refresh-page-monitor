@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Автооновлення | Монітор сторінок",
+    "description": "Назва розширення"
+  },
+  "extDescription": {
+    "message": "Автоматично оновлює сторінки через вказані інтервали з розширеним керуванням та налаштуваннями.",
+    "description": "Опис розширення"
+  },
+  "advanced_settings": {
+    "message": "Розширені Налаштування",
+    "description": "Заголовок сторінки налаштувань"
+  },
+  "general": {
+    "message": "Загальні",
+    "description": "Вкладка загальних налаштувань"
+  },
+  "statistics": {
+    "message": "Статистика",
+    "description": "Вкладка статистики"
+  },
+  "activity_log": {
+    "message": "Журнал Активності",
+    "description": "Вкладка журналу активності"
+  },
+  "general_settings": {
+    "message": "Загальні Налаштування",
+    "description": "Заголовок секції загальних налаштувань"
+  },
+  "theme": {
+    "message": "Тема:",
+    "description": "Мітка вибору теми"
+  },
+  "light": {
+    "message": "Світла",
+    "description": "Світла тема"
+  },
+  "dark": {
+    "message": "Темна",
+    "description": "Темна тема"
+  },
+  "interface_language": {
+    "message": "Мова Інтерфейсу:",
+    "description": "Мітка вибору мови"
+  },
+  "english": {
+    "message": "English",
+    "description": "Англійська мова"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Російська мова"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Іспанська мова"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Французька мова"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Німецька мова"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Італійська мова"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Португальська мова"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Японська мова"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Китайська мова (спрощена)"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Корейська мова"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Арабська мова"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Мова хінді"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Болгарська мова"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Чеська мова"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Данська мова"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Грецька мова"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Естонська мова"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Українська мова"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Польська мова"
+  },
+  "enable_sound_notifications": {
+    "message": "Увімкнути Звукові Сповіщення за Замовчуванням:",
+    "description": "Мітка перемикача звукових сповіщень"
+  },
+  "auto_restore_timers": {
+    "message": "Автоматично Відновлювати Таймери при Перезапуску Браузера:",
+    "description": "Мітка перемикача автовідновлення таймерів"
+  },
+  "sound_notifications_desc": {
+    "message": "Це встановлює значення за замовчуванням для перемикача звуку у спливаючому вікні для нових таймерів.",
+    "description": "Опис звукових сповіщень"
+  },
+  "auto_restore_desc": {
+    "message": "Автоматично відновлює активні таймери при перезапуску браузера.",
+    "description": "Опис автовідновлення таймерів"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Жорстке оновлення (поза кешем):",
+    "description": "Мітка чекбокса жорсткого оновлення"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Налаштування за замовчуванням для нових вкладок і запланованих правил. Якщо ввімкнено, оновлення виконується без кешу (як Ctrl+Shift+R); якщо вимкнено, звичайне перезавантаження використовує кешовані ресурси. Для кожної вкладки та правила можна задати власний режим оновлення.",
+    "description": "Опис жорсткого оновлення"
+  },
+  "refresh_mode": {
+    "message": "Режим оновлення:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "За замовчуванням",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Жорстке (без кешу)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Звичайне (з кешем)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Редагувати заплановане оновлення",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Керування Налаштуваннями",
+    "description": "Заголовок секції керування налаштуваннями"
+  },
+  "export_settings": {
+    "message": "Експортувати Налаштування",
+    "description": "Кнопка експорту налаштувань"
+  },
+  "import_settings": {
+    "message": "Імпортувати Налаштування",
+    "description": "Кнопка імпорту налаштувань"
+  },
+  "settings_management_desc": {
+    "message": "Експортуйте або імпортуйте ваші глобальні налаштування, включаючи налаштування теми, правила URL та заплановані оновлення. Це дозволяє створювати резервні копії конфігурації або переносити налаштування між пристроями.",
+    "description": "Опис керування налаштуваннями"
+  },
+  "url_whitelist_blacklist": {
+    "message": "Білий та Чорний Список URL",
+    "description": "Заголовок секції правил URL"
+  },
+  "whitelist_urls": {
+    "message": "URL Білого Списку (по одному на рядок, підтримка regex):",
+    "description": "Мітка URL білого списку"
+  },
+  "whitelist_placeholder": {
+    "message": "напр., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Заповнювач URL білого списку"
+  },
+  "whitelist_desc": {
+    "message": "Якщо білий список не порожній, оновлюватимуться лише URL, що відповідають цим шаблонам.",
+    "description": "Опис URL білого списку"
+  },
+  "blacklist_urls": {
+    "message": "URL Чорного Списку (по одному на рядок, підтримка regex):",
+    "description": "Мітка URL чорного списку"
+  },
+  "blacklist_placeholder": {
+    "message": "напр., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Заповнювач URL чорного списку"
+  },
+  "blacklist_desc": {
+    "message": "URL, що відповідають цим шаблонам, ніколи не оновлюватимуться, навіть якщо вони у білому списку або заплановані.",
+    "description": "Опис URL чорного списку"
+  },
+  "save_url_rules": {
+    "message": "Зберегти Правила URL",
+    "description": "Кнопка збереження правил URL"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Заплановані Оновлення",
+    "description": "Заголовок секції запланованих оновлень"
+  },
+  "scheduled_desc": {
+    "message": "Визначте конкретні URL для автоматичного оновлення через встановлені інтервали. Ці налаштування зберігаються між сеансами браузера та активуються при відкритті відповідного URL.",
+    "description": "Опис запланованих оновлень"
+  },
+  "add_new_scheduled": {
+    "message": "Додати Нове Заплановане Оновлення",
+    "description": "Заголовок форми додавання запланованого оновлення"
+  },
+  "scheduled_url": {
+    "message": "URL (точний збіг або простий шаблон як example.com/path*):",
+    "description": "Мітка URL запланованого оновлення"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Заповнювач URL запланованого оновлення"
+  },
+  "refresh_interval": {
+    "message": "Інтервал Оновлення:",
+    "description": "Мітка інтервалу оновлення"
+  },
+  "seconds_30": {
+    "message": "30 секунд",
+    "description": "30 секунд"
+  },
+  "minute_1": {
+    "message": "1 хвилина",
+    "description": "1 хвилина"
+  },
+  "minutes_3": {
+    "message": "3 хвилини",
+    "description": "3 хвилини"
+  },
+  "minutes_5": {
+    "message": "5 хвилин",
+    "description": "5 хвилин"
+  },
+  "minutes_10": {
+    "message": "10 хвилин",
+    "description": "10 хвилин"
+  },
+  "minutes_15": {
+    "message": "15 хвилин",
+    "description": "15 хвилин"
+  },
+  "minutes_30": {
+    "message": "30 хвилин",
+    "description": "30 хвилин"
+  },
+  "hour_1": {
+    "message": "1 година",
+    "description": "1 година"
+  },
+  "hours_3": {
+    "message": "3 години",
+    "description": "3 години"
+  },
+  "hours_6": {
+    "message": "6 годин",
+    "description": "6 годин"
+  },
+  "hours_12": {
+    "message": "12 годин",
+    "description": "12 годин"
+  },
+  "hours_24": {
+    "message": "24 години",
+    "description": "24 години"
+  },
+  "unit_sec_short": {
+    "message": "с",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "хв",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "год",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "д",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Власний",
+    "description": "Власний інтервал"
+  },
+  "custom_interval": {
+    "message": "Власний Інтервал:",
+    "description": "Мітка власного інтервалу"
+  },
+  "enabled": {
+    "message": "Увімкнено:",
+    "description": "Мітка перемикача увімкнення"
+  },
+  "add_schedule": {
+    "message": "Додати Розклад",
+    "description": "Кнопка додавання розкладу"
+  },
+  "current_schedules": {
+    "message": "Поточні Розклади",
+    "description": "Заголовок списку поточних розкладів"
+  },
+  "no_schedules": {
+    "message": "Розклади ще не визначені.",
+    "description": "Повідомлення про відсутність розкладів"
+  },
+  "usage_statistics": {
+    "message": "Статистика Використання",
+    "description": "Заголовок секції статистики"
+  },
+  "general_statistics": {
+    "message": "Загальна Статистика",
+    "description": "Заголовок загальної статистики"
+  },
+  "total_refreshes": {
+    "message": "Загальна Кількість Оновлень",
+    "description": "Мітка загальної кількості оновлень"
+  },
+  "active_time": {
+    "message": "Активний Час",
+    "description": "Мітка активного часу"
+  },
+  "average_interval": {
+    "message": "Середній Інтервал",
+    "description": "Мітка середнього інтервалу"
+  },
+  "unique_urls": {
+    "message": "Унікальні URL",
+    "description": "Мітка унікальних URL"
+  },
+  "detailed_statistics": {
+    "message": "Детальна Статистика",
+    "description": "Заголовок детальної статистики"
+  },
+  "last_7_days": {
+    "message": "Останні 7 днів",
+    "description": "Останні 7 днів"
+  },
+  "all_time": {
+    "message": "Весь час",
+    "description": "Весь час"
+  },
+  "url": {
+    "message": "URL",
+    "description": "Заголовок стовпця URL"
+  },
+  "refreshes": {
+    "message": "Оновлення",
+    "description": "Заголовок стовпця оновлень"
+  },
+  "avg_interval": {
+    "message": "Серед. Інтервал",
+    "description": "Заголовок стовпця середнього інтервалу"
+  },
+  "last_refresh": {
+    "message": "Останнє Оновлення",
+    "description": "Заголовок стовпця останнього оновлення"
+  },
+  "success_rate": {
+    "message": "Рівень Успішності",
+    "description": "Заголовок стовпця рівня успішності"
+  },
+  "statistics_management": {
+    "message": "Керування Статистикою",
+    "description": "Заголовок секції керування статистикою"
+  },
+  "export_statistics": {
+    "message": "Експортувати Статистику",
+    "description": "Кнопка експорту статистики"
+  },
+  "reset_all_data": {
+    "message": "Скинути Всі Дані",
+    "description": "Кнопка скидання всіх даних"
+  },
+  "export_statistics_desc": {
+    "message": "Експортуйте вашу статистику використання або скиньте всі зібрані дані.",
+    "description": "Опис експорту статистики"
+  },
+  "activity_log_title": {
+    "message": "Журнал Активності",
+    "description": "Заголовок секції журналу активності"
+  },
+  "show_logs_for": {
+    "message": "Показати журнали за:",
+    "description": "Мітка фільтра журналу"
+  },
+  "today": {
+    "message": "Сьогодні",
+    "description": "Сьогодні"
+  },
+  "yesterday": {
+    "message": "Вчора",
+    "description": "Вчора"
+  },
+  "last_3_days": {
+    "message": "Останні 3 дні",
+    "description": "Останні 3 дні"
+  },
+  "refresh": {
+    "message": "Оновити",
+    "description": "Кнопка оновлення"
+  },
+  "export_log": {
+    "message": "Експортувати Журнал",
+    "description": "Кнопка експорту журналу"
+  },
+  "clear_log": {
+    "message": "Очистити Журнал",
+    "description": "Кнопка очищення журналу"
+  },
+  "language_changed": {
+    "message": "Мову змінено. Будь ласка, перезавантажте сторінки розширення, щоб побачити зміни.",
+    "description": "Повідомлення про зміну мови"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "Мітка статусу"
+  },
+  "idle": {
+    "message": "Очікування",
+    "description": "Статус очікування"
+  },
+  "time_until_refresh": {
+    "message": "Час до наступного оновлення",
+    "description": "Мітка таймера зворотного відліку"
+  },
+  "presets": {
+    "message": "Шаблони",
+    "description": "Заголовок секції шаблонів"
+  },
+  "custom_interval_placeholder": {
+    "message": "Секунди (напр., 45)",
+    "description": "Заповнювач поля власного інтервалу"
+  },
+  "set_custom": {
+    "message": "Встановити Власний",
+    "description": "Кнопка встановлення власного інтервалу"
+  },
+  "start": {
+    "message": "Почати",
+    "description": "Кнопка початку"
+  },
+  "pause": {
+    "message": "Пауза",
+    "description": "Кнопка паузи"
+  },
+  "stop": {
+    "message": "Зупинити",
+    "description": "Кнопка зупинки"
+  },
+  "sound_notification": {
+    "message": "Звукове Сповіщення:",
+    "description": "Мітка звукового сповіщення"
+  },
+  "max_schedules_reached": {
+    "message": "Досягнуто максимальний ліміт у {max} запланованих оновлень. Будь ласка, видаліть деякі існуючі розклади перед додаванням нових.",
+    "description": "Повідомлення про помилку при досягненні максимального ліміту розкладів"
+  },
+  "duplicate_schedule_url": {
+    "message": "Цей URL вже є у списку розкладів.",
+    "description": "Повідомлення про помилку при спробі додати дубльований URL"
+  },
+  "search_schedules_placeholder": {
+    "message": "Пошук розкладів за URL...",
+    "description": "Заповнювач для поля пошуку розкладів"
+  },
+  "search_results": {
+    "message": "Знайдено: {count} з {total} розкладів",
+    "description": "Інформація про результати пошуку"
+  },
+  "no_search_results": {
+    "message": "Не знайдено результатів для \"{query}\"",
+    "description": "Повідомлення коли пошук не повертає результатів"
+  },
+  "cancel": {
+    "message": "Скасувати",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Видалити",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Редагувати",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Увімкнути",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Вимкнути",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Очистити",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Скинути",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Увімкнено",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Вимкнено",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Оновити розклад",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Очистити пошук",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Використання сховища:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Перша сторінка",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Назад",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Далі",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Остання сторінка",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Показано {start}-{end} з {total} записів",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Показано {start}-{end} з {total} розкладів",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Показано {start}-{end} з {total} знайдених розкладів",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Ви впевнені, що хочете очистити журнал активності? Цю дію не можна скасувати.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Журнал активності очищено.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Помилка завантаження журналів",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Немає даних",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Немає записів для відображення.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Немає журналів для експорту",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Журнали успішно експортовано!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Помилка експорту журналів",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} записів",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} сьогодні",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Немає активності",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Немає нових",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Стабільно",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Немає даних для відображення",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Ніколи",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Статистику успішно експортовано!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Помилка експорту статистики",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Ви впевнені, що хочете скинути всю статистику? Цю дію не можна скасувати.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Скинути статистику",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Статистику успішно скинуто!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Помилка скидання статистики",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Помилка",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Введіть дійсну URL-адресу та додатний інтервал (секунди > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Ви впевнені, що хочете видалити цей розклад?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Видалити розклад",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "Правила URL збережено!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Налаштування успішно експортовано!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Налаштування успішно імпортовано!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Недійсний або порожній формат файлу налаштувань.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Помилка імпорту налаштувань. Подробиці див. у консолі.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Мінімальний інтервал — 30 секунд.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Випадковий інтервал:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "За замовчуванням",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Увімк",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Вимк",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Випадковий інтервал:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Розкид (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Змінювати кожен інтервал на випадковий ±відсоток, щоб перезавантаження не відбувалися за чітким розкладом (допомагає обходити анти-бот захист у чергах, рестоках та аукціонах). Доступні перевизначення для вкладки та для правила.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Випадково",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Немає доступу до вмісту сторінок",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Це розширення лише оновлює вкладки й не може читати вміст ваших сторінок.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Конфіденційність — у самій основі",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Це розширення лише оновлює ваші вкладки. Воно не запитує доступу до вмісту сайтів, які ви відвідуєте, а ваші правила та статистика залишаються на цьому пристрої.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Без дозволу «Читати та змінювати ваші дані на всіх вебсайтах»",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Ваші дані ніколи не надсилаються розробникам",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Жодних зовнішніх серверів, відстеження чи телеметрії",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Авто",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Подобається розширення?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Швидка оцінка в Chrome Web Store допомагає іншим знайти розширення та підтримує розробку. Це займе лише кілька секунд.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Оцінити в Chrome Web Store",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Як залишити відгук",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Відкрийте сторінку розширення в Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Перейдіть на вкладку «Відгуки» та натисніть «Написати відгук»",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Виберіть оцінку ★ і додайте кілька слів",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Натисніть «Опублікувати»",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Потрібен вхід в обліковий запис Google · один відгук від користувача (можна редагувати пізніше) · найзручніше робити на комп'ютері",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Автовідновлення при помилці:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "За замовчуванням",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Увімк",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Вимк",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Автовідновлення при збої завантаження:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Автоматично перезавантажує відстежувану вкладку, сторінка якої не завантажилася (немає з'єднання, помилка DNS, час очікування вичерпано) або зависла під час завантаження. Спроби повторюються за наростаючим розкладом (приблизно через 30 с, потім через 1, 2, 5, 10 і 30 хв), а далі кожні 30 хвилин, доки сторінка не завантажиться або ви це не вимкнете. Потребує одноразового дозволу й працює лише на відстежуваних вкладках. Доступні перевизначення для окремих вкладок і правил.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Автовідновленню потрібен додатковий дозвіл, який не було надано.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Увімкнути автовідновлення?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Щоб виявляти, коли відстежувана вкладка не завантажується, розширенню потрібен дозвіл браузера «webNavigation». Chrome показує його як «Читати історію переглядів», але розширення використовує його лише для виявлення невдалих завантажень сторінок і все одно не може читати вміст ваших сторінок. Натисніть «Увімкнути», щоб надати його.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Пауза, поки я активний:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Коли ви активно працюєте у вкладці, яку переглядаєте (друкуєте або рухаєте мишею), заплановане перезавантаження цієї вкладки пропускається й повторюється на наступному інтервалі, щоб автооновлення ніколи не переривало вашу роботу. Використовує стан бездіяльності браузера й застосовується лише до активної вкладки — вкладки у фоні продовжують оновлюватися за розкладом.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Відновити",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Ця URL-адреса перетинається з наявним правилом розкладу ({url}). Змініть шаблон, щоб уникнути дублювання оновлень.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Введіть коректну адресу сайту, наприклад example.com або https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Запустити або зупинити автооновлення на поточній вкладці",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Призупинити або відновити автооновлення на поточній вкладці",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Усі вкладки в цьому вікні",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Запустити всі",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Зупинити всі",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Запущено {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Зупинено {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} пропущено",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} з помилкою",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} понад ліміт",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Немає відповідних вкладок",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Помилка",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Запустити або зупинити автооновлення на всіх вкладках вікна",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Група цієї вкладки",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Ця вкладка не в групі",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Запустити або зупинити автооновлення на всіх вкладках групи",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Діапазон випадкового інтервалу",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Мін, с",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Макс, с",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Введіть коректний діапазон: від 30 до 86400 секунд, мін не більше макс",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Задати діапазон",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Гарячі клавіші",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Налаштувати клавіші",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Не задано",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Змініть або додайте клавіші на сторінці комбінацій клавіш Chrome.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Оновлення та правила",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Додатково",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

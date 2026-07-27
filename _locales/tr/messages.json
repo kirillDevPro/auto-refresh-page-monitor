@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Otomatik yenileme | Sayfa izleyici",
+    "description": "Uzantı adı"
+  },
+  "extDescription": {
+    "message": "Gelişmiş kontroller ve özelleştirme ile sayfaları belirtilen aralıklarla otomatik olarak yeniler.",
+    "description": "Uzantı açıklaması"
+  },
+  "advanced_settings": {
+    "message": "Gelişmiş Ayarlar",
+    "description": "Ayarlar sayfası başlığı"
+  },
+  "general": {
+    "message": "Genel",
+    "description": "Genel ayarlar sekmesi"
+  },
+  "statistics": {
+    "message": "İstatistikler",
+    "description": "İstatistikler sekmesi"
+  },
+  "activity_log": {
+    "message": "Etkinlik Günlüğü",
+    "description": "Etkinlik günlüğü sekmesi"
+  },
+  "general_settings": {
+    "message": "Genel Ayarlar",
+    "description": "Genel ayarlar bölümü başlığı"
+  },
+  "theme": {
+    "message": "Tema:",
+    "description": "Tema seçimi etiketi"
+  },
+  "light": {
+    "message": "Açık",
+    "description": "Açık tema"
+  },
+  "dark": {
+    "message": "Karanlık",
+    "description": "Karanlık tema"
+  },
+  "interface_language": {
+    "message": "Arayüz Dili:",
+    "description": "Dil seçimi etiketi"
+  },
+  "english": {
+    "message": "English",
+    "description": "İngilizce dili"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Rusça dili"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "İspanyolca dili"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Fransızca dili"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Almanca dili"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "İtalyanca dili"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portekizce dili"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japonca dili"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Basitleştirilmiş Çince dili"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Korece dili"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Arapça dili"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hintçe dili"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulgarca dili"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Çekçe dili"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Danca dili"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Yunanca dili"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Estonca dili"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukraynaca dili"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Lehçe dili"
+  },
+  "enable_sound_notifications": {
+    "message": "Sesli Bildirimleri Varsayılan Olarak Etkinleştir:",
+    "description": "Sesli bildirimler geçiş etiketi"
+  },
+  "auto_restore_timers": {
+    "message": "Tarayıcı Yeniden Başlatıldığında Zamanlayıcıları Otomatik Geri Yükle:",
+    "description": "Zamanlayıcıları otomatik geri yükle geçiş etiketi"
+  },
+  "sound_notifications_desc": {
+    "message": "Bu, yeni zamanlayıcılar için açılır penceredeki ses geçişinin varsayılanını ayarlar.",
+    "description": "Sesli bildirimler açıklaması"
+  },
+  "auto_restore_desc": {
+    "message": "Tarayıcı yeniden başlatıldığında aktif zamanlayıcıları otomatik olarak devam ettir.",
+    "description": "Zamanlayıcıları otomatik geri yükle açıklaması"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Yeni sekmeler ve zamanlanmış kurallar için varsayılan. Açıkken yenilemeler önbelleği atlar (Ctrl+Shift+R ile aynı); kapalıyken normal yeniden yükleme önbellekteki kaynakları kullanır. Her sekme ve kural bunu kendi yenileme moduyla geçersiz kılabilir.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Yenileme Modu:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Varsayılan",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Tam (önbelleği atla)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normal (önbelleği kullan)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Zamanlanmış Yenilemeyi Düzenle",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Ayarları Yönet",
+    "description": "Ayarları yönet bölümü başlığı"
+  },
+  "export_settings": {
+    "message": "Ayarları Dışa Aktar",
+    "description": "Ayarları dışa aktar düğmesi"
+  },
+  "import_settings": {
+    "message": "Ayarları İçe Aktar",
+    "description": "Ayarları içe aktar düğmesi"
+  },
+  "settings_management_desc": {
+    "message": "Tema tercihleri, URL kuralları ve zamanlanmış yenilemeler dahil olmak üzere genel ayarlarınızı dışa veya içe aktarın. Bu, yapılandırmanızı yedeklemenize veya ayarları cihazlar arasında aktarmanıza olanak tanır.",
+    "description": "Ayarları yönet açıklaması"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL Beyaz ve Kara Listesi",
+    "description": "URL kuralları bölümü başlığı"
+  },
+  "whitelist_urls": {
+    "message": "Beyaz Liste URL'leri (her satıra bir tane, regex desteklenir):",
+    "description": "Beyaz liste URL'leri etiketi"
+  },
+  "whitelist_placeholder": {
+    "message": "ör., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Beyaz liste URL'leri yer tutucusu"
+  },
+  "whitelist_desc": {
+    "message": "Beyaz liste boş değilse, yalnızca bu desenlerle eşleşen URL'ler yenilenir.",
+    "description": "Beyaz liste URL'leri açıklaması"
+  },
+  "blacklist_urls": {
+    "message": "Kara Liste URL'leri (her satıra bir tane, regex desteklenir):",
+    "description": "Kara liste URL'leri etiketi"
+  },
+  "blacklist_placeholder": {
+    "message": "ör., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Kara liste URL'leri yer tutucusu"
+  },
+  "blacklist_desc": {
+    "message": "Bu desenlerle eşleşen URL'ler, beyaz listede veya zamanlanmış olsalar bile asla yenilenmez.",
+    "description": "Kara liste URL'leri açıklaması"
+  },
+  "save_url_rules": {
+    "message": "URL Kurallarını Kaydet",
+    "description": "URL kurallarını kaydet düğmesi"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Zamanlanmış Yenilemeler",
+    "description": "Zamanlanmış yenilemeler bölümü başlığı"
+  },
+  "scheduled_desc": {
+    "message": "Belirli URL'leri belirli aralıklarla otomatik olarak yenilemek için tanımlayın. Bu ayarlar tarayıcı oturumları arasında devam eder ve eşleşen bir URL açıldığında etkinleşir.",
+    "description": "Zamanlanmış yenilemeler açıklaması"
+  },
+  "add_new_scheduled": {
+    "message": "Yeni Zamanlanmış Yenileme Ekle",
+    "description": "Yeni zamanlanmış yenileme formu başlığı"
+  },
+  "scheduled_url": {
+    "message": "URL (tam eşleşme veya example.com/path* gibi basit desen):",
+    "description": "Zamanlanmış URL etiketi"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Zamanlanmış URL yer tutucusu"
+  },
+  "refresh_interval": {
+    "message": "Yenileme Aralığı:",
+    "description": "Yenileme aralığı etiketi"
+  },
+  "seconds_30": {
+    "message": "30 saniye",
+    "description": "30 saniye"
+  },
+  "minute_1": {
+    "message": "1 dakika",
+    "description": "1 dakika"
+  },
+  "minutes_3": {
+    "message": "3 dakika",
+    "description": "3 dakika"
+  },
+  "minutes_5": {
+    "message": "5 dakika",
+    "description": "5 dakika"
+  },
+  "minutes_10": {
+    "message": "10 dakika",
+    "description": "10 dakika"
+  },
+  "minutes_15": {
+    "message": "15 dakika",
+    "description": "15 dakika"
+  },
+  "minutes_30": {
+    "message": "30 dakika",
+    "description": "30 dakika"
+  },
+  "hour_1": {
+    "message": "1 saat",
+    "description": "1 saat"
+  },
+  "hours_3": {
+    "message": "3 saat",
+    "description": "3 saat"
+  },
+  "hours_6": {
+    "message": "6 saat",
+    "description": "6 saat"
+  },
+  "hours_12": {
+    "message": "12 saat",
+    "description": "12 saat"
+  },
+  "hours_24": {
+    "message": "24 saat",
+    "description": "24 saat"
+  },
+  "unit_sec_short": {
+    "message": "sn",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "dk",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "sa",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "g",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Özel",
+    "description": "Özel aralık"
+  },
+  "custom_interval": {
+    "message": "Özel Aralık:",
+    "description": "Özel aralık etiketi"
+  },
+  "enabled": {
+    "message": "Etkin:",
+    "description": "Etkin geçiş etiketi"
+  },
+  "add_schedule": {
+    "message": "Zamanlama Ekle",
+    "description": "Zamanlama ekle düğmesi"
+  },
+  "current_schedules": {
+    "message": "Mevcut Zamanlamalar",
+    "description": "Mevcut zamanlamalar listesi başlığı"
+  },
+  "no_schedules": {
+    "message": "Henüz tanımlanmış zamanlama yok.",
+    "description": "Zamanlama yok mesajı"
+  },
+  "usage_statistics": {
+    "message": "Kullanım İstatistikleri",
+    "description": "İstatistikler bölümü başlığı"
+  },
+  "general_statistics": {
+    "message": "Genel İstatistikler",
+    "description": "Genel istatistikler başlığı"
+  },
+  "total_refreshes": {
+    "message": "Toplam Yenileme",
+    "description": "Toplam yenileme etiketi"
+  },
+  "active_time": {
+    "message": "Aktif Süre",
+    "description": "Aktif süre etiketi"
+  },
+  "average_interval": {
+    "message": "Ortalama Aralık",
+    "description": "Ortalama aralık etiketi"
+  },
+  "unique_urls": {
+    "message": "Benzersiz URL'ler",
+    "description": "Benzersiz URL'ler etiketi"
+  },
+  "detailed_statistics": {
+    "message": "Ayrıntılı İstatistikler",
+    "description": "Ayrıntılı istatistikler başlığı"
+  },
+  "last_7_days": {
+    "message": "Son 7 gün",
+    "description": "Son 7 gün"
+  },
+  "all_time": {
+    "message": "Tüm zamanlar",
+    "description": "Tüm zamanlar"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL sütun başlığı"
+  },
+  "refreshes": {
+    "message": "Yenilemeler",
+    "description": "Yenilemeler sütun başlığı"
+  },
+  "avg_interval": {
+    "message": "Ort. Aralık",
+    "description": "Ortalama aralık sütun başlığı"
+  },
+  "last_refresh": {
+    "message": "Son Yenileme",
+    "description": "Son yenileme sütun başlığı"
+  },
+  "success_rate": {
+    "message": "Başarı Oranı",
+    "description": "Başarı oranı sütun başlığı"
+  },
+  "statistics_management": {
+    "message": "İstatistik Yönetimi",
+    "description": "İstatistik yönetimi bölümü başlığı"
+  },
+  "export_statistics": {
+    "message": "İstatistikleri Dışa Aktar",
+    "description": "İstatistikleri dışa aktar düğmesi"
+  },
+  "reset_all_data": {
+    "message": "Tüm Verileri Sıfırla",
+    "description": "Tüm verileri sıfırla düğmesi"
+  },
+  "export_statistics_desc": {
+    "message": "Kullanım istatistiklerinizi dışa aktarın veya toplanan tüm verileri sıfırlayın.",
+    "description": "İstatistikleri dışa aktar açıklaması"
+  },
+  "activity_log_title": {
+    "message": "Etkinlik Günlüğü",
+    "description": "Etkinlik günlüğü bölümü başlığı"
+  },
+  "show_logs_for": {
+    "message": "Şunun için günlükleri göster:",
+    "description": "Günlük filtresi etiketi"
+  },
+  "today": {
+    "message": "Bugün",
+    "description": "Bugün"
+  },
+  "yesterday": {
+    "message": "Dün",
+    "description": "Dün"
+  },
+  "last_3_days": {
+    "message": "Son 3 gün",
+    "description": "Son 3 gün"
+  },
+  "refresh": {
+    "message": "Yenile",
+    "description": "Yenile düğmesi"
+  },
+  "export_log": {
+    "message": "Günlüğü Dışa Aktar",
+    "description": "Günlüğü dışa aktar düğmesi"
+  },
+  "clear_log": {
+    "message": "Günlüğü Temizle",
+    "description": "Günlüğü temizle düğmesi"
+  },
+  "language_changed": {
+    "message": "Dil değiştirildi. Değişiklikleri görmek için lütfen uzantı sayfalarını yeniden yükleyin.",
+    "description": "Dil değiştirildi mesajı"
+  },
+  "status": {
+    "message": "Durum",
+    "description": "Durum etiketi"
+  },
+  "idle": {
+    "message": "Boşta",
+    "description": "Boşta durumu"
+  },
+  "time_until_refresh": {
+    "message": "Bir sonraki yenilemeye kadar geçen süre",
+    "description": "Geri sayım sayacı etiketi"
+  },
+  "presets": {
+    "message": "Ön Ayarlar",
+    "description": "Ön ayarlar bölümü başlığı"
+  },
+  "custom_interval_placeholder": {
+    "message": "Saniye (ör., 45)",
+    "description": "Özel aralık giriş yer tutucusu"
+  },
+  "set_custom": {
+    "message": "Özel Ayarla",
+    "description": "Özel aralık ayarla düğmesi"
+  },
+  "start": {
+    "message": "Başlat",
+    "description": "Başlat düğmesi"
+  },
+  "pause": {
+    "message": "Duraklat",
+    "description": "Duraklat düğmesi"
+  },
+  "stop": {
+    "message": "Durdur",
+    "description": "Durdur düğmesi"
+  },
+  "sound_notification": {
+    "message": "Sesli Bildirim:",
+    "description": "Sesli bildirim etiketi"
+  },
+  "max_schedules_reached": {
+    "message": "Maksimum {max} zamanlanmış yenileme sınırına ulaşıldı. Lütfen yeni eklemeden önce mevcut bazı zamanlamaları silin.",
+    "description": "Maksimum zamanlama sınırına ulaşıldığında hata mesajı"
+  },
+  "duplicate_schedule_url": {
+    "message": "Bu URL zaten zamanlama listesinde.",
+    "description": "Yinelenen URL eklemeye çalışıldığında hata mesajı"
+  },
+  "search_schedules_placeholder": {
+    "message": "URL'ye göre zamanlamaları ara...",
+    "description": "Zamanlama arama alanı için yer tutucu"
+  },
+  "search_results": {
+    "message": "Bulunan: {total} zamanlamadan {count} tanesi",
+    "description": "Arama sonuçları bilgisi"
+  },
+  "no_search_results": {
+    "message": "\"{query}\" için sonuç bulunamadı",
+    "description": "Arama sonuç vermediğinde mesaj"
+  },
+  "cancel": {
+    "message": "İptal",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Sil",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Düzenle",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Etkinleştir",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Devre dışı bırak",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Temizle",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Sıfırla",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Etkin",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Devre dışı",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Zamanlamayı Güncelle",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Aramayı temizle",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Depolama Kullanımı:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "İlk sayfa",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Önceki",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Sonraki",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Son sayfa",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "{total} kayıttan {start}-{end} arası gösteriliyor",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "{total} zamanlamadan {start}-{end} arası gösteriliyor",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Bulunan {total} zamanlamadan {start}-{end} arası gösteriliyor",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Etkinlik günlüğünü temizlemek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Etkinlik günlüğü temizlendi.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Günlükler yüklenirken hata oluştu",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Veri yok",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Görüntülenecek kayıt yok.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Dışa aktarılacak günlük yok",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Günlükler başarıyla dışa aktarıldı!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Günlükler dışa aktarılırken hata oluştu",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} kayıt",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "bugün +{count}",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Etkinlik yok",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Yeni yok",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Sabit",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Görüntülenecek veri yok",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Hiçbir zaman",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "İstatistikler başarıyla dışa aktarıldı!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "İstatistikler dışa aktarılırken hata oluştu",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Tüm istatistikleri sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "İstatistikleri Sıfırla",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "İstatistikler başarıyla sıfırlandı!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "İstatistikler sıfırlanırken hata oluştu",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Hata",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Geçerli bir URL ve pozitif bir aralık (saniye > 0) girin.",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Bu zamanlamayı silmek istediğinizden emin misiniz?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Zamanlamayı Sil",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL kuralları kaydedildi!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Ayarlar başarıyla dışa aktarıldı!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Ayarlar başarıyla içe aktarıldı!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Geçersiz veya boş ayar dosyası biçimi.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Ayarlar içe aktarılırken hata oluştu. Ayrıntılar için konsola bakın.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Minimum aralık 30 saniyedir.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Aralığı rastgeleleştir:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Varsayılan",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Açık",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Kapalı",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Aralığı rastgeleleştir:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Sapma (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Yeniden yüklemelerin tam olarak sabit bir programa göre gerçekleşmemesi için her yenilemeyi rastgele bir ±yüzde kadar değiştirin (kuyruklar, stok yenileme ve açık artırma sayfalarında bot karşıtı tespiti önlemeye yardımcı olur). Sekme ve kural başına geçersiz kılmalar mevcuttur.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Rastgele",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Sayfa içeriğine erişim yok",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Bu uzantı yalnızca sekmeleri yeniler; sayfa içeriğinizi okuyamaz.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Tasarımdan gelen gizlilik önceliği",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Bu uzantı yalnızca sekmelerinizi yeniler. Ziyaret ettiğiniz web sitelerinin içeriğine erişim istemez ve kurallarınız ile istatistikleriniz bu cihazda kalır.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "\"Tüm web sitelerindeki verilerinizi okuma\" izni yok",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Verileriniz bize asla gönderilmez",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Harici sunucu yok, takip yok, telemetri yok",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Otomatik",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Uzantıyı beğendiniz mi?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Chrome Web Mağazası’nda hızlı bir değerlendirme, başkalarının onu keşfetmesine yardımcı olur ve geliştirmeyi destekler. Yalnızca birkaç saniye sürer.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Chrome Web Mağazası’nda değerlendir",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Nasıl yorum bırakılır",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Eklentinin Chrome Web Mağazası sayfasını açın",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "\"Yorumlar\" sekmesini açıp \"Yorum yazın\" seçeneğine tıklayın",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "★ puanı seçin ve birkaç kelime ekleyin",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "\"Yayınla\" düğmesine tıklayın",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Google ile oturum açmanız gerekir · kullanıcı başına bir yorum (sonradan düzenlenebilir) · en iyisi bilgisayardan yapmaktır",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Hatada otomatik kurtarma:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Varsayılan",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Açık",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Kapalı",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Yükleme başarısız olduğunda otomatik kurtarma:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Sayfası yüklenemeyen (bağlantı yok, DNS hatası, zaman aşımı) veya yüklenirken takılan, izlenen bir sekmeyi otomatik olarak yeniden yükler. Artan bir programa göre denemeyi sürdürür (yaklaşık 30 sn sonra, ardından 1, 2, 5, 10 ve 30 dk) ve sonrasında sayfa yüklenene ya da siz kapatana kadar her 30 dakikada bir dener. Tek seferlik bir izin gerektirir ve yalnızca izlenen sekmelerde çalışır. Sekme ve kural bazında geçersiz kılma seçenekleri mevcuttur.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Otomatik kurtarma için verilmeyen ek bir izin gerekiyor.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Otomatik kurtarma etkinleştirilsin mi?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "İzlenen bir sekmenin yüklenemediğini algılamak için uzantının tarayıcının “webNavigation” iznine ihtiyacı var. Chrome bunu “Tarama geçmişinizi okuma” olarak gösterir, ancak uzantı bunu yalnızca başarısız sayfa yüklemelerini fark etmek için kullanır ve sayfalarınızın içeriğini yine de okuyamaz. Vermek için Etkinleştir’e tıklayın.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Ben aktifken duraklat:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Görüntülediğiniz sekmeyi etkin biçimde kullanırken (yazı yazarken veya fareyi hareket ettirirken) o sekmenin zamanlanmış yeniden yüklemesi atlanır ve bir sonraki aralıkta yeniden denenir; böylece otomatik yenileme yaptığınız işi asla kesmez. Tarayıcının boşta durumunu kullanır ve yalnızca etkin sekmeye uygulanır — arka plandaki sekmeler zamanlamaya göre yenilenmeye devam eder.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Devam et",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Bu URL, mevcut bir zamanlama kuralıyla ({url}) çakışıyor. Yinelenen yenilemeleri önlemek için deseni ayarlayın.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Geçerli bir web adresi girin, örneğin example.com veya https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Geçerli sekmede otomatik yenilemeyi başlat veya durdur",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Geçerli sekmede otomatik yenilemeyi duraklat veya sürdür",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Bu penceredeki tüm sekmeler",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Tümünü başlat",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Tümünü durdur",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "{started}/{total} başlatıldı",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "{stopped}/{total} durduruldu",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} atlandı",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} başarısız",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} sınırın üzerinde",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Uygun sekme yok",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Hata",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Penceredeki tüm sekmelerde otomatik yenilemeyi başlat veya durdur",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Bu sekmenin grubu",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Bu sekme bir grupta değil",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Gruptaki tüm sekmelerde otomatik yenilemeyi başlat veya durdur",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Rastgele aralık aralığı",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, sn",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Maks, sn",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Geçerli bir aralık girin: 30 ile 86400 saniye, min maksimumdan büyük olmamalı",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Aralığı ayarla",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Klavye kısayolları",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Kısayolları özelleştir",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Ayarlanmadı",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Kısayolları Chrome'un kısayollar sayfasından değiştirin veya ekleyin.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Yenilemeler ve kurallar",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Gelişmiş",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Automaatne värskendamine | Lehekülje monitor",
+    "description": "Laienduse nimi"
+  },
+  "extDescription": {
+    "message": "Värskendab lehti automaatselt määratud intervallidega koos täpsema kontrolli ja kohandamisega.",
+    "description": "Laienduse kirjeldus"
+  },
+  "advanced_settings": {
+    "message": "Täpsemad Seaded",
+    "description": "Seadete lehe pealkiri"
+  },
+  "general": {
+    "message": "Üldine",
+    "description": "Üldiste seadete vahekaart"
+  },
+  "statistics": {
+    "message": "Statistika",
+    "description": "Statistika vahekaart"
+  },
+  "activity_log": {
+    "message": "Tegevuslogi",
+    "description": "Tegevuslogi vahekaart"
+  },
+  "general_settings": {
+    "message": "Üldised Seaded",
+    "description": "Üldiste seadete sektsiooni pealkiri"
+  },
+  "theme": {
+    "message": "Teema:",
+    "description": "Teema valiku silt"
+  },
+  "light": {
+    "message": "Hele",
+    "description": "Hele teema"
+  },
+  "dark": {
+    "message": "Tume",
+    "description": "Tume teema"
+  },
+  "interface_language": {
+    "message": "Liidese Keel:",
+    "description": "Keele valiku silt"
+  },
+  "english": {
+    "message": "English",
+    "description": "Inglise keel"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Vene keel"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Hispaania keel"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Prantsuse keel"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Saksa keel"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Itaalia keel"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portugali keel"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Jaapani keel"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Hiina keel (lihtsustatud)"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Korea keel"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Araabia keel"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hindi keel"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulgaaria keel"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Tšehhi keel"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Taani keel"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Kreeka keel"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Eesti keel"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukraina keel"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Poola keel"
+  },
+  "enable_sound_notifications": {
+    "message": "Luba Heliteavitused Vaikimisi:",
+    "description": "Heliteavituste lüliti silt"
+  },
+  "auto_restore_timers": {
+    "message": "Taasta Taimerid Automaatselt Brauseri Taaskäivitusel:",
+    "description": "Taimerite automaatse taastamise lüliti silt"
+  },
+  "sound_notifications_desc": {
+    "message": "See määrab vaikimisi seade heli lülitile hüpikaknas uute taimerite jaoks.",
+    "description": "Heliteavituste kirjeldus"
+  },
+  "auto_restore_desc": {
+    "message": "Jätka automaatselt aktiivseid taimereid brauseri taaskäivitamisel.",
+    "description": "Taimerite automaatse taastamise kirjeldus"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Vaikeväärtus uutele kaartidele ja ajastatud reeglitele. Sisselülitatuna jätavad värskendused vahemälu vahele (sama mis Ctrl+Shift+R); väljalülitatuna kasutab tavaline laadimine vahemällu salvestatud ressursse. Iga kaart ja reegel saab selle oma värskendamise režiimiga alistada.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Värskendamise režiim:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Vaikimisi",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Täielik (vahemälu vahele jättes)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Tavaline (kasutab vahemälu)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Ajastatud värskendamise muutmine",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Seadete Haldamine",
+    "description": "Seadete haldamise sektsiooni pealkiri"
+  },
+  "export_settings": {
+    "message": "Ekspordi Seaded",
+    "description": "Seadete eksportimise nupp"
+  },
+  "import_settings": {
+    "message": "Impordi Seaded",
+    "description": "Seadete importimise nupp"
+  },
+  "settings_management_desc": {
+    "message": "Ekspordi või impordi oma globaalseid seadeid, sealhulgas teema eelistusi, URL reegleid ja ajastatud värskendusi. See võimaldab teil varundada oma konfiguratsiooni või kanda seadeid seadmete vahel.",
+    "description": "Seadete haldamise kirjeldus"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL Valge- ja Mustnimekiri",
+    "description": "URL reeglite sektsiooni pealkiri"
+  },
+  "whitelist_urls": {
+    "message": "Valgenimekirja URL-id (üks rea kohta, regex toetatud):",
+    "description": "Valgenimekirja URL-ide silt"
+  },
+  "whitelist_placeholder": {
+    "message": "nt https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Valgenimekirja URL-ide kohatäide"
+  },
+  "whitelist_desc": {
+    "message": "Kui valgenimekiri ei ole tühi, värskendatakse ainult nendele mustritele vastavaid URL-e.",
+    "description": "Valgenimekirja URL-ide kirjeldus"
+  },
+  "blacklist_urls": {
+    "message": "Mustnimekirja URL-id (üks rea kohta, regex toetatud):",
+    "description": "Mustnimekirja URL-ide silt"
+  },
+  "blacklist_placeholder": {
+    "message": "nt https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Mustnimekirja URL-ide kohatäide"
+  },
+  "blacklist_desc": {
+    "message": "Nendele mustritele vastavaid URL-e ei värskendata kunagi, isegi kui need on valgenimekirjas või ajastatud.",
+    "description": "Mustnimekirja URL-ide kirjeldus"
+  },
+  "save_url_rules": {
+    "message": "Salvesta URL Reeglid",
+    "description": "URL reeglite salvestamise nupp"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Ajastatud Värskendused",
+    "description": "Ajastatud värskenduste sektsiooni pealkiri"
+  },
+  "scheduled_desc": {
+    "message": "Määratle konkreetsed URL-id, mida värskendada automaatselt määratud intervallidega. Need seaded püsivad brauseri seansside vahel ja aktiveeruvad, kui vastav URL avatakse.",
+    "description": "Ajastatud värskenduste kirjeldus"
+  },
+  "add_new_scheduled": {
+    "message": "Lisa Uus Ajastatud Värskendus",
+    "description": "Uue ajastatud värskenduse vormi pealkiri"
+  },
+  "scheduled_url": {
+    "message": "URL (täpne vaste või lihtne muster nagu example.com/path*):",
+    "description": "Ajastatud URL-i silt"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Ajastatud URL-i kohatäide"
+  },
+  "refresh_interval": {
+    "message": "Värskendusintervall:",
+    "description": "Värskendusintervalli silt"
+  },
+  "seconds_30": {
+    "message": "30 sekundit",
+    "description": "30 sekundit"
+  },
+  "minute_1": {
+    "message": "1 minut",
+    "description": "1 minut"
+  },
+  "minutes_3": {
+    "message": "3 minutit",
+    "description": "3 minutit"
+  },
+  "minutes_5": {
+    "message": "5 minutit",
+    "description": "5 minutit"
+  },
+  "minutes_10": {
+    "message": "10 minutit",
+    "description": "10 minutit"
+  },
+  "minutes_15": {
+    "message": "15 minutit",
+    "description": "15 minutit"
+  },
+  "minutes_30": {
+    "message": "30 minutit",
+    "description": "30 minutit"
+  },
+  "hour_1": {
+    "message": "1 tund",
+    "description": "1 tund"
+  },
+  "hours_3": {
+    "message": "3 tundi",
+    "description": "3 tundi"
+  },
+  "hours_6": {
+    "message": "6 tundi",
+    "description": "6 tundi"
+  },
+  "hours_12": {
+    "message": "12 tundi",
+    "description": "12 tundi"
+  },
+  "hours_24": {
+    "message": "24 tundi",
+    "description": "24 tundi"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "h",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "p",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Kohandatud",
+    "description": "Kohandatud intervall"
+  },
+  "custom_interval": {
+    "message": "Kohandatud Intervall:",
+    "description": "Kohandatud intervalli silt"
+  },
+  "enabled": {
+    "message": "Lubatud:",
+    "description": "Lubatud lüliti silt"
+  },
+  "add_schedule": {
+    "message": "Lisa Ajakava",
+    "description": "Ajakava lisamise nupp"
+  },
+  "current_schedules": {
+    "message": "Praegused Ajakavad",
+    "description": "Praeguste ajakavade loendi pealkiri"
+  },
+  "no_schedules": {
+    "message": "Ajakavu pole veel määratletud.",
+    "description": "Ajakavade puudumise teade"
+  },
+  "usage_statistics": {
+    "message": "Kasutusstatistika",
+    "description": "Statistika sektsiooni pealkiri"
+  },
+  "general_statistics": {
+    "message": "Üldine Statistika",
+    "description": "Üldise statistika pealkiri"
+  },
+  "total_refreshes": {
+    "message": "Kokku Värskendusi",
+    "description": "Kokku värskenduste silt"
+  },
+  "active_time": {
+    "message": "Aktiivne Aeg",
+    "description": "Aktiivse aja silt"
+  },
+  "average_interval": {
+    "message": "Keskmine Intervall",
+    "description": "Keskmise intervalli silt"
+  },
+  "unique_urls": {
+    "message": "Unikaalsed URL-id",
+    "description": "Unikaalsete URL-ide silt"
+  },
+  "detailed_statistics": {
+    "message": "Detailne Statistika",
+    "description": "Detailse statistika pealkiri"
+  },
+  "last_7_days": {
+    "message": "Viimased 7 päeva",
+    "description": "Viimased 7 päeva"
+  },
+  "all_time": {
+    "message": "Kogu aeg",
+    "description": "Kogu aeg"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL-i veeru päis"
+  },
+  "refreshes": {
+    "message": "Värskendused",
+    "description": "Värskenduste veeru päis"
+  },
+  "avg_interval": {
+    "message": "Kesk. Intervall",
+    "description": "Keskmise intervalli veeru päis"
+  },
+  "last_refresh": {
+    "message": "Viimane Värskendus",
+    "description": "Viimase värskenduse veeru päis"
+  },
+  "success_rate": {
+    "message": "Edukuse Määr",
+    "description": "Edukuse määra veeru päis"
+  },
+  "statistics_management": {
+    "message": "Statistika Haldamine",
+    "description": "Statistika haldamise sektsiooni pealkiri"
+  },
+  "export_statistics": {
+    "message": "Ekspordi Statistika",
+    "description": "Statistika eksportimise nupp"
+  },
+  "reset_all_data": {
+    "message": "Lähtesta Kõik Andmed",
+    "description": "Kõigi andmete lähtestamise nupp"
+  },
+  "export_statistics_desc": {
+    "message": "Ekspordi oma kasutusstatistika või lähtesta kõik kogutud andmed.",
+    "description": "Statistika eksportimise kirjeldus"
+  },
+  "activity_log_title": {
+    "message": "Tegevuslogi",
+    "description": "Tegevuslogi sektsiooni pealkiri"
+  },
+  "show_logs_for": {
+    "message": "Näita logisid:",
+    "description": "Logi filtri silt"
+  },
+  "today": {
+    "message": "Täna",
+    "description": "Täna"
+  },
+  "yesterday": {
+    "message": "Eile",
+    "description": "Eile"
+  },
+  "last_3_days": {
+    "message": "Viimased 3 päeva",
+    "description": "Viimased 3 päeva"
+  },
+  "refresh": {
+    "message": "Värskenda",
+    "description": "Värskendamise nupp"
+  },
+  "export_log": {
+    "message": "Ekspordi Logi",
+    "description": "Logi eksportimise nupp"
+  },
+  "clear_log": {
+    "message": "Tühjenda Logi",
+    "description": "Logi tühjendamise nupp"
+  },
+  "language_changed": {
+    "message": "Keel muudetud. Palun laadige laienduse lehed uuesti, et muudatusi näha.",
+    "description": "Keele muutmise teade"
+  },
+  "status": {
+    "message": "Olek",
+    "description": "Oleku silt"
+  },
+  "idle": {
+    "message": "Jõude",
+    "description": "Jõude olek"
+  },
+  "time_until_refresh": {
+    "message": "Aeg järgmise värskenduseni",
+    "description": "Loenduri silt"
+  },
+  "presets": {
+    "message": "Eelseaded",
+    "description": "Eelseadete sektsiooni pealkiri"
+  },
+  "custom_interval_placeholder": {
+    "message": "Sekundid (nt 45)",
+    "description": "Kohandatud intervalli sisendi kohatäide"
+  },
+  "set_custom": {
+    "message": "Määra Kohandatud",
+    "description": "Kohandatud intervalli määramise nupp"
+  },
+  "start": {
+    "message": "Alusta",
+    "description": "Alustamise nupp"
+  },
+  "pause": {
+    "message": "Peata",
+    "description": "Peatamise nupp"
+  },
+  "stop": {
+    "message": "Lõpeta",
+    "description": "Lõpetamise nupp"
+  },
+  "sound_notification": {
+    "message": "Heliteavitus:",
+    "description": "Heliteavituse silt"
+  },
+  "max_schedules_reached": {
+    "message": "Saavutatud on maksimaalne {max} ajastatud värskenduse limiit. Palun kustutage mõned olemasolevad ajakavad enne uute lisamist.",
+    "description": "Veateade maksimaalse ajakavade limiidi saavutamisel"
+  },
+  "duplicate_schedule_url": {
+    "message": "See URL on juba ajakava nimekirjas.",
+    "description": "Veateade duplikaat-URL-i lisamisel"
+  },
+  "search_schedules_placeholder": {
+    "message": "Otsi ajakavasid URL-i järgi...",
+    "description": "Ajakavade otsinguvälja kohatäide"
+  },
+  "search_results": {
+    "message": "Leitud: {count} {total}-st ajakavast",
+    "description": "Otsingutulemuste teave"
+  },
+  "no_search_results": {
+    "message": "Päringule \"{query}\" ei leitud tulemusi",
+    "description": "Teade, kui otsing ei anna tulemusi"
+  },
+  "cancel": {
+    "message": "Tühista",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Kustuta",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Muuda",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Luba",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Keela",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Tühjenda",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Lähtesta",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Lubatud",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Keelatud",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Uuenda ajakava",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Tühjenda otsing",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Salvestusruumi kasutus:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Esimene leht",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Eelmine",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Järgmine",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Viimane leht",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Kuvatakse {start}-{end} / {total} kirjest",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Kuvatakse {start}-{end} / {total} ajakavast",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Kuvatakse {start}-{end} / {total} leitud ajakavast",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Kas oled kindel, et soovid tegevuslogi tühjendada? Seda toimingut ei saa tagasi võtta.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Tegevuslogi on tühjendatud.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Viga logide laadimisel",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Andmed puuduvad",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Kuvatavaid kirjeid pole.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Eksportimiseks pole logisid",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Logid edukalt eksporditud!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Viga logide eksportimisel",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} kirjet",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} täna",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Tegevus puudub",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Uusi pole",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Stabiilne",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Kuvamiseks andmed puuduvad",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Mitte kunagi",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Statistika edukalt eksporditud!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Viga statistika eksportimisel",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Kas oled kindel, et soovid kogu statistika lähtestada? Seda toimingut ei saa tagasi võtta.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Lähtesta statistika",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Statistika edukalt lähtestatud!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Viga statistika lähtestamisel",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Viga",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Sisesta kehtiv URL ja positiivne intervall (sekundid > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Kas oled kindel, et soovid selle ajakava kustutada?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Kustuta ajakava",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL-reeglid salvestatud!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Sätted edukalt eksporditud!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Sätted edukalt imporditud!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Vigane või tühi sätete faili vorming.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Viga sätete importimisel. Üksikasju vaata konsoolist.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Minimaalne intervall on 30 sekundit.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Juhuslik intervall:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Vaikimisi",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Sees",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Väljas",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Juhuslik intervall:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Hajutus (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Muuda iga värskendust juhusliku ±protsendi võrra, et taaslaadimised ei toimuks täpselt fikseeritud ajakava järgi (aitab vältida robotituvastust järjekordades, laotäienduses ja oksjonitel). Saadaval on kaardi- ja reeglipõhised alistused.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Juhuslik",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Puudub ligipääs lehtede sisule",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "See laiendus üksnes värskendab kaarte; see ei saa lugeda sinu lehe sisu.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Privaatsus on sisse ehitatud",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "See laiendus üksnes värskendab sinu kaarte. See ei taotle ligipääsu külastatavate veebisaitide sisule ning sinu reeglid ja statistika jäävad sellesse seadmesse.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Ei mingit luba „lugeda sinu andmeid kõigil veebisaitidel”",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Sinu andmeid ei saadeta kunagi meile",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Ei mingeid väliseid servereid, jälgimist ega telemeetriat",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automaatne",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Kas laiendus meeldib?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Kiire hinnang Chrome’i veebipoes aitab teistel seda leida ja toetab arendust. See võtab vaid mõne sekundi.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Hinda Chrome’i veebipoes",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Kuidas arvustust jätta",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Ava laienduse leht Chrome'i veebipoes",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Ava vahekaart „Arvustused“ ja klõpsa „Kirjuta arvustus“",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Vali ★ hinnang ja lisa paar sõna",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Klõpsa „Avalda“",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Vajab Google'i kontoga sisselogimist · üks arvustus kasutaja kohta (hiljem muudetav) · mugavaim arvutis",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Vea korral taasta automaatselt:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Vaikimisi",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Sees",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Väljas",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Laadimisvea korral taasta automaatselt:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Laadib automaatselt uuesti jälgitava vahekaardi, mille leht ei laadinud (ühendus puudub, DNS-i viga, ajalõpp) või jäi laadimisel toppama. Proovib korduvalt kasvava ajakava alusel (umbes 30 s pärast, seejärel 1, 2, 5, 10 ja 30 min) ning seejärel iga 30 minuti tagant, kuni leht laadib või sa selle välja lülitad. Nõuab ühekordset luba ja töötab ainult jälgitavate vahekaartidega. Saadaval on vahekaardi- ja reeglipõhised alistamised.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Automaatne taastamine vajab lisaluba, mida ei antud.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Lubada automaatne taastamine?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Et tuvastada, millal jälgitava kaardi laadimine ebaõnnestub, vajab laiendus brauseri õigust „webNavigation“. Chrome kuvab seda kui „Loe oma sirvimisajalugu“, kuid laiendus kasutab seda vaid ebaõnnestunud laadimiste märkamiseks ega saa ikkagi lugeda teie lehtede sisu. Selle andmiseks klõpsake „Luba“.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Peata, kui olen aktiivne:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Kui kasutad aktiivselt vahekaarti, mida parajasti vaatad (kirjutad või liigutad hiirt), jäetakse selle vahekaardi ajastatud uuesti laadimine vahele ja proovitakse uuesti järgmise intervalli ajal, nii et automaatne värskendamine ei katkesta kunagi sinu tegevust. Kasutab brauseri jõudeolekut ja kehtib ainult aktiivse vahekaardi kohta — taustal olevaid vahekaarte värskendatakse edasi ajakava järgi.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Jätka",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "See URL kattub olemasoleva ajastusreegliga ({url}). Kohanda mustrit, et vältida korduvaid värskendusi.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Sisestage kehtiv veebiaadress, näiteks example.com või https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Käivita või peata automaatne värskendamine praegusel vahekaardil",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Peata ajutiselt või jätka automaatset värskendamist praegusel vahekaardil",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Kõik selle akna vahekaardid",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Käivita kõik",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Peata kõik",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Käivitatud {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Peatatud {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} vahele jäetud",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} nurjus",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} üle piiri",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Sobivaid vahekaarte pole",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Viga",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Käivita või peata automaatne värskendamine kõigil akna vahekaartidel",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Selle vahekaardi rühm",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "See vahekaart pole rühmas",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Käivita või peata automaatne värskendamine kõigil rühma vahekaartidel",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Juhusliku intervalli vahemik",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Maks, s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Sisestage kehtiv vahemik: 30 kuni 86400 sekundit, min mitte üle maksi",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Määra vahemik",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Klaviatuuri otseteed",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Kohanda otseteid",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Määramata",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Muutke või lisage otseteid Chrome'i otseteede lehel.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Värskendused ja reeglid",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Täpsemad",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

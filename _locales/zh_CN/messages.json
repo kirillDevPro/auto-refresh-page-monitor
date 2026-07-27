@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - 自动刷新 | 页面监控",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "在指定间隔自动刷新页面，具有高级控制和自定义功能。",
+    "description": "扩展描述"
+  },
+  "advanced_settings": {
+    "message": "高级设置",
+    "description": "设置页面标题"
+  },
+  "general": {
+    "message": "常规",
+    "description": "常规设置选项卡"
+  },
+  "statistics": {
+    "message": "统计",
+    "description": "统计选项卡"
+  },
+  "activity_log": {
+    "message": "活动日志",
+    "description": "活动日志选项卡"
+  },
+  "general_settings": {
+    "message": "常规设置",
+    "description": "常规设置部分标题"
+  },
+  "theme": {
+    "message": "主题：",
+    "description": "主题选择标签"
+  },
+  "light": {
+    "message": "浅色",
+    "description": "浅色主题"
+  },
+  "dark": {
+    "message": "深色",
+    "description": "深色主题"
+  },
+  "interface_language": {
+    "message": "界面语言：",
+    "description": "语言选择标签"
+  },
+  "english": {
+    "message": "English",
+    "description": "英语"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "俄语"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "西班牙语"
+  },
+  "french": {
+    "message": "Français",
+    "description": "法语"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "德语"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "意大利语"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "葡萄牙语"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "日语"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "中文简体"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "韩语"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "阿拉伯语"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "印地语"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "保加利亚语"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "捷克语"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "丹麦语"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "希腊语"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "爱沙尼亚语"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "乌克兰语"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "波兰语"
+  },
+  "enable_sound_notifications": {
+    "message": "默认启用声音通知：",
+    "description": "声音通知启用标签"
+  },
+  "auto_restore_timers": {
+    "message": "浏览器重启时自动恢复计时器：",
+    "description": "计时器自动恢复标签"
+  },
+  "sound_notifications_desc": {
+    "message": "这为新计时器的弹出窗口中的声音切换设置默认值。",
+    "description": "声音通知描述"
+  },
+  "auto_restore_desc": {
+    "message": "浏览器重启时自动恢复活动计时器。",
+    "description": "计时器自动恢复描述"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "新标签页和定时规则的默认设置。开启后，刷新将绕过缓存（相当于 Ctrl+Shift+R）；关闭后，普通重新加载会使用缓存的资源。每个标签页和规则均可使用各自的刷新模式覆盖此设置。",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "刷新模式：",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "默认",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "强制刷新（绕过缓存）",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "普通（使用缓存）",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "编辑定时刷新",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "设置管理",
+    "description": "设置管理部分标题"
+  },
+  "export_settings": {
+    "message": "导出设置",
+    "description": "导出设置按钮"
+  },
+  "import_settings": {
+    "message": "导入设置",
+    "description": "导入设置按钮"
+  },
+  "settings_management_desc": {
+    "message": "导出或导入您的全局设置，包括主题偏好、URL规则和计划刷新。这允许您备份配置或在设备之间传输设置。",
+    "description": "设置管理描述"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL白名单和黑名单",
+    "description": "URL规则部分标题"
+  },
+  "whitelist_urls": {
+    "message": "白名单URL（每行一个，支持正则表达式）：",
+    "description": "白名单URL标签"
+  },
+  "whitelist_placeholder": {
+    "message": "例如：https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "白名单URL占位符"
+  },
+  "whitelist_desc": {
+    "message": "如果白名单不为空，只有匹配这些模式的URL才会被刷新。",
+    "description": "白名单URL描述"
+  },
+  "blacklist_urls": {
+    "message": "黑名单URL（每行一个，支持正则表达式）：",
+    "description": "黑名单URL标签"
+  },
+  "blacklist_placeholder": {
+    "message": "例如：https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "黑名单URL占位符"
+  },
+  "blacklist_desc": {
+    "message": "匹配这些模式的URL永远不会被刷新，即使它们在白名单中或已计划。",
+    "description": "黑名单URL描述"
+  },
+  "save_url_rules": {
+    "message": "保存URL规则",
+    "description": "保存URL规则按钮"
+  },
+  "scheduled_refreshes_title": {
+    "message": "计划刷新",
+    "description": "计划刷新部分标题"
+  },
+  "scheduled_desc": {
+    "message": "定义特定URL在设定间隔自动刷新。这些设置在浏览器会话之间保持，并在打开匹配URL时激活。",
+    "description": "计划刷新描述"
+  },
+  "add_new_scheduled": {
+    "message": "添加新的计划刷新",
+    "description": "添加计划刷新表单标题"
+  },
+  "scheduled_url": {
+    "message": "URL（精确匹配或简单模式如example.com/path*）：",
+    "description": "计划刷新URL标签"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "计划刷新URL占位符"
+  },
+  "refresh_interval": {
+    "message": "刷新间隔：",
+    "description": "刷新间隔标签"
+  },
+  "seconds_30": {
+    "message": "30秒",
+    "description": "30秒"
+  },
+  "minute_1": {
+    "message": "1分钟",
+    "description": "1分钟"
+  },
+  "minutes_3": {
+    "message": "3分钟",
+    "description": "3分钟"
+  },
+  "minutes_5": {
+    "message": "5分钟",
+    "description": "5分钟"
+  },
+  "minutes_10": {
+    "message": "10分钟",
+    "description": "10分钟"
+  },
+  "minutes_15": {
+    "message": "15分钟",
+    "description": "15分钟"
+  },
+  "minutes_30": {
+    "message": "30分钟",
+    "description": "30分钟"
+  },
+  "hour_1": {
+    "message": "1小时",
+    "description": "1小时"
+  },
+  "hours_3": {
+    "message": "3小时",
+    "description": "3小时"
+  },
+  "hours_6": {
+    "message": "6小时",
+    "description": "6小时"
+  },
+  "hours_12": {
+    "message": "12小时",
+    "description": "12小时"
+  },
+  "hours_24": {
+    "message": "24小时",
+    "description": "24小时"
+  },
+  "unit_sec_short": {
+    "message": "秒",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "分",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "时",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "天",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "自定义",
+    "description": "自定义间隔"
+  },
+  "custom_interval": {
+    "message": "自定义间隔：",
+    "description": "自定义间隔标签"
+  },
+  "enabled": {
+    "message": "启用：",
+    "description": "启用标签"
+  },
+  "add_schedule": {
+    "message": "添加计划",
+    "description": "添加计划按钮"
+  },
+  "current_schedules": {
+    "message": "当前计划",
+    "description": "当前计划列表标题"
+  },
+  "no_schedules": {
+    "message": "尚未定义计划。",
+    "description": "无计划消息"
+  },
+  "usage_statistics": {
+    "message": "使用统计",
+    "description": "统计部分标题"
+  },
+  "general_statistics": {
+    "message": "常规统计",
+    "description": "常规统计标题"
+  },
+  "total_refreshes": {
+    "message": "总刷新次数",
+    "description": "总刷新次数标签"
+  },
+  "active_time": {
+    "message": "活动时间",
+    "description": "活动时间标签"
+  },
+  "average_interval": {
+    "message": "平均间隔",
+    "description": "平均间隔标签"
+  },
+  "unique_urls": {
+    "message": "唯一URL",
+    "description": "唯一URL标签"
+  },
+  "detailed_statistics": {
+    "message": "详细统计",
+    "description": "详细统计标题"
+  },
+  "last_7_days": {
+    "message": "最近7天",
+    "description": "最近7天"
+  },
+  "all_time": {
+    "message": "所有时间",
+    "description": "所有时间"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL列标题"
+  },
+  "refreshes": {
+    "message": "刷新次数",
+    "description": "刷新次数列标题"
+  },
+  "avg_interval": {
+    "message": "平均间隔",
+    "description": "平均间隔列标题"
+  },
+  "last_refresh": {
+    "message": "最后刷新",
+    "description": "最后刷新列标题"
+  },
+  "success_rate": {
+    "message": "成功率",
+    "description": "成功率列标题"
+  },
+  "statistics_management": {
+    "message": "统计管理",
+    "description": "统计管理部分标题"
+  },
+  "export_statistics": {
+    "message": "导出统计",
+    "description": "导出统计按钮"
+  },
+  "reset_all_data": {
+    "message": "重置所有数据",
+    "description": "重置所有数据按钮"
+  },
+  "export_statistics_desc": {
+    "message": "导出您的使用统计或重置所有收集的数据。",
+    "description": "导出统计描述"
+  },
+  "activity_log_title": {
+    "message": "活动日志",
+    "description": "活动日志部分标题"
+  },
+  "show_logs_for": {
+    "message": "显示日志：",
+    "description": "日志过滤器标签"
+  },
+  "today": {
+    "message": "今天",
+    "description": "今天"
+  },
+  "yesterday": {
+    "message": "昨天",
+    "description": "昨天"
+  },
+  "last_3_days": {
+    "message": "最近3天",
+    "description": "最近3天"
+  },
+  "refresh": {
+    "message": "刷新",
+    "description": "刷新按钮"
+  },
+  "export_log": {
+    "message": "导出日志",
+    "description": "导出日志按钮"
+  },
+  "clear_log": {
+    "message": "清除日志",
+    "description": "清除日志按钮"
+  },
+  "language_changed": {
+    "message": "语言已更改。请重新加载扩展页面以查看更改。",
+    "description": "语言更改消息"
+  },
+  "status": {
+    "message": "状态",
+    "description": "状态标签"
+  },
+  "idle": {
+    "message": "空闲",
+    "description": "空闲状态"
+  },
+  "time_until_refresh": {
+    "message": "距离下次刷新时间",
+    "description": "倒计时标签"
+  },
+  "presets": {
+    "message": "预设",
+    "description": "预设部分标题"
+  },
+  "custom_interval_placeholder": {
+    "message": "秒（例如：45）",
+    "description": "自定义间隔输入占位符"
+  },
+  "set_custom": {
+    "message": "设置自定义",
+    "description": "设置自定义间隔按钮"
+  },
+  "start": {
+    "message": "开始",
+    "description": "开始按钮"
+  },
+  "pause": {
+    "message": "暂停",
+    "description": "暂停按钮"
+  },
+  "stop": {
+    "message": "停止",
+    "description": "停止按钮"
+  },
+  "sound_notification": {
+    "message": "声音通知：",
+    "description": "声音通知标签"
+  },
+  "max_schedules_reached": {
+    "message": "已达到{max}个计划刷新的最大限制。请在添加新计划之前删除一些现有计划。",
+    "description": "达到最大计划限制时的错误消息"
+  },
+  "duplicate_schedule_url": {
+    "message": "此URL已在计划列表中。",
+    "description": "尝试添加重复URL时的错误消息"
+  },
+  "search_schedules_placeholder": {
+    "message": "按URL搜索计划...",
+    "description": "计划搜索字段的占位符"
+  },
+  "search_results": {
+    "message": "找到：{total}个计划中的{count}个",
+    "description": "搜索结果信息"
+  },
+  "no_search_results": {
+    "message": "未找到\"{query}\"的搜索结果",
+    "description": "搜索无结果时的消息"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "删除",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "编辑",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "启用",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "禁用",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "清除",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "重置",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "已启用",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "已禁用",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "更新计划",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "清除搜索",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "存储用量：",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "首页",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "上一页",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "下一页",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "末页",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "显示第 {start}-{end} 条，共 {total} 条",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "显示第 {start}-{end} 个，共 {total} 个计划",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "显示第 {start}-{end} 个，共找到 {total} 个计划",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "确定要清除活动日志吗？此操作无法撤销。",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "活动日志已清除。",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "加载日志出错",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "无数据",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "没有可显示的记录。",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "没有可导出的日志",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "日志导出成功！",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "导出日志出错",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} 条记录",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "今日 +{count}",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "无活动",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "无新增",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "稳定",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "没有可显示的数据",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "从未",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "统计数据导出成功！",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "导出统计数据出错",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "确定要重置所有统计数据吗？此操作无法撤销。",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "重置统计数据",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "统计数据重置成功！",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "重置统计数据出错",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "错误",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "请输入有效的网址和正整数间隔（秒数 > 0）。",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "确定要删除此计划吗？",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "删除计划",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "网址规则已保存！",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "设置导出成功！",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "设置导入成功！",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "设置文件格式无效或为空。",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "导入设置出错。详情请查看控制台。",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "最小间隔为 30 秒。",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "随机化间隔：",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "默认",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "开",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "关",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "随机化间隔：",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "随机幅度 (±%)：",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "将每次刷新随机变动 ±百分比，使重新加载不会完全按固定的时间表进行（有助于在排队、补货和拍卖页面上规避反机器人检测）。可按标签页和按规则单独覆盖。",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "随机",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "无法访问页面内容",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "此扩展程序仅刷新标签页，无法读取您的网页内容。",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "隐私优先，从设计之初",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "此扩展程序仅刷新您的标签页。它不会请求访问您所浏览网站的内容，您的规则和统计数据都保留在本设备上。",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "无需“读取您在所有网站上的数据”权限",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "您的数据绝不会被发送给我们",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "无外部服务器、无跟踪、无遥测数据",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "自动",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "喜欢这个扩展程序吗？",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "在 Chrome 应用商店快速评分有助于其他人发现它并支持开发。只需几秒钟。",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "在 Chrome 应用商店评分",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "如何发表评价",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "在 Chrome 应用商店中打开本扩展程序的页面",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "打开“评价”标签页，点击“撰写评价”",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "选择 ★ 星级评分，并写上几句感想",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "点击“发布”",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "需登录 Google 账号 · 每位用户限评一次（之后可修改）· 建议在电脑上操作",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "出错时自动恢复：",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "默认",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "开",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "关",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "加载失败时自动恢复：",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "自动重新加载页面未能加载（无连接、DNS 错误、超时）或卡在加载中的受监控标签页。它会按递增的时间间隔不断重试（约 30 秒后，然后是 1、2、5、10 和 30 分钟），之后每 30 分钟重试一次，直到页面加载成功或你将其关闭。需要一次性授权，且仅在受监控的标签页上有效。可针对单个标签页和单条规则进行覆盖设置。",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "自动恢复需要一项额外权限，但该权限未被授予。",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "启用自动恢复？",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "为了检测受监控标签页何时加载失败，此扩展程序需要浏览器的“webNavigation”权限。Chrome 会将其显示为“读取您的浏览记录”，但扩展程序仅用它来察觉页面加载失败，仍然无法读取您页面的内容。点击“启用”即可授予该权限。",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "我活动时暂停：",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "当你正在主动使用当前查看的标签页时（打字或移动鼠标），将跳过该标签页的计划重新加载，并在下一个间隔再次尝试，这样自动刷新就不会打断你正在进行的操作。该功能利用浏览器的空闲状态，仅适用于当前聚焦的标签页——后台标签页仍会按计划继续刷新。",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "继续",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "此网址与现有的计划规则（{url}）重叠。请调整模式以避免重复刷新。",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "请输入有效的网站地址，例如 example.com 或 https://example.com/page。",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "启动或停止当前标签页的自动刷新",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "暂停或恢复当前标签页的自动刷新",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "此窗口中的所有标签页",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "全部启动",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "全部停止",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "已启动 {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "已停止 {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "已跳过 {skipped}",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} 个失败",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} 个超出上限",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "没有符合条件的标签页",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "错误",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "启动或停止窗口中所有标签页的自动刷新",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "此标签页的分组",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "此标签页不在任何分组中",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "启动或停止分组中所有标签页的自动刷新",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "随机间隔范围",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "最小值（秒）",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "最大值（秒）",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "请输入有效范围：30 到 86400 秒，最小值不大于最大值",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "设置范围",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "键盘快捷键",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "自定义快捷键",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "未设置",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "在 Chrome 快捷键页面更改或添加快捷键。",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "刷新与规则",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "高级设置",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

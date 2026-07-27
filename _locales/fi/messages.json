@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Automaattinen päivitys | Sivumonitori",
+    "description": "Laajennuksen nimi"
+  },
+  "extDescription": {
+    "message": "Päivittää sivut automaattisesti määritetyin väliajoin edistyneillä säätimillä ja mukautuksilla.",
+    "description": "Laajennuksen kuvaus"
+  },
+  "advanced_settings": {
+    "message": "Lisäasetukset",
+    "description": "Asetussivun otsikko"
+  },
+  "general": {
+    "message": "Yleiset",
+    "description": "Yleisten asetusten välilehti"
+  },
+  "statistics": {
+    "message": "Tilastot",
+    "description": "Tilastojen välilehti"
+  },
+  "activity_log": {
+    "message": "Toimintaloki",
+    "description": "Toimintalokin välilehti"
+  },
+  "general_settings": {
+    "message": "Yleiset asetukset",
+    "description": "Yleisten asetusten osion otsikko"
+  },
+  "theme": {
+    "message": "Teema:",
+    "description": "Teeman valinnan etiketti"
+  },
+  "light": {
+    "message": "Vaalea",
+    "description": "Vaalea teema"
+  },
+  "dark": {
+    "message": "Tumma",
+    "description": "Tumma teema"
+  },
+  "interface_language": {
+    "message": "Käyttöliittymän kieli:",
+    "description": "Kielen valinnan etiketti"
+  },
+  "english": {
+    "message": "English",
+    "description": "Englannin kieli"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Venäjän kieli"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Espanjan kieli"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Ranskan kieli"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Saksan kieli"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Italian kieli"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portugalin kieli"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japanin kieli"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Yksinkertaistettu kiinan kieli"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Korean kieli"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Arabian kieli"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hindin kieli"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulgarian kieli"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Tšekin kieli"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Tanskan kieli"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Kreikan kieli"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Viron kieli"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukrainan kieli"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Puolan kieli"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkin kieli"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Ruotsin kieli"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovakian kieli"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian kieli"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norjan kieli"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Liettuan kieli"
+  },
+  "enable_sound_notifications": {
+    "message": "Ota ääni-ilmoitukset oletuksena käyttöön:",
+    "description": "Ääni-ilmoitusten kytkimen etiketti"
+  },
+  "auto_restore_timers": {
+    "message": "Palauta ajastimet automaattisesti selaimen uudelleenkäynnistyksen yhteydessä:",
+    "description": "Ajastimien automaattisen palautuksen kytkimen etiketti"
+  },
+  "sound_notifications_desc": {
+    "message": "Tämä asettaa oletusarvon ponnahdusikkunan äänikytkimelle uusille ajastimille.",
+    "description": "Ääni-ilmoitusten kuvaus"
+  },
+  "auto_restore_desc": {
+    "message": "Jatka aktiivisia ajastimia automaattisesti, kun selain käynnistetään uudelleen.",
+    "description": "Ajastimien automaattisen palautuksen kuvaus"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Oletus uusille välilehdille ja ajastetuille säännöille. Kun käytössä, päivitykset ohittavat välimuistin (vastaa Ctrl+Shift+R); kun pois käytöstä, normaali uudelleenlataus käyttää välimuistiin tallennettuja resursseja. Jokainen välilehti ja sääntö voi ohittaa tämän omalla päivitystilallaan.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Päivitystila:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Oletus",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Pakotettu (ohita välimuisti)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normaali (käytä välimuistia)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Muokkaa ajastettua päivitystä",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Asetusten hallinta",
+    "description": "Asetusten hallinta -osion otsikko"
+  },
+  "export_settings": {
+    "message": "Vie asetukset",
+    "description": "Vie asetukset -painike"
+  },
+  "import_settings": {
+    "message": "Tuo asetukset",
+    "description": "Tuo asetukset -painike"
+  },
+  "settings_management_desc": {
+    "message": "Vie tai tuo yleiset asetuksesi, mukaan lukien teeman asetukset, URL-säännöt ja ajoitetut päivitykset. Tämä antaa sinun varmuuskopioida kokoonpanosi tai siirtää asetuksia laitteiden välillä.",
+    "description": "Asetusten hallinnan kuvaus"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL-valkoinen ja musta lista",
+    "description": "URL-sääntöjen osion otsikko"
+  },
+  "whitelist_urls": {
+    "message": "Valkoisen listan URL-osoitteet (yksi riviä kohti, regex tuettu):",
+    "description": "Valkoisen listan URL-osoitteiden etiketti"
+  },
+  "whitelist_placeholder": {
+    "message": "esim., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Valkoisen listan URL-osoitteiden paikkamerkki"
+  },
+  "whitelist_desc": {
+    "message": "Jos valkoinen lista ei ole tyhjä, vain näitä malleja vastaavat URL-osoitteet päivitetään.",
+    "description": "Valkoisen listan URL-osoitteiden kuvaus"
+  },
+  "blacklist_urls": {
+    "message": "Mustan listan URL-osoitteet (yksi riviä kohti, regex tuettu):",
+    "description": "Mustan listan URL-osoitteiden etiketti"
+  },
+  "blacklist_placeholder": {
+    "message": "esim., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Mustan listan URL-osoitteiden paikkamerkki"
+  },
+  "blacklist_desc": {
+    "message": "Näitä malleja vastaavia URL-osoitteita ei koskaan päivitetä, vaikka ne olisivat valkoisella listalla tai ajoitettuja.",
+    "description": "Mustan listan URL-osoitteiden kuvaus"
+  },
+  "save_url_rules": {
+    "message": "Tallenna URL-säännöt",
+    "description": "Tallenna URL-säännöt -painike"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Ajoitetut päivitykset",
+    "description": "Ajoitettujen päivitysten osion otsikko"
+  },
+  "scheduled_desc": {
+    "message": "Määritä tietyt URL-osoitteet, jotka päivitetään automaattisesti tietyin väliajoin. Nämä asetukset säilyvät selainistuntojen välillä ja aktivoituvat, kun vastaava URL avataan.",
+    "description": "Ajoitettujen päivitysten kuvaus"
+  },
+  "add_new_scheduled": {
+    "message": "Lisää uusi ajoitettu päivitys",
+    "description": "Uuden ajoitetun päivityksen lomakkeen otsikko"
+  },
+  "scheduled_url": {
+    "message": "URL (tarkka vastaavuus tai yksinkertainen malli, kuten example.com/path*):",
+    "description": "Ajoitetun URL-osoitteen etiketti"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Ajoitetun URL-osoitteen paikkamerkki"
+  },
+  "refresh_interval": {
+    "message": "Päivitysväli:",
+    "description": "Päivitysvälin etiketti"
+  },
+  "seconds_30": {
+    "message": "30 sekuntia",
+    "description": "30 sekuntia"
+  },
+  "minute_1": {
+    "message": "1 minuutti",
+    "description": "1 minuutti"
+  },
+  "minutes_3": {
+    "message": "3 minuuttia",
+    "description": "3 minuuttia"
+  },
+  "minutes_5": {
+    "message": "5 minuuttia",
+    "description": "5 minuuttia"
+  },
+  "minutes_10": {
+    "message": "10 minuuttia",
+    "description": "10 minuuttia"
+  },
+  "minutes_15": {
+    "message": "15 minuuttia",
+    "description": "15 minuuttia"
+  },
+  "minutes_30": {
+    "message": "30 minuuttia",
+    "description": "30 minuuttia"
+  },
+  "hour_1": {
+    "message": "1 tunti",
+    "description": "1 tunti"
+  },
+  "hours_3": {
+    "message": "3 tuntia",
+    "description": "3 tuntia"
+  },
+  "hours_6": {
+    "message": "6 tuntia",
+    "description": "6 tuntia"
+  },
+  "hours_12": {
+    "message": "12 tuntia",
+    "description": "12 tuntia"
+  },
+  "hours_24": {
+    "message": "24 tuntia",
+    "description": "24 tuntia"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "h",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "pv",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Mukautettu",
+    "description": "Mukautettu väli"
+  },
+  "custom_interval": {
+    "message": "Mukautettu väli:",
+    "description": "Mukautetun välin etiketti"
+  },
+  "enabled": {
+    "message": "Käytössä:",
+    "description": "Käytössä-kytkimen etiketti"
+  },
+  "add_schedule": {
+    "message": "Lisää aikataulu",
+    "description": "Lisää aikataulu -painike"
+  },
+  "current_schedules": {
+    "message": "Nykyiset aikataulut",
+    "description": "Nykyisten aikataulujen luettelon otsikko"
+  },
+  "no_schedules": {
+    "message": "Aikatauluja ei ole vielä määritetty.",
+    "description": "Viesti, kun aikatauluja ei ole"
+  },
+  "usage_statistics": {
+    "message": "Käyttötilastot",
+    "description": "Tilastot-osion otsikko"
+  },
+  "general_statistics": {
+    "message": "Yleiset tilastot",
+    "description": "Yleisten tilastojen otsikko"
+  },
+  "total_refreshes": {
+    "message": "Päivityksiä yhteensä",
+    "description": "Päivityksiä yhteensä -etiketti"
+  },
+  "active_time": {
+    "message": "Aktiivinen aika",
+    "description": "Aktiivinen aika -etiketti"
+  },
+  "average_interval": {
+    "message": "Keskimääräinen väli",
+    "description": "Keskimääräinen väli -etiketti"
+  },
+  "unique_urls": {
+    "message": "Ainutlaatuiset URL-osoitteet",
+    "description": "Ainutlaatuiset URL-osoitteet -etiketti"
+  },
+  "detailed_statistics": {
+    "message": "Yksityiskohtaiset tilastot",
+    "description": "Yksityiskohtaisten tilastojen otsikko"
+  },
+  "last_7_days": {
+    "message": "Viimeiset 7 päivää",
+    "description": "Viimeiset 7 päivää"
+  },
+  "all_time": {
+    "message": "Kaikki ajat",
+    "description": "Kaikki ajat"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL-sarakkeen otsikko"
+  },
+  "refreshes": {
+    "message": "Päivitykset",
+    "description": "Päivitykset-sarakkeen otsikko"
+  },
+  "avg_interval": {
+    "message": "Keskim. väli",
+    "description": "Keskimääräinen väli -sarakkeen otsikko"
+  },
+  "last_refresh": {
+    "message": "Viimeisin päivitys",
+    "description": "Viimeisin päivitys -sarakkeen otsikko"
+  },
+  "success_rate": {
+    "message": "Onnistumisprosentti",
+    "description": "Onnistumisprosentti-sarakkeen otsikko"
+  },
+  "statistics_management": {
+    "message": "Tilastojen hallinta",
+    "description": "Tilastojen hallinta -osion otsikko"
+  },
+  "export_statistics": {
+    "message": "Vie tilastot",
+    "description": "Vie tilastot -painike"
+  },
+  "reset_all_data": {
+    "message": "Nollaa kaikki tiedot",
+    "description": "Nollaa kaikki tiedot -painike"
+  },
+  "export_statistics_desc": {
+    "message": "Vie käyttötilastosi tai nollaa kaikki kerätyt tiedot.",
+    "description": "Vie tilastot -kuvaus"
+  },
+  "activity_log_title": {
+    "message": "Toimintaloki",
+    "description": "Toimintaloki-osion otsikko"
+  },
+  "show_logs_for": {
+    "message": "Näytä lokit:",
+    "description": "Lokisuodattimen etiketti"
+  },
+  "today": {
+    "message": "Tänään",
+    "description": "Tänään"
+  },
+  "yesterday": {
+    "message": "Eilen",
+    "description": "Eilen"
+  },
+  "last_3_days": {
+    "message": "Viimeiset 3 päivää",
+    "description": "Viimeiset 3 päivää"
+  },
+  "refresh": {
+    "message": "Päivitä",
+    "description": "Päivitä-painike"
+  },
+  "export_log": {
+    "message": "Vie loki",
+    "description": "Vie loki -painike"
+  },
+  "clear_log": {
+    "message": "Tyhjennä loki",
+    "description": "Tyhjennä loki -painike"
+  },
+  "language_changed": {
+    "message": "Kieli vaihdettu. Lataa laajennuksen sivut uudelleen nähdäksesi muutokset.",
+    "description": "Kielen vaihto -viesti"
+  },
+  "status": {
+    "message": "Tila",
+    "description": "Tila-etiketti"
+  },
+  "idle": {
+    "message": "Toimeton",
+    "description": "Toimeton tila"
+  },
+  "time_until_refresh": {
+    "message": "Aika seuraavaan päivitykseen",
+    "description": "Ajastimen etiketti"
+  },
+  "presets": {
+    "message": "Esiasetukset",
+    "description": "Esiasetukset-osion otsikko"
+  },
+  "custom_interval_placeholder": {
+    "message": "Sekunnit (esim. 45)",
+    "description": "Mukautetun välin paikkamerkki"
+  },
+  "set_custom": {
+    "message": "Aseta mukautettu",
+    "description": "Aseta mukautettu -painike"
+  },
+  "start": {
+    "message": "Käynnistä",
+    "description": "Käynnistä-painike"
+  },
+  "pause": {
+    "message": "Tauko",
+    "description": "Tauko-painike"
+  },
+  "stop": {
+    "message": "Pysäytä",
+    "description": "Pysäytä-painike"
+  },
+  "sound_notification": {
+    "message": "Ääni-ilmoitus:",
+    "description": "Ääni-ilmoitus-etiketti"
+  },
+  "max_schedules_reached": {
+    "message": "Ajoitettujen päivitysten enimmäismäärä ({max}) on saavutettu. Poista joitakin olemassa olevia aikatauluja ennen uusien lisäämistä.",
+    "description": "Virheilmoitus, kun ajoitettujen päivitysten enimmäismäärä on saavutettu"
+  },
+  "duplicate_schedule_url": {
+    "message": "Tämä URL on jo aikataulussa.",
+    "description": "Virheilmoitus yritettäessä lisätä päällekkäistä URL-osoitetta"
+  },
+  "search_schedules_placeholder": {
+    "message": "Hae aikatauluja URL-osoitteen perusteella...",
+    "description": "Aikataulujen hakukentän paikkamerkki"
+  },
+  "search_results": {
+    "message": "Löytyi: {count} / {total} aikataulua",
+    "description": "Hakutulosten tiedot"
+  },
+  "no_search_results": {
+    "message": "Ei tuloksia haulla \"{query}\"",
+    "description": "Viesti, kun haku ei tuota tuloksia"
+  },
+  "cancel": {
+    "message": "Peruuta",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Poista",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Muokkaa",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Ota käyttöön",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Poista käytöstä",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Tyhjennä",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Nollaa",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Käytössä",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Ei käytössä",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Päivitä aikataulu",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Tyhjennä haku",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Tallennustilan käyttö:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Ensimmäinen sivu",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Edellinen",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Seuraava",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Viimeinen sivu",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Näytetään {start}-{end} / {total} merkinnästä",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Näytetään {start}-{end} / {total} aikataulusta",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Näytetään {start}-{end} / {total} löydetystä aikataulusta",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Haluatko varmasti tyhjentää toimintolokin? Tätä toimintoa ei voi kumota.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Toimintoloki tyhjennetty.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Virhe lokien lataamisessa",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Ei tietoja",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Ei näytettäviä merkintöjä.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Ei vietäviä lokeja",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Lokit viety onnistuneesti!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Virhe lokien viennissä",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} merkintää",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} tänään",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Ei toimintaa",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Ei uusia",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Vakaa",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Ei näytettäviä tietoja",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Ei koskaan",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Tilastot viety onnistuneesti!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Virhe tilastojen viennissä",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Haluatko varmasti nollata kaikki tilastot? Tätä toimintoa ei voi kumota.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Nollaa tilastot",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Tilastot nollattu onnistuneesti!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Virhe tilastojen nollaamisessa",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Virhe",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Anna kelvollinen URL-osoite ja positiivinen aikaväli (sekunnit > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Haluatko varmasti poistaa tämän aikataulun?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Poista aikataulu",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL-säännöt tallennettu!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Asetukset viety onnistuneesti!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Asetukset tuotu onnistuneesti!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Virheellinen tai tyhjä asetustiedoston muoto.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Virhe asetusten tuonnissa. Katso lisätiedot konsolista.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Vähimmäisväli on 30 sekuntia.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Satunnaista aikaväli:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Oletus",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Päällä",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Pois",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Satunnaista aikaväli:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Vaihtelu (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Vaihtele jokaista päivitystä satunnaisella ±prosentilla, jotta uudelleenlataukset eivät tapahdu täysin kiinteän aikataulun mukaan (auttaa välttämään bottien tunnistuksen jonoissa, täydennyksissä ja huutokaupoissa). Välilehti- ja sääntökohtaiset ohitukset ovat käytettävissä.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Satunnainen",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Ei pääsyä sivujen sisältöön",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Tämä laajennus vain lataa välilehdet uudelleen; se ei voi lukea sivujesi sisältöä.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Yksityisyys edellä jo lähtökohtaisesti",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Tämä laajennus vain lataa välilehtesi uudelleen. Se ei pyydä lupaa käyttää vierailemiesi sivustojen sisältöä, ja sääntösi ja tilastosi pysyvät tässä laitteessa.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Ei ”lue kaikkien sivustojesi tiedot” -lupaa",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Tietojasi ei koskaan lähetetä meille",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Ei ulkoisia palvelimia, ei seurantaa, ei telemetriaa",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automaattinen",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Pidätkö laajennuksesta?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Nopea arvio Chrome Web Storessa auttaa muita löytämään sen ja tukee kehitystä. Se vie vain muutaman sekunnin.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Arvioi Chrome Web Storessa",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Näin jätät arvostelun",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Avaa laajennuksen sivu Chrome Web Storessa",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Avaa Arvostelut-välilehti ja valitse ”Kirjoita arvostelu”",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Valitse ★-arvosana ja lisää muutama sana",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Napsauta ”Julkaise”",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Vaatii Google-kirjautumisen · yksi arvostelu käyttäjää kohden (muokattavissa myöhemmin) · helpointa tehdä tietokoneella",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Palauta virheen sattuessa:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Oletus",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Päällä",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Pois",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Palauta automaattisesti latausvirheessä:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Lataa automaattisesti uudelleen seuratun välilehden, jonka sivu ei latautunut (ei yhteyttä, DNS-virhe, aikakatkaisu) tai jäi jumiin latautuessaan. Se yrittää uudelleen kasvavalla aikataululla (noin 30 s kuluttua, sitten 1, 2, 5, 10 ja 30 min) ja sen jälkeen 30 minuutin välein, kunnes sivu latautuu tai poistat toiminnon käytöstä. Vaatii kertaluonteisen luvan ja toimii vain seuratuilla välilehdillä. Välilehti- ja sääntökohtaiset ohitukset ovat käytettävissä.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Automaattinen palautus vaatii lisäluvan, jota ei myönnetty.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Otetaanko automaattinen palautus käyttöön?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Havaitakseen, milloin valvotun välilehden lataus epäonnistuu, laajennus tarvitsee selaimen ”webNavigation”-käyttöoikeuden. Chrome näyttää sen muodossa ”Lue selaushistoriasi”, mutta laajennus käyttää sitä vain epäonnistuneiden latausten havaitsemiseen eikä silti voi lukea sivujesi sisältöä. Myönnä se napsauttamalla Ota käyttöön.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Keskeytä, kun olen aktiivinen:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Kun käytät aktiivisesti välilehteä, jota katselet (kirjoitat tai liikutat hiirtä), kyseisen välilehden ajoitettu uudelleenlataus ohitetaan ja sitä yritetään uudelleen seuraavalla aikavälillä, jotta automaattinen päivitys ei koskaan keskeytä työtäsi. Käyttää selaimen jouten-tilaa ja koskee vain aktiivista välilehteä — taustalla olevat välilehdet päivittyvät edelleen aikataulun mukaan.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Jatka",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Tämä URL-osoite menee päällekkäin aikataulusäännön ({url}) kanssa. Muokkaa mallia välttääksesi päällekkäiset päivitykset.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Anna kelvollinen verkko-osoite, esimerkiksi example.com tai https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Käynnistä tai pysäytä automaattinen päivitys nykyisessä välilehdessä",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Keskeytä tai jatka automaattista päivitystä nykyisessä välilehdessä",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Kaikki tämän ikkunan välilehdet",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Käynnistä kaikki",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Pysäytä kaikki",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Käynnistetty {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Pysäytetty {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} ohitettu",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} epäonnistui",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} yli rajan",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Ei sopivia välilehtiä",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Virhe",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Käynnistä tai pysäytä automaattinen päivitys kaikissa ikkunan välilehdissä",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Tämän välilehden ryhmä",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Tämä välilehti ei ole ryhmässä",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Käynnistä tai pysäytä automaattinen päivitys kaikissa ryhmän välilehdissä",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Satunnaisen välin alue",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Väh., s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Enint., s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Anna kelvollinen alue: 30–86400 sekuntia, väh. ei suurempi kuin enint.",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Aseta alue",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Pikanäppäimet",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Mukauta pikanäppäimiä",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Ei asetettu",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Muuta tai lisää pikanäppäimiä Chromen pikanäppäinsivulla.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Päivitykset ja säännöt",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Lisäasetukset",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

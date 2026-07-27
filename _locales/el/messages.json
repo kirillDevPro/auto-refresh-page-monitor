@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Αυτόματη ανανέωση | Παρακολούθηση σελίδας",
+    "description": "Όνομα επέκτασης"
+  },
+  "extDescription": {
+    "message": "Ανανεώνει αυτόματα σελίδες σε καθορισμένα διαστήματα με προηγμένους ελέγχους και προσαρμογή.",
+    "description": "Περιγραφή επέκτασης"
+  },
+  "advanced_settings": {
+    "message": "Προηγμένες ρυθμίσεις",
+    "description": "Τίτλος σελίδας ρυθμίσεων"
+  },
+  "general": {
+    "message": "Γενικά",
+    "description": "Καρτέλα γενικών ρυθμίσεων"
+  },
+  "statistics": {
+    "message": "Στατιστικά",
+    "description": "Καρτέλα στατιστικών"
+  },
+  "activity_log": {
+    "message": "Αρχείο δραστηριότητας",
+    "description": "Καρτέλα αρχείου δραστηριότητας"
+  },
+  "general_settings": {
+    "message": "Γενικές ρυθμίσεις",
+    "description": "Τίτλος ενότητας γενικών ρυθμίσεων"
+  },
+  "theme": {
+    "message": "Θέμα:",
+    "description": "Ετικέτα επιλογής θέματος"
+  },
+  "light": {
+    "message": "Φωτεινό",
+    "description": "Φωτεινό θέμα"
+  },
+  "dark": {
+    "message": "Σκοτεινό",
+    "description": "Σκοτεινό θέμα"
+  },
+  "interface_language": {
+    "message": "Γλώσσα διεπαφής:",
+    "description": "Ετικέτα επιλογής γλώσσας"
+  },
+  "english": {
+    "message": "English",
+    "description": "Αγγλική γλώσσα"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Ρωσική γλώσσα"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Ισπανική γλώσσα"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Γαλλική γλώσσα"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Γερμανική γλώσσα"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Ιταλική γλώσσα"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Πορτογαλική γλώσσα"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Ιαπωνική γλώσσα"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Κινεζική απλοποιημένη γλώσσα"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Κορεατική γλώσσα"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Αραβική γλώσσα"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Χίντι γλώσσα"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Βουλγαρική γλώσσα"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Τσεχική γλώσσα"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Δανική γλώσσα"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Ελληνική γλώσσα"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Εσθονική γλώσσα"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ουκρανική γλώσσα"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Πολωνική γλώσσα"
+  },
+  "enable_sound_notifications": {
+    "message": "Ενεργοποίηση ηχητικών ειδοποιήσεων από προεπιλογή:",
+    "description": "Ετικέτα ενεργοποίησης ηχητικών ειδοποιήσεων"
+  },
+  "auto_restore_timers": {
+    "message": "Αυτόματη επαναφορά χρονομέτρων κατά την επανεκκίνηση του περιηγητή:",
+    "description": "Ετικέτα αυτόματης επαναφοράς χρονομέτρων"
+  },
+  "sound_notifications_desc": {
+    "message": "Αυτό ορίζει την προεπιλογή για τον διακόπτη ήχου στο αναδυόμενο παράθυρο για νέα χρονόμετρα.",
+    "description": "Περιγραφή ηχητικών ειδοποιήσεων"
+  },
+  "auto_restore_desc": {
+    "message": "Αυτόματη συνέχιση ενεργών χρονομέτρων όταν επανεκκινείται ο περιηγητής.",
+    "description": "Περιγραφή αυτόματης επαναφοράς χρονομέτρων"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Προεπιλογή για νέες καρτέλες και προγραμματισμένους κανόνες. Όταν είναι ενεργό, οι ανανεώσεις παρακάμπτουν τη μνήμη cache (ισοδύναμο με Ctrl+Shift+R)· όταν είναι ανενεργό, μια κανονική επαναφόρτωση χρησιμοποιεί τους αποθηκευμένους πόρους. Κάθε καρτέλα και κανόνας μπορεί να παρακάμψει αυτή τη ρύθμιση με τη δική του λειτουργία ανανέωσης.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Λειτουργία ανανέωσης:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Προεπιλογή",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Πλήρης (παράκαμψη μνήμης cache)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Κανονική (χρήση μνήμης cache)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Επεξεργασία προγραμματισμένης ανανέωσης",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Διαχείριση ρυθμίσεων",
+    "description": "Τίτλος ενότητας διαχείρισης ρυθμίσεων"
+  },
+  "export_settings": {
+    "message": "Εξαγωγή ρυθμίσεων",
+    "description": "Κουμπί εξαγωγής ρυθμίσεων"
+  },
+  "import_settings": {
+    "message": "Εισαγωγή ρυθμίσεων",
+    "description": "Κουμπί εισαγωγής ρυθμίσεων"
+  },
+  "settings_management_desc": {
+    "message": "Εξάγετε ή εισάγετε τις καθολικές σας ρυθμίσεις συμπεριλαμβανομένων των προτιμήσεων θέματος, κανόνων URL και προγραμματισμένων ανανεώσεων. Αυτό σας επιτρέπει να δημιουργήσετε αντίγραφα ασφαλείας της διαμόρφωσής σας ή να μεταφέρετε ρυθμίσεις μεταξύ συσκευών.",
+    "description": "Περιγραφή διαχείρισης ρυθμίσεων"
+  },
+  "url_whitelist_blacklist": {
+    "message": "Λευκή και μαύρη λίστα URL",
+    "description": "Τίτλος ενότητας κανόνων URL"
+  },
+  "whitelist_urls": {
+    "message": "URL λευκής λίστας (ένα ανά γραμμή, υποστηρίζεται regex):",
+    "description": "Ετικέτα URL λευκής λίστας"
+  },
+  "whitelist_placeholder": {
+    "message": "π.χ., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Κείμενο υπόδειξης URL λευκής λίστας"
+  },
+  "whitelist_desc": {
+    "message": "Εάν η λευκή λίστα δεν είναι κενή, μόνο τα URL που ταιριάζουν με αυτά τα μοτίβα θα ανανεώνονται.",
+    "description": "Περιγραφή URL λευκής λίστας"
+  },
+  "blacklist_urls": {
+    "message": "URL μαύρης λίστας (ένα ανά γραμμή, υποστηρίζεται regex):",
+    "description": "Ετικέτα URL μαύρης λίστας"
+  },
+  "blacklist_placeholder": {
+    "message": "π.χ., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Κείμενο υπόδειξης URL μαύρης λίστας"
+  },
+  "blacklist_desc": {
+    "message": "Τα URL που ταιριάζουν με αυτά τα μοτίβα δεν θα ανανεώνονται ποτέ, ακόμη και αν είναι στη λευκή λίστα ή προγραμματισμένα.",
+    "description": "Περιγραφή URL μαύρης λίστας"
+  },
+  "save_url_rules": {
+    "message": "Αποθήκευση κανόνων URL",
+    "description": "Κουμπί αποθήκευσης κανόνων URL"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Προγραμματισμένες ανανεώσεις",
+    "description": "Τίτλος ενότητας προγραμματισμένων ανανεώσεων"
+  },
+  "scheduled_desc": {
+    "message": "Ορίστε συγκεκριμένα URL για αυτόματη ανανέωση σε καθορισμένα διαστήματα. Αυτές οι ρυθμίσεις διατηρούνται μεταξύ των συνεδριών του περιηγητή και ενεργοποιούνται όταν ανοίγει ένα αντίστοιχο URL.",
+    "description": "Περιγραφή προγραμματισμένων ανανεώσεων"
+  },
+  "add_new_scheduled": {
+    "message": "Προσθήκη νέας προγραμματισμένης ανανέωσης",
+    "description": "Τίτλος φόρμας προσθήκης νέας προγραμματισμένης ανανέωσης"
+  },
+  "scheduled_url": {
+    "message": "URL (ακριβής αντιστοίχιση ή απλό μοτίβο όπως example.com/path*):",
+    "description": "Ετικέτα προγραμματισμένου URL"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Κείμενο υπόδειξης προγραμματισμένου URL"
+  },
+  "refresh_interval": {
+    "message": "Διάστημα ανανέωσης:",
+    "description": "Ετικέτα διαστήματος ανανέωσης"
+  },
+  "seconds_30": {
+    "message": "30 δευτερόλεπτα",
+    "description": "30 δευτερόλεπτα"
+  },
+  "minute_1": {
+    "message": "1 λεπτό",
+    "description": "1 λεπτό"
+  },
+  "minutes_3": {
+    "message": "3 λεπτά",
+    "description": "3 λεπτά"
+  },
+  "minutes_5": {
+    "message": "5 λεπτά",
+    "description": "5 λεπτά"
+  },
+  "minutes_10": {
+    "message": "10 λεπτά",
+    "description": "10 λεπτά"
+  },
+  "minutes_15": {
+    "message": "15 λεπτά",
+    "description": "15 λεπτά"
+  },
+  "minutes_30": {
+    "message": "30 λεπτά",
+    "description": "30 λεπτά"
+  },
+  "hour_1": {
+    "message": "1 ώρα",
+    "description": "1 ώρα"
+  },
+  "hours_3": {
+    "message": "3 ώρες",
+    "description": "3 ώρες"
+  },
+  "hours_6": {
+    "message": "6 ώρες",
+    "description": "6 ώρες"
+  },
+  "hours_12": {
+    "message": "12 ώρες",
+    "description": "12 ώρες"
+  },
+  "hours_24": {
+    "message": "24 ώρες",
+    "description": "24 ώρες"
+  },
+  "unit_sec_short": {
+    "message": "δ",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "λ",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "ώ",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "η",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Προσαρμοσμένο",
+    "description": "Προσαρμοσμένο διάστημα"
+  },
+  "custom_interval": {
+    "message": "Προσαρμοσμένο διάστημα:",
+    "description": "Ετικέτα προσαρμοσμένου διαστήματος"
+  },
+  "enabled": {
+    "message": "Ενεργοποιημένο:",
+    "description": "Ετικέτα ενεργοποίησης"
+  },
+  "add_schedule": {
+    "message": "Προσθήκη προγράμματος",
+    "description": "Κουμπί προσθήκης προγράμματος"
+  },
+  "current_schedules": {
+    "message": "Τρέχοντα προγράμματα",
+    "description": "Τίτλος λίστας τρεχόντων προγραμμάτων"
+  },
+  "no_schedules": {
+    "message": "Δεν έχουν οριστεί προγράμματα ακόμη.",
+    "description": "Μήνυμα απουσίας προγραμμάτων"
+  },
+  "usage_statistics": {
+    "message": "Στατιστικά χρήσης",
+    "description": "Τίτλος ενότητας στατιστικών"
+  },
+  "general_statistics": {
+    "message": "Γενικά στατιστικά",
+    "description": "Τίτλος γενικών στατιστικών"
+  },
+  "total_refreshes": {
+    "message": "Συνολικές ανανεώσεις",
+    "description": "Ετικέτα συνολικών ανανεώσεων"
+  },
+  "active_time": {
+    "message": "Ενεργός χρόνος",
+    "description": "Ετικέτα ενεργού χρόνου"
+  },
+  "average_interval": {
+    "message": "Μέσο διάστημα",
+    "description": "Ετικέτα μέσου διαστήματος"
+  },
+  "unique_urls": {
+    "message": "Μοναδικά URL",
+    "description": "Ετικέτα μοναδικών URL"
+  },
+  "detailed_statistics": {
+    "message": "Λεπτομερή στατιστικά",
+    "description": "Τίτλος λεπτομερών στατιστικών"
+  },
+  "last_7_days": {
+    "message": "Τελευταίες 7 ημέρες",
+    "description": "Τελευταίες 7 ημέρες"
+  },
+  "all_time": {
+    "message": "Όλος ο χρόνος",
+    "description": "Όλος ο χρόνος"
+  },
+  "url": {
+    "message": "URL",
+    "description": "Κεφαλίδα στήλης URL"
+  },
+  "refreshes": {
+    "message": "Ανανεώσεις",
+    "description": "Κεφαλίδα στήλης ανανεώσεων"
+  },
+  "avg_interval": {
+    "message": "Μέσο διάστημα",
+    "description": "Κεφαλίδα στήλης μέσου διαστήματος"
+  },
+  "last_refresh": {
+    "message": "Τελευταία ανανέωση",
+    "description": "Κεφαλίδα στήλης τελευταίας ανανέωσης"
+  },
+  "success_rate": {
+    "message": "Ποσοστό επιτυχίας",
+    "description": "Κεφαλίδα στήλης ποσοστού επιτυχίας"
+  },
+  "statistics_management": {
+    "message": "Διαχείριση στατιστικών",
+    "description": "Τίτλος ενότητας διαχείρισης στατιστικών"
+  },
+  "export_statistics": {
+    "message": "Εξαγωγή στατιστικών",
+    "description": "Κουμπί εξαγωγής στατιστικών"
+  },
+  "reset_all_data": {
+    "message": "Επαναφορά όλων των δεδομένων",
+    "description": "Κουμπί επαναφοράς όλων των δεδομένων"
+  },
+  "export_statistics_desc": {
+    "message": "Εξάγετε τα στατιστικά χρήσης σας ή επαναφέρετε όλα τα συλλεχθέντα δεδομένα.",
+    "description": "Περιγραφή εξαγωγής στατιστικών"
+  },
+  "activity_log_title": {
+    "message": "Αρχείο δραστηριότητας",
+    "description": "Τίτλος ενότητας αρχείου δραστηριότητας"
+  },
+  "show_logs_for": {
+    "message": "Εμφάνιση αρχείων για:",
+    "description": "Ετικέτα φίλτρου αρχείων"
+  },
+  "today": {
+    "message": "Σήμερα",
+    "description": "Σήμερα"
+  },
+  "yesterday": {
+    "message": "Χθες",
+    "description": "Χθες"
+  },
+  "last_3_days": {
+    "message": "Τελευταίες 3 ημέρες",
+    "description": "Τελευταίες 3 ημέρες"
+  },
+  "refresh": {
+    "message": "Ανανέωση",
+    "description": "Κουμπί ανανέωσης"
+  },
+  "export_log": {
+    "message": "Εξαγωγή αρχείου",
+    "description": "Κουμπί εξαγωγής αρχείου"
+  },
+  "clear_log": {
+    "message": "Εκκαθάριση αρχείου",
+    "description": "Κουμπί εκκαθάρισης αρχείου"
+  },
+  "language_changed": {
+    "message": "Η γλώσσα άλλαξε. Παρακαλώ επαναφορτώστε τις σελίδες της επέκτασης για να δείτε τις αλλαγές.",
+    "description": "Μήνυμα αλλαγής γλώσσας"
+  },
+  "status": {
+    "message": "Κατάσταση",
+    "description": "Ετικέτα κατάστασης"
+  },
+  "idle": {
+    "message": "Αδρανής",
+    "description": "Αδρανής κατάσταση"
+  },
+  "time_until_refresh": {
+    "message": "Χρόνος μέχρι την επόμενη ανανέωση",
+    "description": "Ετικέτα χρονομέτρου αντίστροφης μέτρησης"
+  },
+  "presets": {
+    "message": "Προκαθορισμένα",
+    "description": "Τίτλος ενότητας προκαθορισμένων"
+  },
+  "custom_interval_placeholder": {
+    "message": "Δευτερόλεπτα (π.χ. 45)",
+    "description": "Κείμενο υπόδειξης εισαγωγής προσαρμοσμένου διαστήματος"
+  },
+  "set_custom": {
+    "message": "Ορισμός προσαρμοσμένου",
+    "description": "Κουμπί ορισμού προσαρμοσμένου διαστήματος"
+  },
+  "start": {
+    "message": "Έναρξη",
+    "description": "Κουμπί έναρξης"
+  },
+  "pause": {
+    "message": "Παύση",
+    "description": "Κουμπί παύσης"
+  },
+  "stop": {
+    "message": "Διακοπή",
+    "description": "Κουμπί διακοπής"
+  },
+  "sound_notification": {
+    "message": "Ηχητική ειδοποίηση:",
+    "description": "Ετικέτα ηχητικής ειδοποίησης"
+  },
+  "max_schedules_reached": {
+    "message": "Επιτεύχθηκε το μέγιστο όριο των {max} προγραμματισμένων ανανεώσεων. Παρακαλώ διαγράψτε κάποια υπάρχοντα προγράμματα πριν προσθέσετε νέα.",
+    "description": "Μήνυμα σφάλματος όταν επιτευχθεί το μέγιστο όριο προγραμμάτων"
+  },
+  "duplicate_schedule_url": {
+    "message": "Αυτή η διεύθυνση URL υπάρχει ήδη στη λίστα προγραμματισμού.",
+    "description": "Μήνυμα σφάλματος κατά την προσπάθεια προσθήκης διπλής URL"
+  },
+  "search_schedules_placeholder": {
+    "message": "Αναζήτηση προγραμμάτων με URL...",
+    "description": "Κείμενο υπόδειξης για το πεδίο αναζήτησης προγραμμάτων"
+  },
+  "search_results": {
+    "message": "Βρέθηκαν: {count} από {total} προγράμματα",
+    "description": "Πληροφορίες αποτελεσμάτων αναζήτησης"
+  },
+  "no_search_results": {
+    "message": "Δεν βρέθηκαν αποτελέσματα για \"{query}\"",
+    "description": "Μήνυμα όταν η αναζήτηση δεν επιστρέφει αποτελέσματα"
+  },
+  "cancel": {
+    "message": "Άκυρο",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Διαγραφή",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Επεξεργασία",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Ενεργοποίηση",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Απενεργοποίηση",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Εκκαθάριση",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Επαναφορά",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Ενεργοποιημένο",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Απενεργοποιημένο",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Ενημέρωση προγράμματος",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Εκκαθάριση αναζήτησης",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Χρήση αποθηκευτικού χώρου:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Πρώτη σελίδα",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Προηγούμενη",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Επόμενη",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Τελευταία σελίδα",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Εμφάνιση {start}-{end} από {total} καταχωρήσεις",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Εμφάνιση {start}-{end} από {total} προγράμματα",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Εμφάνιση {start}-{end} από {total} προγράμματα που βρέθηκαν",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να εκκαθαρίσετε το αρχείο δραστηριότητας; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Το αρχείο δραστηριότητας εκκαθαρίστηκε.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Σφάλμα φόρτωσης αρχείων καταγραφής",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Δεν υπάρχουν δεδομένα",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Δεν υπάρχουν καταχωρήσεις προς εμφάνιση.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Δεν υπάρχουν αρχεία καταγραφής για εξαγωγή",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Τα αρχεία καταγραφής εξήχθησαν με επιτυχία!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Σφάλμα εξαγωγής αρχείων καταγραφής",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} καταχωρήσεις",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} σήμερα",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Καμία δραστηριότητα",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Κανένα νέο",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Σταθερό",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Δεν υπάρχουν δεδομένα προς εμφάνιση",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Ποτέ",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Τα στατιστικά εξήχθησαν με επιτυχία!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Σφάλμα εξαγωγής στατιστικών",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να επαναφέρετε όλα τα στατιστικά; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Επαναφορά στατιστικών",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Τα στατιστικά επαναφέρθηκαν με επιτυχία!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Σφάλμα επαναφοράς στατιστικών",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Σφάλμα",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Εισαγάγετε έγκυρη διεύθυνση URL και θετικό διάστημα (δευτερόλεπτα > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το πρόγραμμα;",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Διαγραφή προγράμματος",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "Οι κανόνες URL αποθηκεύτηκαν!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Οι ρυθμίσεις εξήχθησαν με επιτυχία!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Οι ρυθμίσεις εισήχθησαν με επιτυχία!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Μη έγκυρη ή κενή μορφή αρχείου ρυθμίσεων.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Σφάλμα εισαγωγής ρυθμίσεων. Δείτε την κονσόλα για λεπτομέρειες.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Το ελάχιστο διάστημα είναι 30 δευτερόλεπτα.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Turkish language"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Swedish language"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovak language"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Τυχαίο διάστημα:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Προεπιλογή",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Ενεργό",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Ανενεργό",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Τυχαίο διάστημα:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Διακύμανση (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Μεταβάλλετε κάθε ανανέωση κατά ένα τυχαίο ±ποσοστό ώστε οι επαναφορτώσεις να μην γίνονται με απόλυτα σταθερό πρόγραμμα (βοηθά στην αποφυγή ανίχνευσης anti-bot σε ουρές, ανεφοδιασμούς και δημοπρασίες). Διατίθενται παρακαμψεις ανά καρτέλα και ανά κανόνα.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Τυχαία",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Χωρίς πρόσβαση στο περιεχόμενο των σελίδων",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Αυτή η επέκταση απλώς ανανεώνει τις καρτέλες· δεν μπορεί να διαβάσει το περιεχόμενο των σελίδων σας.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Σχεδιασμένη με προτεραιότητα στην ιδιωτικότητα",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Αυτή η επέκταση απλώς ανανεώνει τις καρτέλες σας. Δεν ζητά καμία πρόσβαση στο περιεχόμενο των ιστοτόπων που επισκέπτεστε, και οι κανόνες και τα στατιστικά σας παραμένουν σε αυτή τη συσκευή.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Καμία άδεια «Ανάγνωση των δεδομένων σας σε όλους τους ιστοτόπους»",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Τα δεδομένα σας δεν αποστέλλονται ποτέ σε εμάς",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Χωρίς εξωτερικούς διακομιστές, χωρίς παρακολούθηση, χωρίς τηλεμετρία",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Αυτόματο",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Σας αρέσει η επέκταση;",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "Μια γρήγορη αξιολόγηση στο Chrome Web Store βοηθά τους άλλους να την ανακαλύψουν και στηρίζει την ανάπτυξη. Χρειάζονται μόνο λίγα δευτερόλεπτα.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Αξιολόγηση στο Chrome Web Store",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Πώς να γράψετε μια αξιολόγηση",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Ανοίξτε τη σελίδα της επέκτασης στο Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Ανοίξτε την καρτέλα «Αξιολογήσεις» και πατήστε «Σύνταξη αξιολόγησης»",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Επιλέξτε μια βαθμολογία με ★ και προσθέστε δυο λόγια",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Πατήστε «Δημοσίευση»",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Απαιτεί σύνδεση με λογαριασμό Google · μία αξιολόγηση ανά χρήστη (μπορείτε να την επεξεργαστείτε αργότερα) · κατά προτίμηση από υπολογιστή",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Αυτόματη ανάκτηση σε σφάλμα:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Προεπιλογή",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Ενεργό",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Ανενεργό",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Αυτόματη ανάκτηση σε αποτυχία φόρτωσης:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Επαναφορτώνει αυτόματα μια παρακολουθούμενη καρτέλα της οποίας η σελίδα απέτυχε να φορτώσει (καμία σύνδεση, σφάλμα DNS, λήξη χρονικού ορίου) ή κόλλησε κατά τη φόρτωση. Συνεχίζει να επαναλαμβάνει τις προσπάθειες με αυξανόμενο πρόγραμμα (μετά από περίπου 30 δευτ., έπειτα 1, 2, 5, 10 και 30 λεπτά) και στη συνέχεια κάθε 30 λεπτά, μέχρι να φορτώσει η σελίδα ή να το απενεργοποιήσετε. Απαιτεί άδεια μίας φοράς και λειτουργεί μόνο σε παρακολουθούμενες καρτέλες. Διατίθενται παρακάμψεις ανά καρτέλα και ανά κανόνα.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Η αυτόματη ανάκτηση χρειάζεται μια επιπλέον άδεια, η οποία δεν χορηγήθηκε.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Ενεργοποίηση αυτόματης ανάκτησης;",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Για να εντοπίζει πότε μια παρακολουθούμενη καρτέλα αποτυγχάνει να φορτώσει, η επέκταση χρειάζεται την άδεια „webNavigation“ του προγράμματος περιήγησης. Το Chrome την εμφανίζει ως „Ανάγνωση του ιστορικού περιήγησής σας“, αλλά η επέκταση τη χρησιμοποιεί μόνο για να αντιλαμβάνεται τις αποτυχημένες φορτώσεις σελίδων και εξακολουθεί να μην μπορεί να διαβάσει το περιεχόμενο των σελίδων σας. Κάντε κλικ στο „Ενεργοποίηση“ για να τη χορηγήσετε.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Παύση όσο είμαι ενεργός:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Όταν χρησιμοποιείτε ενεργά την καρτέλα που βλέπετε (πληκτρολογείτε ή κινείτε το ποντίκι), η προγραμματισμένη επαναφόρτωση αυτής της καρτέλας παραλείπεται και επιχειρείται ξανά στο επόμενο διάστημα, ώστε μια αυτόματη ανανέωση να μη διακόπτει ποτέ αυτό που κάνετε. Χρησιμοποιεί την κατάσταση αδράνειας του προγράμματος περιήγησης και ισχύει μόνο για την ενεργή καρτέλα — οι καρτέλες στο παρασκήνιο συνεχίζουν να ανανεώνονται κανονικά.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Συνέχιση",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Αυτή η διεύθυνση URL επικαλύπτεται με έναν υπάρχοντα κανόνα προγραμματισμού ({url}). Προσαρμόστε το μοτίβο για να αποφύγετε διπλές ανανεώσεις.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Εισαγάγετε μια έγκυρη διεύθυνση ιστότοπου, για παράδειγμα example.com ή https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Έναρξη ή διακοπή της αυτόματης ανανέωσης στην τρέχουσα καρτέλα",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Παύση ή συνέχιση της αυτόματης ανανέωσης στην τρέχουσα καρτέλα",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Όλες οι καρτέλες σε αυτό το παράθυρο",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Έναρξη όλων",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Διακοπή όλων",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Ξεκίνησαν {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Διακόπηκαν {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} παραλείφθηκαν",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} απέτυχαν",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} πάνω από το όριο",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Δεν υπάρχουν κατάλληλες καρτέλες",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Σφάλμα",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Έναρξη ή διακοπή αυτόματης ανανέωσης σε όλες τις καρτέλες του παραθύρου",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Ομάδα αυτής της καρτέλας",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Αυτή η καρτέλα δεν είναι σε ομάδα",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Έναρξη ή διακοπή αυτόματης ανανέωσης σε όλες τις καρτέλες της ομάδας",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Εύρος τυχαίου διαστήματος",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Ελάχ., δ",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Μέγ., δ",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Εισαγάγετε έγκυρο εύρος: 30 έως 86400 δευτερόλεπτα, ελάχ. όχι πάνω από μέγ.",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Ορισμός εύρους",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Συντομεύσεις πληκτρολογίου",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Προσαρμογή συντομεύσεων",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Δεν έχει οριστεί",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Αλλάξτε ή προσθέστε συντομεύσεις από τη σελίδα συντομεύσεων του Chrome.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Ανανεώσεις και κανόνες",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Σύνθετες",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

@@ -1,0 +1,973 @@
+/* ============================================
+   POPUP STYLES - MATERIAL DESIGN 3
+   ============================================ */
+
+/* === MD3 DESIGN TOKENS === */
+:root {
+    /* Primary */
+    --md-sys-color-primary: #3B82F6;
+    --md-sys-color-on-primary: #FFFFFF;
+    --md-sys-color-primary-container: #DBEAFE;
+    --md-sys-color-on-primary-container: #1E40AF;
+
+    /* Secondary */
+    --md-sys-color-secondary: #64748B;
+    --md-sys-color-on-secondary: #FFFFFF;
+    --md-sys-color-secondary-container: #E2E8F0;
+    --md-sys-color-on-secondary-container: #334155;
+
+    /* Surface */
+    --md-sys-color-surface: #FAFAFA;
+    --md-sys-color-surface-dim: #E4E4E7;
+    --md-sys-color-surface-container-lowest: #FFFFFF;
+    --md-sys-color-surface-container-low: #F4F4F5;
+    --md-sys-color-surface-container: #EFEFEF;
+    --md-sys-color-surface-container-high: #E4E4E7;
+    --md-sys-color-surface-container-highest: #D4D4D8;
+    --md-sys-color-on-surface: #18181B;
+    --md-sys-color-on-surface-variant: #71717A;
+
+    /* Outline */
+    --md-sys-color-outline: #A1A1AA;
+    --md-sys-color-outline-variant: #D4D4D8;
+
+    /* Semantic colors */
+    --md-sys-color-success: #22C55E;
+    --md-sys-color-on-success: #FFFFFF;
+    --md-sys-color-success-container: #DCFCE7;
+    --md-sys-color-warning: #F59E0B;
+    --md-sys-color-on-warning: #FFFFFF;
+    --md-sys-color-warning-container: #FEF3C7;
+    --md-sys-color-error: #EF4444;
+    --md-sys-color-on-error: #FFFFFF;
+    --md-sys-color-error-container: #FEE2E2;
+
+    /* Elevation shadows */
+    --md-sys-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+    --md-sys-elevation-2: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.06);
+    --md-sys-elevation-3: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+
+    /* Motion */
+    --md-sys-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+    --md-sys-motion-easing-emphasized: cubic-bezier(0.2, 0, 0, 1);
+    --md-sys-motion-duration-short: 150ms;
+    --md-sys-motion-duration-medium: 250ms;
+    --md-sys-motion-duration-long: 350ms;
+
+    /* Shape */
+    --md-sys-shape-corner-small: 8px;
+    --md-sys-shape-corner-medium: 12px;
+    --md-sys-shape-corner-large: 16px;
+    --md-sys-shape-corner-extra-large: 28px;
+    --md-sys-shape-corner-full: 100px;
+}
+
+/* === BASE STYLES === */
+/* overflow-y must be auto, never hidden: Chrome hard-caps an action popup at 600px tall, and a hidden
+   overflow gives the user no scrollbar or wheel — anything past the cap becomes permanently
+   unreachable, not merely off-screen. The default view fits (~585px) so no scrollbar appears, but an
+   opened drawer runs to ~1000px and its own controls would otherwise be stranded.
+   overflow-x stays hidden: the fixed-width surface is what lets long locales clip rather than
+   sideways-scroll the popup. */
+html, body {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+body {
+    font-family: 'Google Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 12px;
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+    /* 500px is the intrinsic width Chrome sizes the popup to; max-width lets it yield the ~15px a
+       scrollbar takes when a drawer is open, so the surface reflows instead of clipping its right edge. */
+    width: 500px;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 13px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* gap 5px, not 6: the closed popup lands ~585px against Chrome's hard 600px popup cap, and the extra
+   headroom absorbs one wrapped heading in a long locale without reintroducing a scrollbar. */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* === COLLAPSIBLE DRAWERS === */
+/* Keep the advanced controls in the popup — one click away — without loading the default view.
+   Native <details>: no JS, and getElementById still reaches the controls while the drawer is closed,
+   so ui.js's state sync (select values, the sound switch) keeps working unchanged.
+   The drawer's card surface comes from the shared card rule further down, which also zeroes its
+   padding — a drawer pads via its summary and body instead. */
+.popup-drawer > summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    cursor: pointer;
+    list-style: none; /* hide the default disclosure marker (standards/Firefox) */
+    user-select: none;
+    border-radius: var(--md-sys-shape-corner-medium);
+    transition: color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+.popup-drawer > summary::-webkit-details-marker {
+    display: none; /* hide the default disclosure marker (Chrome) */
+}
+
+/* Chevron: points right when closed, rotates down when open. */
+.popup-drawer > summary::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid currentColor;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    transition: transform var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+.popup-drawer[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.popup-drawer > summary:hover {
+    color: var(--md-sys-color-primary);
+}
+
+.popup-drawer > summary:focus-visible {
+    outline: 2px solid var(--md-sys-color-primary);
+    outline-offset: -2px;
+}
+
+.popup-drawer-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2px 12px 10px;
+}
+
+/* Divider between the range block and the option overrides inside the Advanced drawer. */
+.popup-drawer-body > .options-section {
+    border-top: 1px solid var(--md-sys-color-outline-variant);
+    padding-top: 10px;
+}
+
+/* === HEADER === */
+.header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 0 2px;
+}
+
+h1 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface);
+    text-align: left;
+    margin: 0;
+    flex-grow: 1;
+    min-width: 0; /* flex child must be shrinkable for the ellipsis below to engage */
+    white-space: nowrap; /* the title is a one-line brand — never let it wrap the header to two lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: -0.01em;
+}
+
+#settings-button {
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    color: var(--md-sys-color-on-surface-variant);
+    cursor: pointer;
+    padding: 6px;
+    line-height: 1;
+    border-radius: var(--md-sys-shape-corner-full);
+    transition: background-color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard),
+                color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+#settings-button:hover {
+    background-color: rgba(59, 130, 246, 0.08);
+    color: var(--md-sys-color-primary);
+}
+
+#settings-button:active {
+    background-color: rgba(59, 130, 246, 0.12);
+}
+
+/* === SECTION HEADINGS === */
+/* A drawer's <summary> IS that section's heading (the sections inside carry no <h2> of their own), so
+   it shares the heading type scale. Only the margins are h2-specific — a margin on the summary would
+   pad out every closed drawer. */
+h2,
+.popup-drawer > summary {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface-variant);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+/* === CARDS (Elevated Surface) === */
+/* .options-section / .range-section / .bulk-section are deliberately NOT cards: they live inside a
+   .popup-drawer, which is the card. Nesting a card in a card reads as heavy clutter. */
+.status-section,
+.timer-display-section,
+.presets-section-container,
+.custom-interval-section,
+.controls-section,
+.popup-drawer {
+    background-color: var(--md-sys-color-surface-container-lowest);
+    padding: 8px 12px;
+    border-radius: var(--md-sys-shape-corner-medium);
+    box-shadow: var(--md-sys-elevation-1);
+    transition: box-shadow var(--md-sys-motion-duration-medium) var(--md-sys-motion-easing-standard);
+}
+
+/* A drawer is a card, but pads via its <summary> and body instead — it must come after the rule above
+   to win at equal specificity, or the card padding stacks on top and grows every closed drawer. */
+.popup-drawer {
+    padding: 0;
+}
+
+/* === RANGE SECTION (min-max random interval, inside the Advanced drawer) === */
+/* Plain flex column — padding and the card surface come from .popup-drawer / .popup-drawer-body. */
+.range-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* A row of inline form controls: the range's min/max pair, and the custom interval's input + CTA. */
+.range-inputs,
+.custom-interval-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Inputs in a control row are sized by the row: basis 0 so each grows into whatever its siblings leave,
+   and shrinks below its content rather than pushing the row past the popup's clipped edge. */
+.range-inputs input,
+.custom-interval-row #custom-interval-value {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.range-dash {
+    flex: 0 0 auto;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+/* === BULK SECTION (apply to all tabs of the window/group) === */
+/* flex-wrap, never a fixed grid: the popup is a fixed-width surface that clips horizontally, and
+   several of the 27 locales run longer than en — the buttons must wrap, not clip. */
+.bulk-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.bulk-buttons button {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+/* MD3 filled buttons matching the popup's other primary actions (Set custom / Set range), so the bulk
+   controls read as part of the same design instead of default browser buttons. */
+.bulk-section button {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    padding: 9px 14px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--md-sys-shape-corner-full);
+    cursor: pointer;
+    box-shadow: var(--md-sys-elevation-1);
+    transition: box-shadow var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard),
+                opacity var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+.bulk-section button:hover:not(:disabled) {
+    box-shadow: var(--md-sys-elevation-2);
+}
+
+.bulk-section button:active:not(:disabled) {
+    box-shadow: var(--md-sys-elevation-1);
+}
+
+.bulk-section button:disabled {
+    opacity: 0.45;
+    cursor: default;
+    box-shadow: none;
+}
+
+/* The group row starts hidden (HTML `hidden` attribute) and is revealed only for a grouped tab.
+   An explicit rule so a future `display` on .bulk-buttons cannot override the attribute. */
+.bulk-group-buttons {
+    margin-top: 8px;
+}
+
+.bulk-group-buttons[hidden] {
+    display: none;
+}
+
+.bulk-result {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    color: var(--md-sys-color-on-surface-variant);
+    min-height: 1em;
+    overflow-wrap: anywhere;
+}
+
+/* === STATUS SECTION === */
+.status-section {
+    padding: 6px 12px;
+}
+
+.status-section p {
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.status-section p .separator {
+    color: var(--md-sys-color-outline-variant);
+    margin: 0 12px;
+}
+
+#status-message, #refresh-count {
+    font-weight: 600;
+    color: var(--md-sys-color-primary);
+}
+
+#status-message { flex-shrink: 0; }
+#refresh-count { flex-shrink: 0; }
+
+/* === TIMER DISPLAY === */
+/* Horizontal bar: the big countdown on the left, its caption + jitter badge stacked to its right.
+   A row keeps the timer ~56px tall instead of ~113px — the saving that brings the active popup under
+   Chrome's 600px cap — and it fills the width instead of centring a small block in a tall band. */
+.timer-display-section {
+    padding: 6px 12px;
+    background: linear-gradient(135deg, var(--md-sys-color-primary-container) 0%, var(--md-sys-color-surface-container-lowest) 100%);
+}
+
+/* The wrapper is the flex container, NOT the section: ui.js shows/hides the timer by writing the
+   section's inline display (block/none), and an inline style would override a display declared here. */
+.timer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.timer-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    min-width: 0;
+}
+
+#countdown-timer {
+    flex: 0 0 auto;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--md-sys-color-success);
+    margin: 0;
+    display: none;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+}
+
+.timer-display-section p.countdown-label {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface-variant);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+/* Pill beside the countdown (under its caption): signals interval randomization is active + its
+   magnitude. Spacing comes from the .timer-meta column gap. */
+.jitter-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: var(--md-sys-shape-corner-full, 999px);
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.jitter-badge-icon {
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+/* Privacy footer at the bottom of the popup: a permanent shield chip saying the extension has no
+   access to site data. On the on-surface-variant token, so it themes automatically. */
+.privacy-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px 6px;
+    margin-top: 2px;
+    padding: 2px 4px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--md-sys-color-on-surface-variant);
+    cursor: default;
+}
+
+.privacy-footer-icon {
+    font-size: 0.8125rem;
+    line-height: 1;
+}
+
+/* === PRESETS SECTION === */
+.presets-section-container {
+    padding: 8px 12px;
+}
+
+.presets-section {
+    display: grid;
+    /* Derive the column count from a minimum legible chip width rather than hardcoding it: auto-fill
+       packs as many tracks as fit (4 at this width). Labels wrap to a second line when a locale needs
+       it — nothing is clipped — so the floor only has to keep a chip readable, not fit every label. */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 6px;
+}
+
+/* === MD3 TONAL BUTTONS (Presets) === */
+.presets-section button {
+    padding: 7px 8px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--md-sys-shape-corner-full);
+    background-color: var(--md-sys-color-surface-container-high);
+    color: var(--md-sys-color-on-surface);
+    cursor: pointer;
+    transition: all var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.presets-section button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--md-sys-color-primary);
+    opacity: 0;
+    transition: opacity var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+.presets-section button:hover::before {
+    opacity: 0.08;
+}
+
+.presets-section button:active::before {
+    opacity: 0.12;
+}
+
+.presets-section button.active {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    font-weight: 600;
+    box-shadow: var(--md-sys-elevation-1);
+}
+
+.presets-section button.active::before {
+    display: none;
+}
+
+.presets-section button.active:hover {
+    box-shadow: var(--md-sys-elevation-2);
+}
+
+/* === CUSTOM INTERVAL === */
+.custom-interval-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 12px;
+}
+
+/* MD3 Outlined Text Field (custom interval + range min/max). Cosmetics only — every one of these
+   inputs is a flex item sized by its row (see .range-inputs input), so width belongs there, not here. */
+#custom-interval-value,
+#range-min,
+#range-max {
+    padding: 10px 12px;
+    font-size: 0.875rem;
+    border: 1px solid var(--md-sys-color-outline);
+    border-radius: var(--md-sys-shape-corner-small);
+    box-sizing: border-box;
+    text-align: center;
+    background-color: transparent;
+    color: var(--md-sys-color-on-surface);
+    transition: border-color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard),
+                box-shadow var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+    font-family: inherit;
+}
+
+#custom-interval-value:hover,
+#range-min:hover,
+#range-max:hover {
+    border-color: var(--md-sys-color-on-surface);
+}
+
+#custom-interval-value:focus,
+#range-min:focus,
+#range-max:focus {
+    outline: none;
+    border-color: var(--md-sys-color-primary);
+    border-width: 2px;
+    padding: 9px 11px;
+    box-shadow: none;
+}
+
+#custom-interval-value::placeholder,
+#range-min::placeholder,
+#range-max::placeholder {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+/* The 30s-minimum hint: small and muted, and it must wrap — the popup clips horizontally, and several
+   of the 27 locales run well past the en length. */
+.input-hint {
+    font-size: 0.75rem;
+    line-height: 1.3;
+    color: var(--md-sys-color-on-surface-variant);
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+/* Never shrink: squeezed below its label the button clips the text against overflow:hidden, which
+   reads as an off-centre label. The input (basis 0, min-width 0) absorbs the shrink instead, so a long
+   localized label widens the button rather than breaking the row. */
+.custom-interval-row #set-custom-interval {
+    flex: 0 0 auto;
+}
+
+/* MD3 Filled Button (Set Custom / Set Range) */
+.custom-interval-section button#set-custom-interval,
+.range-section button#set-range {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    padding: 8px 16px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--md-sys-shape-corner-full);
+    cursor: pointer;
+    transition: all var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+    box-shadow: var(--md-sys-elevation-1);
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-interval-section button#set-custom-interval::before,
+.range-section button#set-range::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #FFFFFF;
+    opacity: 0;
+    transition: opacity var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+.custom-interval-section button#set-custom-interval:hover,
+.range-section button#set-range:hover {
+    box-shadow: var(--md-sys-elevation-2);
+}
+
+.custom-interval-section button#set-custom-interval:hover::before,
+.range-section button#set-range:hover::before {
+    opacity: 0.08;
+}
+
+.custom-interval-section button#set-custom-interval:active,
+.range-section button#set-range:active {
+    box-shadow: var(--md-sys-elevation-1);
+}
+
+.custom-interval-section button#set-custom-interval:active::before,
+.range-section button#set-range:active::before {
+    opacity: 0.12;
+}
+
+/* === CONTROLS SECTION === */
+.controls-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    padding: 8px 12px;
+}
+
+.controls-section button {
+    font-weight: 500;
+    padding: 8px 12px;
+    font-size: 0.8125rem;
+    border: none;
+    border-radius: var(--md-sys-shape-corner-full);
+    cursor: pointer;
+    transition: all var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+    box-shadow: var(--md-sys-elevation-1);
+    position: relative;
+    overflow: hidden;
+}
+
+.controls-section button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #FFFFFF;
+    opacity: 0;
+    transition: opacity var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+.controls-section button:hover {
+    box-shadow: var(--md-sys-elevation-2);
+}
+
+.controls-section button:hover::before {
+    opacity: 0.08;
+}
+
+.controls-section button:active {
+    box-shadow: var(--md-sys-elevation-1);
+    transform: scale(0.98);
+}
+
+.controls-section button:active::before {
+    opacity: 0.12;
+}
+
+/* Start Button - Success */
+.controls-section button#start-refresh {
+    background-color: var(--md-sys-color-success);
+    color: var(--md-sys-color-on-success);
+}
+
+/* Pause Button - Warning */
+.controls-section button#pause-refresh {
+    background-color: var(--md-sys-color-warning);
+    color: var(--md-sys-color-on-warning);
+}
+
+/* Stop Button - Error */
+.controls-section button#stop-refresh {
+    background-color: var(--md-sys-color-error);
+    color: var(--md-sys-color-on-error);
+}
+
+/* === OPTIONS SECTION (inside the Advanced drawer) === */
+/* One column, not two: a select must show its whole selected value, and the longest real translation
+   ("Twarde (z pominięciem pamięci podręcznej)", pl) needs ~266px — a half-width cell gives ~210px and
+   truncates it. Full width clears every locale. Height costs nothing here: this lives in a drawer the
+   user opens deliberately, and the popup scrolls once open. Padding comes from .popup-drawer-body. */
+.options-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* A select needs its label above it to get the full width; the sound row is a label + switch and stays
+   inline, so the switch sits at the row's right rather than stranded under its own label. */
+.option-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.option-row:has(input[type="checkbox"]) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#refresh-mode,
+#jitter-mode,
+#recover-mode {
+    width: 100%; /* span the option row, so the selected value has the full drawer width to show in */
+    font-size: 0.8125rem;
+    padding: 4px 8px;
+    border-radius: var(--md-sys-shape-corner-small, 4px);
+    border: 1px solid var(--md-sys-color-outline-variant);
+    background-color: var(--md-sys-color-surface-container-lowest);
+    color: var(--md-sys-color-on-surface);
+    cursor: pointer;
+}
+
+.options-section label {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface);
+    cursor: pointer;
+}
+
+/* MD3 switch, built on the checkbox itself so the JS contract is untouched (still input.checked).
+   A bare native checkbox read as a stray next to three full-width selects; a switch carries the same
+   visual weight. Cross-axis alignment is the row's job (align-items: center above).
+   flex: 0 0 auto is load-bearing — it stops a long label squeezing the 40px track. */
+#sound-notification {
+    appearance: none;
+    -webkit-appearance: none;
+    flex: 0 0 auto;
+    position: relative;
+    width: 40px;
+    height: 22px;
+    margin: 0;
+    /* on-surface-variant, not outline: against the track and the card, `outline` only reaches ~1.7:1
+       and ~2.6:1, under the 3:1 WCAG asks of a UI component's boundary. This token clears 3:1 in both
+       themes while still reading as "off". */
+    border: 1px solid var(--md-sys-color-on-surface-variant);
+    border-radius: var(--md-sys-shape-corner-full);
+    background-color: var(--md-sys-color-surface-container-highest);
+    cursor: pointer;
+    transition: background-color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard),
+                border-color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+/* Knob: travels between the two 3px end gaps of the 38px inner track (40px minus the 1px borders). */
+#sound-notification::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--md-sys-color-on-surface-variant);
+    /* Travel on transform, not left: the knob already needs a transform for its -50% centring, and
+       transform animates on the compositor while left would relayout on every frame. */
+    transition: transform var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard),
+                background-color var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard);
+}
+
+#sound-notification:checked {
+    background-color: var(--md-sys-color-primary);
+    border-color: var(--md-sys-color-primary);
+}
+
+/* 3px start + 18px travel = the 21px "on" position, mirroring the 3px gap at the other end. */
+#sound-notification:checked::after {
+    transform: translate(18px, -50%);
+    background-color: var(--md-sys-color-on-primary);
+}
+
+#sound-notification:focus-visible {
+    outline: 2px solid var(--md-sys-color-primary);
+    outline-offset: 2px;
+}
+
+/* ============================================
+   DARK THEME - MATERIAL DESIGN 3
+   ============================================ */
+body.dark-theme {
+    /* Primary - lighter blue for dark theme */
+    --md-sys-color-primary: #60A5FA;
+    --md-sys-color-on-primary: #FFFFFF;
+    --md-sys-color-primary-container: #2563EB;
+    --md-sys-color-on-primary-container: #DBEAFE;
+
+    /* Secondary */
+    --md-sys-color-secondary: #94A3B8;
+    --md-sys-color-on-secondary: #FFFFFF;
+    --md-sys-color-secondary-container: #475569;
+    --md-sys-color-on-secondary-container: #E2E8F0;
+
+    /* Surface - lighter dark backgrounds */
+    --md-sys-color-surface: #1E1E21;
+    --md-sys-color-surface-dim: #1E1E21;
+    --md-sys-color-surface-container-lowest: #161618;
+    --md-sys-color-surface-container-low: #252528;
+    --md-sys-color-surface-container: #2D2D31;
+    --md-sys-color-surface-container-high: #363639;
+    --md-sys-color-surface-container-highest: #414145;
+    --md-sys-color-on-surface: #ECECEF;
+    --md-sys-color-on-surface-variant: #A8A8B0;
+
+    /* Outline */
+    --md-sys-color-outline: #6B6B75;
+    --md-sys-color-outline-variant: #505058;
+
+    /* Semantic colors - brighter for dark theme with white text */
+    --md-sys-color-success: #22C55E;
+    --md-sys-color-on-success: #FFFFFF;
+    --md-sys-color-success-container: #166534;
+    --md-sys-color-on-success-container: #DCFCE7;
+    --md-sys-color-warning: #F59E0B;
+    --md-sys-color-on-warning: #FFFFFF;
+    --md-sys-color-warning-container: #92400E;
+    --md-sys-color-on-warning-container: #FEF3C7;
+    --md-sys-color-error: #EF4444;
+    --md-sys-color-on-error: #FFFFFF;
+    --md-sys-color-error-container: #991B1B;
+    --md-sys-color-on-error-container: #FEE2E2;
+
+    /* Elevation shadows - stronger for dark theme */
+    --md-sys-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+    --md-sys-elevation-2: 0 4px 6px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3);
+    --md-sys-elevation-3: 0 10px 15px rgba(0, 0, 0, 0.4), 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+}
+
+/* Dark theme cards (the drawer is the card; its inner sections are plain — see the light rule).
+   The outline is an INSET SHADOW, not a border: a border is laid out, so it added 2px to each of these
+   cards and made the dark popup ~14px taller than light — enough to push the longest locales past
+   Chrome's 600px cap. An inset shadow paints the same 1px edge at zero layout cost, so dark and light
+   now measure identically. */
+body.dark-theme .status-section,
+body.dark-theme .timer-display-section,
+body.dark-theme .presets-section-container,
+body.dark-theme .custom-interval-section,
+body.dark-theme .controls-section,
+body.dark-theme .popup-drawer {
+    background-color: var(--md-sys-color-surface-container);
+    box-shadow: inset 0 0 0 1px var(--md-sys-color-outline-variant), var(--md-sys-elevation-1);
+}
+
+/* Forced colors (Windows High Contrast) computes box-shadow to none and overrides every background, so
+   both the card surface and the inset edge above disappear — in either theme. An outline survives
+   forced colors and, unlike a border, is not laid out, so the cards keep a perimeter at no height cost. */
+@media (forced-colors: active) {
+    .status-section,
+    .timer-display-section,
+    .presets-section-container,
+    .custom-interval-section,
+    .controls-section,
+    .popup-drawer {
+        outline: 1px solid CanvasText;
+        outline-offset: -1px;
+    }
+}
+
+/* Dark theme timer gradient */
+body.dark-theme .timer-display-section {
+    background: linear-gradient(135deg, rgba(30, 64, 175, 0.3) 0%, var(--md-sys-color-surface-container) 100%);
+}
+
+/* Dark theme preset buttons */
+body.dark-theme .presets-section button {
+    background-color: var(--md-sys-color-surface-container-high);
+    color: var(--md-sys-color-on-surface);
+}
+
+body.dark-theme .presets-section button::before {
+    background-color: var(--md-sys-color-primary);
+}
+
+body.dark-theme .presets-section button.active {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+/* Dark theme input (custom interval + range min/max) */
+body.dark-theme #custom-interval-value,
+body.dark-theme #range-min,
+body.dark-theme #range-max {
+    background-color: transparent;
+    color: var(--md-sys-color-on-surface);
+    border-color: var(--md-sys-color-outline);
+}
+
+body.dark-theme #custom-interval-value:hover,
+body.dark-theme #range-min:hover,
+body.dark-theme #range-max:hover {
+    border-color: var(--md-sys-color-on-surface);
+}
+
+body.dark-theme #custom-interval-value:focus,
+body.dark-theme #range-min:focus,
+body.dark-theme #range-max:focus {
+    border-color: var(--md-sys-color-primary);
+}
+
+body.dark-theme #custom-interval-value::placeholder,
+body.dark-theme #range-min::placeholder,
+body.dark-theme #range-max::placeholder {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Dark theme set custom / set range button */
+body.dark-theme .custom-interval-section button#set-custom-interval,
+body.dark-theme .range-section button#set-range {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+/* Dark theme control buttons - keep semantic colors */
+body.dark-theme .controls-section button#start-refresh {
+    background-color: var(--md-sys-color-success);
+    color: var(--md-sys-color-on-success);
+}
+
+body.dark-theme .controls-section button#pause-refresh {
+    background-color: var(--md-sys-color-warning);
+    color: var(--md-sys-color-on-warning);
+}
+
+body.dark-theme .controls-section button#stop-refresh {
+    background-color: var(--md-sys-color-error);
+    color: var(--md-sys-color-on-error);
+}
+
+/* Dark theme refresh-mode / jitter-mode / recover-mode selects */
+body.dark-theme #refresh-mode,
+body.dark-theme #jitter-mode,
+body.dark-theme #recover-mode {
+    background-color: var(--md-sys-color-surface-container);
+    border-color: var(--md-sys-color-outline-variant);
+    color: var(--md-sys-color-on-surface);
+}

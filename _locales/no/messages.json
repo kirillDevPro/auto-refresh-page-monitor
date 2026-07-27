@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Automatisk oppdatering | Sideovervåking",
+    "description": "Navn på utvidelse"
+  },
+  "extDescription": {
+    "message": "Oppdaterer automatisk sider med angitte intervaller med avanserte kontroller og tilpasning.",
+    "description": "Beskrivelse av utvidelse"
+  },
+  "advanced_settings": {
+    "message": "Avanserte innstillinger",
+    "description": "Tittel på innstillingssiden"
+  },
+  "general": {
+    "message": "Generelt",
+    "description": "Fane for generelle innstillinger"
+  },
+  "statistics": {
+    "message": "Statistikk",
+    "description": "Fane for statistikk"
+  },
+  "activity_log": {
+    "message": "Aktivitetslogg",
+    "description": "Fane for aktivitetslogg"
+  },
+  "general_settings": {
+    "message": "Generelle innstillinger",
+    "description": "Tittel for generelle innstillinger"
+  },
+  "theme": {
+    "message": "Tema:",
+    "description": "Etikett for temavalg"
+  },
+  "light": {
+    "message": "Lyst",
+    "description": "Lyst tema"
+  },
+  "dark": {
+    "message": "Mørkt",
+    "description": "Mørkt tema"
+  },
+  "interface_language": {
+    "message": "Grensesnittspråk:",
+    "description": "Etikett for språkvalg"
+  },
+  "english": {
+    "message": "English",
+    "description": "Engelsk språk"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Russisk språk"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Spansk språk"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Fransk språk"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Tysk språk"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Italiensk språk"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Portugisisk språk"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Japansk språk"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Forenklet kinesisk språk"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Koreansk språk"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Arabisk språk"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Hindi språk"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Bulgarsk språk"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Tsjekkisk språk"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Dansk språk"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Gresk språk"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Estisk språk"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Ukrainsk språk"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Polsk språk"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Tyrkisk språk"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Svensk språk"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Slovakisk språk"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Rumensk språk"
+  },
+  "enable_sound_notifications": {
+    "message": "Aktiver lydvarsler som standard:",
+    "description": "Etikett for veksleknapp for lydvarsler"
+  },
+  "auto_restore_timers": {
+    "message": "Gjenopprett tidtakere automatisk ved omstart av nettleseren:",
+    "description": "Etikett for veksleknapp for automatisk gjenoppretting av tidtakere"
+  },
+  "sound_notifications_desc": {
+    "message": "Dette angir standard for lydbryteren i popup-vinduet for nye tidtakere.",
+    "description": "Beskrivelse av lydvarsler"
+  },
+  "auto_restore_desc": {
+    "message": "Gjenoppta aktive tidtakere automatisk når nettleseren startes på nytt.",
+    "description": "Beskrivelse av automatisk gjenoppretting av tidtakere"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Standard for nye faner og planlagte regler. Når dette er på, omgår oppdateringer hurtigbufferen (tilsvarer Ctrl+Shift+R); når det er av, brukes bufrede ressurser ved en vanlig innlasting. Hver fane og regel kan overstyre dette med sin egen oppdateringsmodus.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Oppdateringsmodus:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Standard",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Tvungen (omgå hurtigbuffer)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normal (bruk hurtigbuffer)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Rediger planlagt oppdatering",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Innstillingsbehandling",
+    "description": "Tittel for innstillingsbehandling"
+  },
+  "export_settings": {
+    "message": "Eksporter innstillinger",
+    "description": "Knapp for eksport av innstillinger"
+  },
+  "import_settings": {
+    "message": "Importer innstillinger",
+    "description": "Knapp for import av innstillinger"
+  },
+  "settings_management_desc": {
+    "message": "Eksporter eller importer dine globale innstillinger, inkludert temapreferanser, URL-regler og planlagte oppdateringer. Dette lar deg sikkerhetskopiere konfigurasjonen din eller overføre innstillinger mellom enheter.",
+    "description": "Beskrivelse av innstillingsbehandling"
+  },
+  "url_whitelist_blacklist": {
+    "message": "URL hviteliste og svarteliste",
+    "description": "Tittel for URL-regler"
+  },
+  "whitelist_urls": {
+    "message": "Hviteliste-URL-er (en per linje, regex støttes):",
+    "description": "Etikett for hviteliste-URL-er"
+  },
+  "whitelist_placeholder": {
+    "message": "f.eks., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Plassholder for hviteliste-URL-er"
+  },
+  "whitelist_desc": {
+    "message": "Hvis hvitelisten ikke er tom, vil bare URL-er som samsvarer med disse mønstrene bli oppdatert.",
+    "description": "Beskrivelse av hviteliste-URL-er"
+  },
+  "blacklist_urls": {
+    "message": "Svarteliste-URL-er (en per linje, regex støttes):",
+    "description": "Etikett for svarteliste-URL-er"
+  },
+  "blacklist_placeholder": {
+    "message": "f.eks., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Plassholder for svarteliste-URL-er"
+  },
+  "blacklist_desc": {
+    "message": "URL-er som samsvarer med disse mønstrene vil aldri bli oppdatert, selv om de er hvitelistet eller planlagt.",
+    "description": "Beskrivelse av svarteliste-URL-er"
+  },
+  "save_url_rules": {
+    "message": "Lagre URL-regler",
+    "description": "Knapp for lagring av URL-regler"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Planlagte oppdateringer",
+    "description": "Tittel for planlagte oppdateringer"
+  },
+  "scheduled_desc": {
+    "message": "Definer spesifikke URL-er som skal oppdateres automatisk med angitte intervaller. Disse innstillingene vedvarer på tvers av nettleserøkter og aktiveres når en samsvarende URL åpnes.",
+    "description": "Beskrivelse av planlagte oppdateringer"
+  },
+  "add_new_scheduled": {
+    "message": "Legg til ny planlagt oppdatering",
+    "description": "Tittel for skjema for ny planlagt oppdatering"
+  },
+  "scheduled_url": {
+    "message": "URL (nøyaktig samsvar eller enkelt mønster som example.com/path*):",
+    "description": "Etikett for planlagt URL"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Plassholder for planlagt URL"
+  },
+  "refresh_interval": {
+    "message": "Oppdateringsintervall:",
+    "description": "Etikett for oppdateringsintervall"
+  },
+  "seconds_30": {
+    "message": "30 sekunder",
+    "description": "30 sekunder"
+  },
+  "minute_1": {
+    "message": "1 minutt",
+    "description": "1 minutt"
+  },
+  "minutes_3": {
+    "message": "3 minutter",
+    "description": "3 minutter"
+  },
+  "minutes_5": {
+    "message": "5 minutter",
+    "description": "5 minutter"
+  },
+  "minutes_10": {
+    "message": "10 minutter",
+    "description": "10 minutter"
+  },
+  "minutes_15": {
+    "message": "15 minutter",
+    "description": "15 minutter"
+  },
+  "minutes_30": {
+    "message": "30 minutter",
+    "description": "30 minutter"
+  },
+  "hour_1": {
+    "message": "1 time",
+    "description": "1 time"
+  },
+  "hours_3": {
+    "message": "3 timer",
+    "description": "3 timer"
+  },
+  "hours_6": {
+    "message": "6 timer",
+    "description": "6 timer"
+  },
+  "hours_12": {
+    "message": "12 timer",
+    "description": "12 timer"
+  },
+  "hours_24": {
+    "message": "24 timer",
+    "description": "24 timer"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "t",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "d",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Egendefinert",
+    "description": "Egendefinert intervall"
+  },
+  "custom_interval": {
+    "message": "Egendefinert intervall:",
+    "description": "Etikett for egendefinert intervall"
+  },
+  "enabled": {
+    "message": "Aktivert:",
+    "description": "Etikett for aktiveringsbryter"
+  },
+  "add_schedule": {
+    "message": "Legg til tidsplan",
+    "description": "Knapp for å legge til tidsplan"
+  },
+  "current_schedules": {
+    "message": "Gjeldende tidsplaner",
+    "description": "Tittel for liste over gjeldende tidsplaner"
+  },
+  "no_schedules": {
+    "message": "Ingen tidsplaner definert ennå.",
+    "description": "Melding for ingen tidsplaner"
+  },
+  "usage_statistics": {
+    "message": "Bruksstatistikk",
+    "description": "Tittel for statistikkseksjon"
+  },
+  "general_statistics": {
+    "message": "Generell statistikk",
+    "description": "Tittel for generell statistikk"
+  },
+  "total_refreshes": {
+    "message": "Totalt antall oppdateringer",
+    "description": "Etikett for totalt antall oppdateringer"
+  },
+  "active_time": {
+    "message": "Aktiv tid",
+    "description": "Etikett for aktiv tid"
+  },
+  "average_interval": {
+    "message": "Gjennomsnittlig intervall",
+    "description": "Etikett for gjennomsnittlig intervall"
+  },
+  "unique_urls": {
+    "message": "Unike URL-er",
+    "description": "Etikett for unike URL-er"
+  },
+  "detailed_statistics": {
+    "message": "Detaljert statistikk",
+    "description": "Tittel for detaljert statistikk"
+  },
+  "last_7_days": {
+    "message": "Siste 7 dager",
+    "description": "Siste 7 dager"
+  },
+  "all_time": {
+    "message": "All tid",
+    "description": "All tid"
+  },
+  "url": {
+    "message": "URL",
+    "description": "Kolonneoverskrift for URL"
+  },
+  "refreshes": {
+    "message": "Oppdateringer",
+    "description": "Kolonneoverskrift for oppdateringer"
+  },
+  "avg_interval": {
+    "message": "Gj.sn. intervall",
+    "description": "Kolonneoverskrift for gjennomsnittlig intervall"
+  },
+  "last_refresh": {
+    "message": "Siste oppdatering",
+    "description": "Kolonneoverskrift for siste oppdatering"
+  },
+  "success_rate": {
+    "message": "Suksessrate",
+    "description": "Kolonneoverskrift for suksessrate"
+  },
+  "statistics_management": {
+    "message": "Statistikkbehandling",
+    "description": "Tittel for statistikkbehandling"
+  },
+  "export_statistics": {
+    "message": "Eksporter statistikk",
+    "description": "Knapp for eksport av statistikk"
+  },
+  "reset_all_data": {
+    "message": "Tilbakestill all data",
+    "description": "Knapp for tilbakestilling av all data"
+  },
+  "export_statistics_desc": {
+    "message": "Eksporter bruksstatistikken din eller tilbakestill all innsamlet data.",
+    "description": "Beskrivelse av eksport av statistikk"
+  },
+  "activity_log_title": {
+    "message": "Aktivitetslogg",
+    "description": "Tittel for aktivitetslogg"
+  },
+  "show_logs_for": {
+    "message": "Vis logger for:",
+    "description": "Etikett for loggfilter"
+  },
+  "today": {
+    "message": "I dag",
+    "description": "I dag"
+  },
+  "yesterday": {
+    "message": "I går",
+    "description": "I går"
+  },
+  "last_3_days": {
+    "message": "Siste 3 dager",
+    "description": "Siste 3 dager"
+  },
+  "refresh": {
+    "message": "Oppdater",
+    "description": "Knapp for å oppdatere"
+  },
+  "export_log": {
+    "message": "Eksporter logg",
+    "description": "Knapp for eksport av logg"
+  },
+  "clear_log": {
+    "message": "Tøm logg",
+    "description": "Knapp for å tømme logg"
+  },
+  "language_changed": {
+    "message": "Språket er endret. Last inn utvidelsessidene på nytt for å se endringene.",
+    "description": "Melding om språkendring"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Etikett for status"
+  },
+  "idle": {
+    "message": "Inaktiv",
+    "description": "Inaktiv status"
+  },
+  "time_until_refresh": {
+    "message": "Tid til neste oppdatering",
+    "description": "Etikett for nedtellingstidtaker"
+  },
+  "presets": {
+    "message": "Forhåndsinnstillinger",
+    "description": "Tittel for forhåndsinnstillinger"
+  },
+  "custom_interval_placeholder": {
+    "message": "Sekunder (f.eks. 45)",
+    "description": "Plassholder for egendefinert intervall"
+  },
+  "set_custom": {
+    "message": "Angi egendefinert",
+    "description": "Knapp for å angi egendefinert intervall"
+  },
+  "start": {
+    "message": "Start",
+    "description": "Startknapp"
+  },
+  "pause": {
+    "message": "Pause",
+    "description": "Pauseknapp"
+  },
+  "stop": {
+    "message": "Stopp",
+    "description": "Stoppknapp"
+  },
+  "sound_notification": {
+    "message": "Lydvarsel:",
+    "description": "Etikett for lydvarsel"
+  },
+  "max_schedules_reached": {
+    "message": "Maksimal grense på {max} planlagte oppdateringer er nådd. Slett noen eksisterende tidsplaner før du legger til nye.",
+    "description": "Feilmelding når maksimal grense for tidsplaner er nådd"
+  },
+  "duplicate_schedule_url": {
+    "message": "Denne URL-en er allerede i tidspanlisten.",
+    "description": "Feilmelding ved forsøk på å legge til en duplikat URL"
+  },
+  "search_schedules_placeholder": {
+    "message": "Søk i tidsplaner etter URL ...",
+    "description": "Plassholder for søkefelt for tidsplaner"
+  },
+  "search_results": {
+    "message": "Fant: {count} av {total} tidsplaner",
+    "description": "Informasjon om søkeresultater"
+  },
+  "no_search_results": {
+    "message": "Ingen resultater funnet for \"{query}\"",
+    "description": "Melding når søk ikke gir noen resultater"
+  },
+  "cancel": {
+    "message": "Avbryt",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Slett",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Rediger",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Aktiver",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Deaktiver",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Tøm",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Tilbakestill",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Aktivert",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Deaktivert",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Oppdater plan",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Tøm søk",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Lagringsbruk:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Første side",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Forrige",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Neste",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Siste side",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Viser {start}-{end} av {total} oppføringer",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Viser {start}-{end} av {total} planer",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Viser {start}-{end} av {total} funne planer",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Er du sikker på at du vil tømme aktivitetsloggen? Denne handlingen kan ikke angres.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Aktivitetsloggen ble tømt.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Feil ved lasting av logger",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Ingen data",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Ingen oppføringer å vise.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Ingen logger å eksportere",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Loggene ble eksportert!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Feil ved eksportering av logger",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} oppføringer",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} i dag",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Ingen aktivitet",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Ingen nye",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Stabil",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Ingen data å vise",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Aldri",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Statistikken ble eksportert!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Feil ved eksportering av statistikk",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Er du sikker på at du vil tilbakestille all statistikk? Denne handlingen kan ikke angres.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Tilbakestill statistikk",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Statistikken ble tilbakestilt!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Feil ved tilbakestilling av statistikk",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Feil",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Skriv inn en gyldig URL og et positivt intervall (sekunder > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Er du sikker på at du vil slette denne planen?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Slett plan",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "URL-regler lagret!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Innstillingene ble eksportert!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Innstillingene ble importert!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Ugyldig eller tomt format på innstillingsfilen.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Feil ved importering av innstillinger. Se konsollen for detaljer.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Minimumsintervallet er 30 sekunder.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Tilfeldig intervall:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Standard",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "På",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Av",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Tilfeldig intervall:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Variasjon (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Varier hver oppdatering med en tilfeldig ±prosent slik at omlastinger ikke skjer etter en helt fast tidsplan (hjelper med å unngå anti-bot-deteksjon i køer, restock og auksjoner). Overstyringer per fane og per regel er tilgjengelige.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Tilfeldig",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Ingen tilgang til sideinnhold",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Denne utvidelsen laster bare inn faner på nytt; den kan ikke lese innholdet på sidene dine.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Personvern i kjernen",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Denne utvidelsen laster bare inn fanene dine på nytt. Den ber ikke om tilgang til innholdet på nettstedene du besøker, og reglene og statistikken din blir værende på denne enheten.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Ingen tillatelse til å «lese og endre alle dataene dine på alle nettsteder du besøker»",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Dataene dine sendes aldri til oss",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Ingen eksterne servere, ingen sporing, ingen telemetri",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automatisk",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Liker du utvidelsen?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "En rask vurdering i Chrome Nettmarked hjelper andre med å finne den og støtter utviklingen. Det tar bare noen sekunder.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Vurder i Chrome Nettmarked",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Slik legger du igjen en omtale",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Åpne utvidelsens side i Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Åpne fanen «Omtaler» og klikk «Skriv en omtale»",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Velg en ★-vurdering og legg til noen ord",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Klikk «Publiser»",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Krever pålogging med Google · én omtale per bruker (kan endres senere) · enklest på en datamaskin",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Automatisk gjenoppretting ved feil:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Standard",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "På",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Av",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Automatisk gjenoppretting ved mislykket lasting:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Laster automatisk inn på nytt en overvåket fane der siden ikke ble lastet inn (ingen tilkobling, DNS-feil, tidsavbrudd) eller ble hengende under innlasting. Den fortsetter å prøve på nytt med økende intervaller (etter ca. 30 s, deretter 1, 2, 5, 10 og 30 min) og så hvert 30. minutt til siden lastes inn eller du slår det av. Krever en engangstillatelse og fungerer bare på overvåkede faner. Du kan overstyre per fane og per regel.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Automatisk gjenoppretting krever en ekstra tillatelse, som ikke ble gitt.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Slå på automatisk gjenoppretting?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "For å oppdage når en overvåket fane ikke lastes inn, trenger utvidelsen nettleserens «webNavigation»-tillatelse. Chrome viser den som «Les nettleserloggen din», men utvidelsen bruker den bare til å merke mislykkede sidelastinger og kan fortsatt ikke lese innholdet på sidene dine. Klikk på Slå på for å gi den.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Sett på pause mens jeg er aktiv:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Når du aktivt bruker fanen du ser på (skriver eller beveger musen), hoppes den planlagte oppdateringen av den fanen over og forsøkes på nytt ved neste intervall, slik at en automatisk oppdatering aldri avbryter det du holder på med. Bruker nettleserens inaktivitetstilstand og gjelder bare den aktive fanen — faner i bakgrunnen oppdateres fortsatt etter planen.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Gjenoppta",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Denne URL-en overlapper en eksisterende tidsplanregel ({url}). Juster mønsteret for å unngå dupliserte oppdateringer.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Skriv inn en gyldig nettadresse, for eksempel example.com eller https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Start eller stopp automatisk oppdatering i den gjeldende fanen",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Sett automatisk oppdatering på pause, eller gjenoppta den i den gjeldende fanen",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Alle faner i dette vinduet",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Start alle",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Stopp alle",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Startet {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Stoppet {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} hoppet over",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} mislyktes",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} over grensen",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Ingen aktuelle faner",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Feil",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Start eller stopp automatisk oppdatering på alle faner i vinduet",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Denne fanens gruppe",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Denne fanen er ikke i en gruppe",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Start eller stopp automatisk oppdatering på alle faner i gruppen",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Område for tilfeldig intervall",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Maks, s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Angi et gyldig område: 30 til 86400 sekunder, min ikke over maks",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Angi område",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Hurtigtaster",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Tilpass hurtigtaster",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Ikke angitt",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Endre eller legg til hurtigtaster på Chromes hurtigtastside.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Oppdateringer og regler",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Avansert",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

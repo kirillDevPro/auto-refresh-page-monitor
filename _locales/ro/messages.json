@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - Actualizare automată | Monitor pagină",
+    "description": "Numele extensiei"
+  },
+  "extDescription": {
+    "message": "Reîmprospătează automat paginile la intervale specificate, cu controale avansate și personalizare.",
+    "description": "Descrierea extensiei"
+  },
+  "advanced_settings": {
+    "message": "Setări avansate",
+    "description": "Titlul paginii de setări"
+  },
+  "general": {
+    "message": "General",
+    "description": "Fila de setări generale"
+  },
+  "statistics": {
+    "message": "Statistici",
+    "description": "Fila de statistici"
+  },
+  "activity_log": {
+    "message": "Jurnal de activitate",
+    "description": "Fila jurnalului de activitate"
+  },
+  "general_settings": {
+    "message": "Setări generale",
+    "description": "Titlul secțiunii de setări generale"
+  },
+  "theme": {
+    "message": "Temă:",
+    "description": "Eticheta de selecție a temei"
+  },
+  "light": {
+    "message": "Luminos",
+    "description": "Tema luminoasă"
+  },
+  "dark": {
+    "message": "Întunecat",
+    "description": "Tema întunecată"
+  },
+  "interface_language": {
+    "message": "Limba interfeței:",
+    "description": "Eticheta de selecție a limbii"
+  },
+  "english": {
+    "message": "English",
+    "description": "Limba engleză"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "Limba rusă"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Limba spaniolă"
+  },
+  "french": {
+    "message": "Français",
+    "description": "Limba franceză"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "Limba germană"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Limba italiană"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "Limba portugheză"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "Limba japoneză"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "Limba chineză simplificată"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "Limba coreeană"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "Limba arabă"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "Limba hindi"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "Limba bulgară"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "Limba cehă"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "Limba daneză"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "Limba greacă"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "Limba estonă"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "Limba ucraineană"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "Limba poloneză"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "Limba turcă"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "Limba suedeză"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "Limba slovacă"
+  },
+  "enable_sound_notifications": {
+    "message": "Activați notificările sonore în mod implicit:",
+    "description": "Eticheta comutatorului de notificări sonore"
+  },
+  "auto_restore_timers": {
+    "message": "Restabiliți automat cronometrele la repornirea browserului:",
+    "description": "Eticheta comutatorului de restaurare automată a cronometrelor"
+  },
+  "sound_notifications_desc": {
+    "message": "Aceasta setează valoarea implicită pentru comutatorul de sunet din fereastra pop-up pentru cronometrele noi.",
+    "description": "Descrierea notificărilor sonore"
+  },
+  "auto_restore_desc": {
+    "message": "Reluați automat cronometrele active la repornirea browserului.",
+    "description": "Descrierea restaurării automate a cronometrelor"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "Valoare implicită pentru filele noi și regulile programate. Când este activată, reîmprospătările ignoră cache-ul (echivalent cu Ctrl+Shift+R); când este dezactivată, o reîncărcare normală folosește resursele din cache. Fiecare filă și regulă poate suprascrie această setare cu propriul mod de reîmprospătare.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "Mod de reîmprospătare:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "Implicit",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "Forțată (ignoră cache-ul)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "Normală (folosește cache-ul)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "Editează reîmprospătarea programată",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "Gestionarea setărilor",
+    "description": "Titlul secțiunii de gestionare a setărilor"
+  },
+  "export_settings": {
+    "message": "Exportați setările",
+    "description": "Butonul de export al setărilor"
+  },
+  "import_settings": {
+    "message": "Importați setările",
+    "description": "Butonul de import al setărilor"
+  },
+  "settings_management_desc": {
+    "message": "Exportați sau importați setările globale, inclusiv preferințele de temă, regulile URL și reîmprospătările programate. Acest lucru vă permite să faceți o copie de rezervă a configurației sau să transferați setările între dispozitive.",
+    "description": "Descrierea gestionării setărilor"
+  },
+  "url_whitelist_blacklist": {
+    "message": "Listă albă și listă neagră de URL-uri",
+    "description": "Titlul secțiunii de reguli URL"
+  },
+  "whitelist_urls": {
+    "message": "URL-uri pe lista albă (unul pe rând, regex acceptat):",
+    "description": "Eticheta URL-urilor pe lista albă"
+  },
+  "whitelist_placeholder": {
+    "message": "de ex., https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "Text substituent pentru URL-urile pe lista albă"
+  },
+  "whitelist_desc": {
+    "message": "Dacă lista albă nu este goală, se vor reîmprospăta numai URL-urile care corespund acestor modele.",
+    "description": "Descrierea URL-urilor pe lista albă"
+  },
+  "blacklist_urls": {
+    "message": "URL-uri pe lista neagră (unul pe rând, regex acceptat):",
+    "description": "Eticheta URL-urilor pe lista neagră"
+  },
+  "blacklist_placeholder": {
+    "message": "de ex., https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "Text substituent pentru URL-urile pe lista neagră"
+  },
+  "blacklist_desc": {
+    "message": "URL-urile care corespund acestor modele nu vor fi niciodată reîmprospătate, chiar dacă sunt pe lista albă sau programate.",
+    "description": "Descrierea URL-urilor pe lista neagră"
+  },
+  "save_url_rules": {
+    "message": "Salvați regulile URL",
+    "description": "Butonul de salvare a regulilor URL"
+  },
+  "scheduled_refreshes_title": {
+    "message": "Reîmprospătări programate",
+    "description": "Titlul secțiunii de reîmprospătări programate"
+  },
+  "scheduled_desc": {
+    "message": "Definiți URL-uri specifice pentru a se reîmprospăta automat la intervale stabilite. Aceste setări persistă între sesiunile de browser și se activează la deschiderea unui URL corespunzător.",
+    "description": "Descrierea reîmprospătărilor programate"
+  },
+  "add_new_scheduled": {
+    "message": "Adăugați o nouă reîmprospătare programată",
+    "description": "Titlul formularului de adăugare a unei noi reîmprospătări programate"
+  },
+  "scheduled_url": {
+    "message": "URL (potrivire exactă sau model simplu precum example.com/path*):",
+    "description": "Eticheta URL-ului programat"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "Text substituent pentru URL-ul programat"
+  },
+  "refresh_interval": {
+    "message": "Interval de reîmprospătare:",
+    "description": "Eticheta intervalului de reîmprospătare"
+  },
+  "seconds_30": {
+    "message": "30 de secunde",
+    "description": "30 de secunde"
+  },
+  "minute_1": {
+    "message": "1 minut",
+    "description": "1 minut"
+  },
+  "minutes_3": {
+    "message": "3 minute",
+    "description": "3 minute"
+  },
+  "minutes_5": {
+    "message": "5 minute",
+    "description": "5 minute"
+  },
+  "minutes_10": {
+    "message": "10 minute",
+    "description": "10 minute"
+  },
+  "minutes_15": {
+    "message": "15 minute",
+    "description": "15 minute"
+  },
+  "minutes_30": {
+    "message": "30 de minute",
+    "description": "30 de minute"
+  },
+  "hour_1": {
+    "message": "1 oră",
+    "description": "1 oră"
+  },
+  "hours_3": {
+    "message": "3 ore",
+    "description": "3 ore"
+  },
+  "hours_6": {
+    "message": "6 ore",
+    "description": "6 ore"
+  },
+  "hours_12": {
+    "message": "12 ore",
+    "description": "12 ore"
+  },
+  "hours_24": {
+    "message": "24 de ore",
+    "description": "24 de ore"
+  },
+  "unit_sec_short": {
+    "message": "s",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "min",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "h",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "z",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "Personalizat",
+    "description": "Interval personalizat"
+  },
+  "custom_interval": {
+    "message": "Interval personalizat:",
+    "description": "Eticheta intervalului personalizat"
+  },
+  "enabled": {
+    "message": "Activat:",
+    "description": "Eticheta comutatorului de activare"
+  },
+  "add_schedule": {
+    "message": "Adăugați programare",
+    "description": "Butonul de adăugare a programării"
+  },
+  "current_schedules": {
+    "message": "Programări curente",
+    "description": "Titlul listei de programări curente"
+  },
+  "no_schedules": {
+    "message": "Nu există încă programări definite.",
+    "description": "Mesaj pentru nicio programare"
+  },
+  "usage_statistics": {
+    "message": "Statistici de utilizare",
+    "description": "Titlul secțiunii de statistici"
+  },
+  "general_statistics": {
+    "message": "Statistici generale",
+    "description": "Titlul statisticilor generale"
+  },
+  "total_refreshes": {
+    "message": "Total reîmprospătări",
+    "description": "Eticheta totalului de reîmprospătări"
+  },
+  "active_time": {
+    "message": "Timp activ",
+    "description": "Eticheta timpului activ"
+  },
+  "average_interval": {
+    "message": "Interval mediu",
+    "description": "Eticheta intervalului mediu"
+  },
+  "unique_urls": {
+    "message": "URL-uri unice",
+    "description": "Eticheta URL-urilor unice"
+  },
+  "detailed_statistics": {
+    "message": "Statistici detaliate",
+    "description": "Titlul statisticilor detaliate"
+  },
+  "last_7_days": {
+    "message": "Ultimele 7 zile",
+    "description": "Ultimele 7 zile"
+  },
+  "all_time": {
+    "message": "Toate timpurile",
+    "description": "Toate timpurile"
+  },
+  "url": {
+    "message": "URL",
+    "description": "Antetul coloanei URL"
+  },
+  "refreshes": {
+    "message": "Reîmprospătări",
+    "description": "Antetul coloanei de reîmprospătări"
+  },
+  "avg_interval": {
+    "message": "Interval mediu",
+    "description": "Antetul coloanei de interval mediu"
+  },
+  "last_refresh": {
+    "message": "Ultima reîmprospătare",
+    "description": "Antetul coloanei de ultimă reîmprospătare"
+  },
+  "success_rate": {
+    "message": "Rata de succes",
+    "description": "Antetul coloanei de rată de succes"
+  },
+  "statistics_management": {
+    "message": "Gestionarea statisticilor",
+    "description": "Titlul secțiunii de gestionare a statisticilor"
+  },
+  "export_statistics": {
+    "message": "Exportați statisticile",
+    "description": "Butonul de export al statisticilor"
+  },
+  "reset_all_data": {
+    "message": "Resetați toate datele",
+    "description": "Butonul de resetare a tuturor datelor"
+  },
+  "export_statistics_desc": {
+    "message": "Exportați statisticile de utilizare sau resetați toate datele colectate.",
+    "description": "Descrierea exportului de statistici"
+  },
+  "activity_log_title": {
+    "message": "Jurnal de activitate",
+    "description": "Titlul secțiunii jurnalului de activitate"
+  },
+  "show_logs_for": {
+    "message": "Afișați jurnalele pentru:",
+    "description": "Eticheta filtrului de jurnale"
+  },
+  "today": {
+    "message": "Astăzi",
+    "description": "Astăzi"
+  },
+  "yesterday": {
+    "message": "Ieri",
+    "description": "Ieri"
+  },
+  "last_3_days": {
+    "message": "Ultimele 3 zile",
+    "description": "Ultimele 3 zile"
+  },
+  "refresh": {
+    "message": "Reîmprospătare",
+    "description": "Butonul de reîmprospătare"
+  },
+  "export_log": {
+    "message": "Exportați jurnalul",
+    "description": "Butonul de export al jurnalului"
+  },
+  "clear_log": {
+    "message": "Ștergeți jurnalul",
+    "description": "Butonul de ștergere a jurnalului"
+  },
+  "language_changed": {
+    "message": "Limba a fost schimbată. Vă rugăm să reîncărcați paginile extensiei pentru a vedea modificările.",
+    "description": "Mesaj de schimbare a limbii"
+  },
+  "status": {
+    "message": "Stare",
+    "description": "Eticheta stării"
+  },
+  "idle": {
+    "message": "Inactiv",
+    "description": "Starea de inactivitate"
+  },
+  "time_until_refresh": {
+    "message": "Timp până la următoarea reîmprospătare",
+    "description": "Eticheta cronometrului de numărătoare inversă"
+  },
+  "presets": {
+    "message": "Presetări",
+    "description": "Titlul secțiunii de presetări"
+  },
+  "custom_interval_placeholder": {
+    "message": "Secunde (de ex., 45)",
+    "description": "Text substituent pentru intervalul personalizat"
+  },
+  "set_custom": {
+    "message": "Setați personalizat",
+    "description": "Butonul de setare a intervalului personalizat"
+  },
+  "start": {
+    "message": "Start",
+    "description": "Butonul de start"
+  },
+  "pause": {
+    "message": "Pauză",
+    "description": "Butonul de pauză"
+  },
+  "stop": {
+    "message": "Stop",
+    "description": "Butonul de stop"
+  },
+  "sound_notification": {
+    "message": "Notificare sonoră:",
+    "description": "Eticheta notificării sonore"
+  },
+  "max_schedules_reached": {
+    "message": "Limita maximă de {max} de reîmprospătări programate a fost atinsă. Vă rugăm să ștergeți unele programări existente înainte de a adăuga altele noi.",
+    "description": "Mesaj de eroare la atingerea limitei maxime de programări"
+  },
+  "duplicate_schedule_url": {
+    "message": "Acest URL este deja în lista de programări.",
+    "description": "Mesaj de eroare la încercarea de a adăuga un URL duplicat"
+  },
+  "search_schedules_placeholder": {
+    "message": "Căutați programări după URL...",
+    "description": "Text substituent pentru câmpul de căutare a programărilor"
+  },
+  "search_results": {
+    "message": "Găsit: {count} din {total} programări",
+    "description": "Informații despre rezultatele căutării"
+  },
+  "no_search_results": {
+    "message": "Nu s-au găsit rezultate pentru \"{query}\"",
+    "description": "Mesaj când căutarea nu returnează rezultate"
+  },
+  "cancel": {
+    "message": "Anulează",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "Șterge",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "Editează",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "Activează",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "Dezactivează",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "Golește",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "Resetează",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "Activat",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "Dezactivat",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "Actualizează programarea",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "Șterge căutarea",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "Spațiu utilizat:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "Prima pagină",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "Anterioara",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "Următoarea",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "Ultima pagină",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "Se afișează {start}-{end} din {total} intrări",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "Se afișează {start}-{end} din {total} programări",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "Se afișează {start}-{end} din {total} programări găsite",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "Sigur doriți să goliți jurnalul de activitate? Această acțiune nu poate fi anulată.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "Jurnal de activitate golit.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "Eroare la încărcarea jurnalelor",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "Fără date",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "Nicio intrare de afișat.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "Niciun jurnal de exportat",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "Jurnale exportate cu succes!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "Eroare la exportarea jurnalelor",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} intrări",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} astăzi",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "Nicio activitate",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "Niciuna nouă",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "Stabil",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "Nu există date de afișat",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "Niciodată",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "Statistici exportate cu succes!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "Eroare la exportarea statisticilor",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "Sigur doriți să resetați toate statisticile? Această acțiune nu poate fi anulată.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "Resetare statistici",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "Statistici resetate cu succes!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "Eroare la resetarea statisticilor",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "Eroare",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "Introduceți un URL valid și un interval pozitiv (secunde > 0).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "Sigur doriți să ștergeți această programare?",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "Ștergere programare",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "Reguli URL salvate!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "Setări exportate cu succes!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "Setări importate cu succes!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "Format de fișier de setări nevalid sau gol.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "Eroare la importarea setărilor. Consultați consola pentru detalii.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "Intervalul minim este de 30 de secunde.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "Romanian language"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "Norwegian language"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "Lithuanian language"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "Finnish language"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "Interval aleatoriu:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "Implicit",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "Activat",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "Dezactivat",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "Interval aleatoriu:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "Variație (±%):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "Variază fiecare reîmprospătare cu un ±procent aleatoriu, astfel încât reîncărcările să nu aibă loc după un program perfect fix (ajută la evitarea detectării anti-bot în cozi, reaprovizionări și licitații). Sunt disponibile suprascrieri per filă și per regulă.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "Aleatoriu",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "Fără acces la conținutul paginilor",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "Această extensie doar reîncarcă filele; nu poate citi conținutul paginilor tale.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "Confidențialitate prin concepție",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "Această extensie doar reîncarcă filele tale. Nu solicită niciun acces la conținutul site-urilor pe care le vizitezi, iar regulile și statisticile tale rămân pe acest dispozitiv.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "Fără permisiunea „Citește și modifică datele tale de pe toate site-urile web”",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "Datele tale nu sunt trimise niciodată către noi",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "Fără servere externe, fără urmărire, fără telemetrie",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "Automat",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "Vă place extensia?",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "O evaluare rapidă în Chrome Web Store îi ajută pe alții să o descopere și sprijină dezvoltarea. Durează doar câteva secunde.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "Evaluează în Chrome Web Store",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "Cum lași o recenzie",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "Deschide pagina extensiei în Chrome Web Store",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "Deschide fila „Recenzii” și apasă „Scrie o recenzie”",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "Alege o evaluare cu ★ și adaugă câteva cuvinte",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "Apasă „Publică”",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "Necesită conectare la un cont Google · o singură recenzie de utilizator (poate fi editată ulterior) · de preferat pe computer",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "Recuperare automată la eroare:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "Implicit",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "Activat",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "Dezactivat",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "Recuperare automată la încărcare eșuată:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "Reîncarcă automat o filă monitorizată a cărei pagină nu a reușit să se încarce (fără conexiune, eroare DNS, expirare) sau a rămas blocată la încărcare. Continuă să reîncerce la intervale tot mai mari (după aproximativ 30 s, apoi 1, 2, 5, 10 și 30 min) și apoi la fiecare 30 de minute, până când pagina se încarcă sau o dezactivați. Necesită o permisiune unică și funcționează doar pe filele monitorizate. Sunt disponibile setări individuale pentru fiecare filă și fiecare regulă.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "Recuperarea automată necesită o permisiune suplimentară, care nu a fost acordată.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "Activezi recuperarea automată?",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "Pentru a detecta când o filă monitorizată nu reușește să se încarce, extensia are nevoie de permisiunea „webNavigation” a browserului. Chrome o afișează ca „Citește istoricul de navigare”, însă extensia o folosește doar pentru a observa încărcările de pagină eșuate și tot nu poate citi conținutul paginilor tale. Apasă pe Activează pentru a o acorda.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "Întrerupe cât timp sunt activ:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "Când folosești activ fila pe care o vizualizezi (tastând sau mișcând mouse-ul), reîncărcarea programată a acelei file este omisă și reîncercată la următorul interval, astfel încât o reîmprospătare automată să nu îți întrerupă niciodată activitatea. Folosește starea de inactivitate a browserului și se aplică doar filei active — filele din fundal continuă să se reîmprospăteze conform programului.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "Reia",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "Acest URL se suprapune cu o regulă de programare existentă ({url}). Ajustează modelul pentru a evita reîmprospătările duplicate.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "Introduceți o adresă de site validă, de exemplu example.com sau https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "Pornește sau oprește reîmprospătarea automată în fila curentă",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "Întrerupe sau reia reîmprospătarea automată în fila curentă",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "Toate filele din această fereastră",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "Pornește tot",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "Oprește tot",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "Pornite {started}/{total}",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "Oprite {stopped}/{total}",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} omise",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} eșuate",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} peste limită",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "Nicio filă eligibilă",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "Eroare",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "Pornește sau oprește reîmprospătarea automată pe toate filele ferestrei",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "Grupul acestei file",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "Această filă nu este într-un grup",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "Pornește sau oprește reîmprospătarea automată pe toate filele grupului",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "Interval aleatoriu",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "Min, s",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "Max, s",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "Introduceți un interval valid: 30 până la 86400 secunde, min nu peste max",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "Setează intervalul",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "Scurtături de tastatură",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "Personalizează scurtăturile",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "Nesetat",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "Modificați sau adăugați scurtături în pagina de scurtături din Chrome.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "Reîmprospătări și reguli",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "Avansat",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}

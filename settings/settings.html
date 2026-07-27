@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Refresh | Page Monitor - Settings</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <div class="container">
+        <h1 data-i18n="advanced_settings">Advanced Settings</h1>
+
+        <div class="tabs-navigation">
+            <button class="tab-link active" data-tab="tab-general" data-i18n="general">General</button>
+            <button class="tab-link" data-tab="tab-scheduled" data-i18n="refreshes_and_rules">Refreshes & Rules</button>
+            <button class="tab-link" data-tab="tab-statistics" data-i18n="statistics">Statistics</button>
+            <button class="tab-link" data-tab="tab-log" data-i18n="activity_log">Activity Log</button>
+        </div>
+
+        <div id="tab-general" class="tab-content active">
+            <h2 data-i18n="general_settings">General Settings</h2>
+
+            <!-- Privacy card: the claim that cannot be faked - no access to site data is requested -->
+            <section id="privacy-info" class="privacy-card">
+                <div class="privacy-card-icon" aria-hidden="true">🛡️</div>
+                <div class="privacy-card-body">
+                    <h3 class="privacy-card-title" data-i18n="privacy_card_title">Privacy-first by design</h3>
+                    <p class="privacy-card-text" data-i18n="privacy_card_text">This extension only reloads your tabs. It requests no access to the content of the websites you visit, and your rules and statistics stay on this device.</p>
+                    <ul class="privacy-card-points">
+                        <li data-i18n="privacy_point_no_host">No "read your data on all websites" permission</li>
+                        <li data-i18n="privacy_point_local">Your data is never sent to us</li>
+                        <li data-i18n="privacy_point_no_tracking">No external servers, no tracking, no telemetry</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Compact grid of the main settings; each description lives in the info tooltip beside its row -->
+            <section id="main-settings">
+                <div class="settings-grid">
+                    <div class="setting-item">
+                        <label for="theme-select" data-i18n="theme">Theme:</label>
+                        <select id="theme-select">
+                            <option value="auto" data-i18n="auto">Auto</option>
+                            <option value="light" data-i18n="light">Light</option>
+                            <option value="dark" data-i18n="dark">Dark</option>
+                        </select>
+                    </div>
+
+                    <div class="setting-item">
+                        <label for="language-select" data-i18n="interface_language">Interface Language:</label>
+                        <select id="language-select">
+                            <!-- Options will be populated by JavaScript -->
+                        </select>
+                    </div>
+
+                    <div class="setting-item setting-item-checkbox">
+                        <label for="auto-restore-timers" data-i18n="auto_restore_timers">Auto-restore Timers:</label>
+                        <span class="info-wrap">
+                            <span class="info-icon" aria-hidden="true">i</span>
+                            <span class="info-tooltip" role="tooltip" id="desc-auto-restore" data-i18n="auto_restore_desc">Automatically resume active timers when the browser is restarted.</span>
+                        </span>
+                        <input type="checkbox" id="auto-restore-timers" class="styled-checkbox" aria-describedby="desc-auto-restore">
+                    </div>
+
+                    <div class="setting-item setting-item-checkbox">
+                        <label for="pause-while-active-enabled" data-i18n="pause_while_active_enabled">Pause while I'm active:</label>
+                        <span class="info-wrap">
+                            <span class="info-icon" aria-hidden="true">i</span>
+                            <span class="info-tooltip" role="tooltip" id="desc-pause-active" data-i18n="pause_while_active_desc">When you are actively using the tab you are viewing (typing or moving the mouse), skip that tab's scheduled reload and try again at the next interval, so an auto-refresh never interrupts what you are doing. Uses the browser's idle state and applies only to the tab in focus - tabs in the background keep refreshing on schedule.</span>
+                        </span>
+                        <input type="checkbox" id="pause-while-active-enabled" class="styled-checkbox" aria-describedby="desc-pause-active">
+                    </div>
+
+                    <div class="setting-item setting-item-checkbox">
+                        <label for="bypass-cache-on-refresh" data-i18n="bypass_cache_on_refresh">Hard Refresh (Bypass Cache):</label>
+                        <span class="info-wrap">
+                            <span class="info-icon" aria-hidden="true">i</span>
+                            <span class="info-tooltip" role="tooltip" id="desc-bypass-cache" data-i18n="bypass_cache_on_refresh_desc">Reload pages with cache disabled (equivalent to Ctrl+Shift+R). When off, normal reload uses cached resources where allowed.</span>
+                        </span>
+                        <input type="checkbox" id="bypass-cache-on-refresh" class="styled-checkbox" aria-describedby="desc-bypass-cache">
+                    </div>
+
+                    <div class="setting-item setting-item-checkbox">
+                        <label for="auto-recover-enabled" data-i18n="auto_recover_enabled">Auto-recover on Failed Load:</label>
+                        <span class="info-wrap">
+                            <span class="info-icon" aria-hidden="true">i</span>
+                            <span class="info-tooltip" role="tooltip" id="desc-auto-recover" data-i18n="auto_recover_desc">Automatically reload a monitored tab whose page failed to load (no connection, DNS error, timeout) or got stuck loading. It keeps retrying on a growing schedule (after about 30s, then 1, 2, 5, 10 and 30 min) and then every 30 minutes until the page loads or you turn it off. Requires a one-time permission and works only on monitored tabs. Per-tab and per-rule overrides are available.</span>
+                        </span>
+                        <input type="checkbox" id="auto-recover-enabled" class="styled-checkbox" aria-describedby="desc-auto-recover">
+                    </div>
+
+                    <div class="setting-item setting-item-checkbox">
+                        <label for="global-sound-notification" data-i18n="enable_sound_notifications">Enable Sound Notifications:</label>
+                        <span class="info-wrap">
+                            <span class="info-icon" aria-hidden="true">i</span>
+                            <span class="info-tooltip" role="tooltip" id="desc-sound" data-i18n="sound_notifications_desc">Sound notifications set the default for new timers in the popup.</span>
+                        </span>
+                        <input type="checkbox" id="global-sound-notification" class="styled-checkbox" aria-describedby="desc-sound">
+                    </div>
+
+                    <div class="jitter-group">
+                        <div class="jitter-group-row">
+                            <label for="interval-jitter-enabled" data-i18n="interval_jitter_enabled">Randomize Interval:</label>
+                            <span class="info-wrap">
+                                <span class="info-icon" aria-hidden="true">i</span>
+                                <span class="info-tooltip" role="tooltip" id="desc-jitter" data-i18n="interval_jitter_desc">Vary each refresh by a random +/- percentage so reloads do not fire on a perfectly fixed schedule (helps avoid anti-bot detection on queues, restock and auction pages). Per-tab and per-rule overrides are available.</span>
+                            </span>
+                            <input type="checkbox" id="interval-jitter-enabled" class="styled-checkbox" aria-describedby="desc-jitter">
+                        </div>
+                        <div class="jitter-group-row jitter-group-sub">
+                            <label data-i18n="interval_jitter_percent">Randomization (+/-%):</label>
+                            <div class="jitter-percent-buttons" id="interval-jitter-percent">
+                                <button type="button" class="jitter-percent-btn" data-percent="10">10%</button>
+                                <button type="button" class="jitter-percent-btn" data-percent="20">20%</button>
+                                <button type="button" class="jitter-percent-btn" data-percent="30">30%</button>
+                                <button type="button" class="jitter-percent-btn" data-percent="50">50%</button>
+                                <button type="button" class="jitter-percent-btn" data-percent="75">75%</button>
+                                <button type="button" class="jitter-percent-btn" data-percent="100">100%</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="shortcuts-info" class="shortcuts-card">
+                <h3 class="shortcuts-title" data-i18n="shortcuts_heading">Keyboard shortcuts</h3>
+                <ul class="shortcuts-list">
+                    <li class="shortcut-row">
+                        <span class="shortcut-desc" data-i18n="command_toggle_refresh">Start or stop auto-refresh on the current tab</span>
+                        <kbd class="shortcut-key" id="shortcut-toggle-refresh" data-i18n="shortcuts_not_set">Not set</kbd>
+                    </li>
+                    <li class="shortcut-row">
+                        <span class="shortcut-desc" data-i18n="command_toggle_pause">Pause or resume auto-refresh on the current tab</span>
+                        <kbd class="shortcut-key" id="shortcut-toggle-pause" data-i18n="shortcuts_not_set">Not set</kbd>
+                    </li>
+                    <li class="shortcut-row">
+                        <span class="shortcut-desc" data-i18n="command_bulk_window">Start or stop auto-refresh on all tabs in the window</span>
+                        <kbd class="shortcut-key" id="shortcut-bulk-toggle-window" data-i18n="shortcuts_not_set">Not set</kbd>
+                    </li>
+                    <li class="shortcut-row">
+                        <span class="shortcut-desc" data-i18n="command_bulk_group">Start or stop auto-refresh on all tabs in the group</span>
+                        <kbd class="shortcut-key" id="shortcut-bulk-toggle-group" data-i18n="shortcuts_not_set">Not set</kbd>
+                    </li>
+                </ul>
+                <p class="shortcuts-hint" data-i18n="shortcuts_hint">Change or add shortcuts on Chrome's shortcuts page.</p>
+                <button id="open-shortcuts-page" class="shortcuts-customize" data-i18n="shortcuts_customize">Customize shortcuts</button>
+            </section>
+
+            <section id="profile-management">
+                <h3 data-i18n="settings_management">Settings Management</h3>
+                <div class="setting-item">
+                    <div class="profile-buttons">
+                        <button id="export-profiles" class="primary-btn" data-i18n="export_settings">
+                            Export Settings
+                        </button>
+                        <button id="import-profiles" class="secondary-btn" data-i18n="import_settings">
+                            Import Settings
+                        </button>
+                        <input type="file" id="import-profiles-input" accept=".json" style="display: none;">
+                    </div>
+                </div>
+                <p class="description" data-i18n="settings_management_desc">
+                    Export or import your global settings including theme preferences, URL rules, and scheduled refreshes. This allows you to backup your configuration or transfer settings between devices.
+                </p>
+            </section>
+
+            <!-- An unobtrusive prompt to rate the extension (no timed popups) -->
+            <section id="rate-info" class="rate-card">
+                <div class="rate-card-icon" aria-hidden="true">⭐</div>
+                <div class="rate-card-body">
+                    <h3 class="rate-card-title" data-i18n="rate_card_title">Enjoying the extension?</h3>
+                    <p class="rate-card-text" data-i18n="rate_card_text">A quick rating on the Chrome Web Store helps others discover it and supports development. It takes just a few seconds.</p>
+                    <a class="rate-card-link" href="https://chromewebstore.google.com/detail/auto-refresh-page-monitor/mhmkhlbgacabeffhkalebjnbnfakfdbj" target="_blank" rel="noopener noreferrer" data-i18n="rate_us_button">Rate on the Chrome Web Store</a>
+                    <details class="rate-how">
+                        <summary data-i18n="rate_how_summary">How to leave a review</summary>
+                        <ol class="rate-how-steps">
+                            <li data-i18n="rate_how_step1">Open the extension's page in the Chrome Web Store</li>
+                            <li data-i18n="rate_how_step2">Open the "Reviews" tab and click "Write a review"</li>
+                            <li data-i18n="rate_how_step3">Choose a ★ rating and add a few words</li>
+                            <li data-i18n="rate_how_step4">Click "Publish"</li>
+                        </ol>
+                        <p class="rate-how-note" data-i18n="rate_how_note">Requires a Google sign-in · one review per user (editable later) · best done on a computer</p>
+                    </details>
+                </div>
+            </section>
+        </div>
+
+        <div id="tab-scheduled" class="tab-content">
+            <h2 data-i18n="refreshes_and_rules">Refreshes & Rules</h2>
+
+            <h3 data-i18n="scheduled_refreshes_title">Scheduled Refreshes</h3>
+            <section id="scheduled-refresh-manager" class="settings-card">
+                <p class="description" data-i18n="scheduled_desc">Define specific URLs to refresh automatically at set intervals. These settings persist across browser sessions and activate when a matching URL is opened.</p>
+                <div class="add-scheduled-item">
+                    <button id="add-scheduled-refresh" class="primary-btn" data-i18n="add_schedule">Add Schedule</button>
+                </div>
+                <div class="scheduled-items-list">
+                    <!-- "(0/300)" is a placeholder; updateSchedulesCounter (settings.js) overwrites it from MAX_SCHEDULES on load -->
+                    <h3 data-i18n="current_schedules">Current Schedules <span id="schedules-count" class="schedules-counter">(0/300)</span></h3>
+
+                    <!-- Schedule search -->
+                    <div class="schedules-search-container">
+                        <input type="text" id="schedules-search" placeholder="Search schedules by URL..." data-i18n-placeholder="search_schedules_placeholder">
+                        <button id="clear-search" class="clear-search-btn" title="Clear search" data-i18n-title="clear_search" style="display: none;">✕</button>
+                    </div>
+
+                    <ul id="scheduled-list-ul">
+                        <!-- JS will populate this -->
+                        <li class="no-schedules" data-i18n="no_schedules">No schedules defined yet.</li>
+                    </ul>
+
+                    <!-- Schedule pagination -->
+                    <div class="pagination-container" id="schedules-pagination-container" style="display: none;">
+                        <div class="pagination-info">
+                            <span id="schedules-pagination-info-text"></span>
+                        </div>
+                        <div class="pagination-controls">
+                            <button id="schedules-pagination-first" class="pagination-btn" title="First page" data-i18n-title="pagination_first">⟪</button>
+                            <button id="schedules-pagination-prev" class="pagination-btn" title="Previous" data-i18n-title="pagination_prev">‹</button>
+                            <div class="pagination-pages" id="schedules-pagination-pages">
+                                <!-- Page numbers are inserted by JS -->
+                            </div>
+                            <button id="schedules-pagination-next" class="pagination-btn" title="Next" data-i18n-title="pagination_next">›</button>
+                            <button id="schedules-pagination-last" class="pagination-btn" title="Last page" data-i18n-title="pagination_last">⟫</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- URL whitelist / blacklist: global filters below the schedule manager (merged tab) -->
+            <h3 data-i18n="url_whitelist_blacklist">URL Whitelist & Blacklist</h3>
+            <section id="whitelist-blacklist-settings" class="settings-card">
+                <div class="setting-item">
+                    <label for="whitelist-urls" data-i18n="whitelist_urls">Whitelist URLs (one per line, regex supported):</label>
+                    <textarea id="whitelist-urls" rows="5" data-i18n-placeholder="whitelist_placeholder"></textarea>
+                    <p class="description" data-i18n="whitelist_desc">If whitelist is not empty, only URLs matching these patterns will be refreshed.</p>
+                </div>
+                <div class="setting-item">
+                    <label for="blacklist-urls" data-i18n="blacklist_urls">Blacklist URLs (one per line, regex supported):</label>
+                    <textarea id="blacklist-urls" rows="5" data-i18n-placeholder="blacklist_placeholder"></textarea>
+                    <p class="description" data-i18n="blacklist_desc">URLs matching these patterns will never be refreshed, even if whitelisted or scheduled.</p>
+                </div>
+                <button id="save-url-patterns" data-i18n="save_url_rules">Save URL Rules</button>
+            </section>
+        </div>
+
+
+        <div id="tab-statistics" class="tab-content">
+            <h2 data-i18n="usage_statistics">Usage Statistics</h2>
+
+            <!-- Summary statistics -->
+            <section id="general-stats">
+                <h3 data-i18n="general_statistics">General Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🔄</div>
+                        <div class="stat-value" id="total-refreshes">0</div>
+                        <div class="stat-label" data-i18n="total_refreshes">Total Refreshes</div>
+                        <div class="stat-change" id="refreshes-change">+0 today</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-value" id="average-interval">0s</div>
+                        <div class="stat-label" data-i18n="average_interval">Average Interval</div>
+                        <div class="stat-change" id="interval-trend">No change</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌐</div>
+                        <div class="stat-value" id="unique-urls">0</div>
+                        <div class="stat-label" data-i18n="unique_urls">Unique URLs</div>
+                        <div class="stat-change" id="urls-change">+0 today</div>
+                    </div>
+                </div>
+                <div class="storage-usage-info" id="storage-usage-info-container">
+                    <span data-i18n="storage_usage_label">Storage Usage:</span>
+                    <span id="storage-usage-text">0 / 0 MB (0%)</span>
+                </div>
+            </section>
+
+
+            <!-- Detailed table -->
+            <section id="detailed-stats">
+                <h3 data-i18n="detailed_statistics">Detailed Statistics</h3>
+
+                <div class="urls-table-container">
+                    <table id="urls-table">
+                        <thead>
+                            <tr>
+                                <th data-i18n="url">URL</th>
+                                <th data-i18n="refreshes">Refreshes</th>
+                                <th data-i18n="active_time">Active Time</th>
+                                <th data-i18n="avg_interval">Avg Interval</th>
+                                <th data-i18n="last_refresh">Last Refresh</th>
+                                <th data-i18n="success_rate">Success Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody id="urls-table-body">
+                            <!-- Filled in by JS -->
+                        </tbody>
+                    </table>
+
+                    <!-- Pagination -->
+                    <div class="pagination-container" id="pagination-container" style="display: none;">
+                        <div class="pagination-info">
+                            <span id="pagination-info-text"></span>
+                        </div>
+                        <div class="pagination-controls">
+                            <button id="pagination-first" class="pagination-btn" title="First page" data-i18n-title="pagination_first">⟪</button>
+                            <button id="pagination-prev" class="pagination-btn" title="Previous" data-i18n-title="pagination_prev">‹</button>
+                            <div class="pagination-pages" id="pagination-pages">
+                                <!-- Page numbers are inserted by JS -->
+                            </div>
+                            <button id="pagination-next" class="pagination-btn" title="Next" data-i18n-title="pagination_next">›</button>
+                            <button id="pagination-last" class="pagination-btn" title="Last page" data-i18n-title="pagination_last">⟫</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics management -->
+            <section id="stats-management">
+                <h3 data-i18n="statistics_management">Statistics Management</h3>
+                <div class="management-controls">
+                    <button id="export-statistics" class="primary-btn" data-i18n="export_statistics">
+                        📊 Export Statistics
+                    </button>
+                    <button id="reset-statistics" class="danger-btn" data-i18n="reset_all_data">
+                        🗑️ Reset All Data
+                    </button>
+                </div>
+                <p class="description" data-i18n="export_statistics_desc">
+                    Export your usage statistics or reset all collected data.
+                </p>
+            </section>
+        </div>
+
+        <div id="tab-log" class="tab-content">
+            <h2 data-i18n="activity_log_title">Activity Log</h2>
+            <section id="activity-log-section">
+                <div class="log-controls">
+                    <div class="log-filters">
+                        <label for="log-date-filter" data-i18n="show_logs_for">Show logs for:</label>
+                        <select id="log-date-filter">
+                            <option value="today" selected data-i18n="today">Today</option>
+                            <option value="yesterday" data-i18n="yesterday">Yesterday</option>
+                            <option value="3" data-i18n="last_3_days">Last 3 days</option>
+                            <option value="7" data-i18n="last_7_days">Last 7 days</option>
+                            <option value="all" data-i18n="all_time">All time</option>
+                        </select>
+                        <button id="refresh-log" data-i18n="refresh">Refresh</button>
+                    </div>
+                    <div class="log-actions">
+                        <button id="export-log" class="secondary-btn" data-i18n="export_log">📄 Export Log</button>
+                        <button id="clear-log" class="danger-btn" data-i18n="clear_log">🗑️ Clear Log</button>
+                    </div>
+                </div>
+                <div class="log-stats">
+                    <span id="log-count">0 entries</span>
+                    <span id="log-date-range"></span>
+                </div>
+                <div id="log-container">
+                    <p>No activity logged yet.</p>
+                </div>
+
+                <!-- Log pagination -->
+                <div class="pagination-container" id="log-pagination-container" style="display: none;">
+                    <div class="pagination-info">
+                        <span id="log-pagination-info-text"></span>
+                    </div>
+                    <div class="pagination-controls">
+                        <button id="log-pagination-first" class="pagination-btn" title="First page" data-i18n-title="pagination_first">⟪</button>
+                        <button id="log-pagination-prev" class="pagination-btn" title="Previous" data-i18n-title="pagination_prev">‹</button>
+                        <div class="pagination-pages" id="log-pagination-pages">
+                                <!-- Page numbers are inserted by JS -->
+                        </div>
+                        <button id="log-pagination-next" class="pagination-btn" title="Next" data-i18n-title="pagination_next">›</button>
+                        <button id="log-pagination-last" class="pagination-btn" title="Last page" data-i18n-title="pagination_last">⟫</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <script type="module" src="settings.js"></script>
+</body>
+</html>

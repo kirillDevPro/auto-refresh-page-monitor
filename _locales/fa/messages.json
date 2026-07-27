@@ -1,0 +1,1006 @@
+{
+  "extName": {
+    "message": "Auto Refresh | Page Monitor - بروزرسانی خودکار | نظارت صفحه",
+    "description": "نام برنامه افزودنی"
+  },
+  "extDescription": {
+    "message": "صفحات را به طور خودکار در فواصل زمانی مشخص با کنترل های پیشرفته و سفارشی سازی بازخوانی می کند.",
+    "description": "توضیحات برنامه افزودنی"
+  },
+  "advanced_settings": {
+    "message": "تنظیمات پیشرفته",
+    "description": "عنوان صفحه تنظیمات"
+  },
+  "general": {
+    "message": "عمومی",
+    "description": "برگه تنظیمات عمومی"
+  },
+  "statistics": {
+    "message": "آمار",
+    "description": "برگه آمار"
+  },
+  "activity_log": {
+    "message": "گزارش فعالیت",
+    "description": "برگه گزارش فعالیت"
+  },
+  "general_settings": {
+    "message": "تنظیمات عمومی",
+    "description": "عنوان بخش تنظیمات عمومی"
+  },
+  "theme": {
+    "message": "پوسته:",
+    "description": "برچسب انتخاب پوسته"
+  },
+  "light": {
+    "message": "روشن",
+    "description": "پوسته روشن"
+  },
+  "dark": {
+    "message": "تاریک",
+    "description": "پوسته تاریک"
+  },
+  "interface_language": {
+    "message": "زبان رابط:",
+    "description": "برچسب انتخاب زبان"
+  },
+  "english": {
+    "message": "English",
+    "description": "زبان انگلیسی"
+  },
+  "russian": {
+    "message": "Русский",
+    "description": "زبان روسی"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "زبان اسپانیایی"
+  },
+  "french": {
+    "message": "Français",
+    "description": "زبان فرانسوی"
+  },
+  "german": {
+    "message": "Deutsch",
+    "description": "زبان آلمانی"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "زبان ایتالیایی"
+  },
+  "portuguese": {
+    "message": "Português",
+    "description": "زبان پرتغالی"
+  },
+  "japanese": {
+    "message": "日本語",
+    "description": "زبان ژاپنی"
+  },
+  "chinese_simplified": {
+    "message": "中文 (简体)",
+    "description": "زبان چینی ساده شده"
+  },
+  "korean": {
+    "message": "한국어",
+    "description": "زبان کره ای"
+  },
+  "arabic": {
+    "message": "العربية",
+    "description": "زبان عربی"
+  },
+  "hindi": {
+    "message": "हिन्दी",
+    "description": "زبان هندی"
+  },
+  "bulgarian": {
+    "message": "Български",
+    "description": "زبان بلغاری"
+  },
+  "czech": {
+    "message": "Čeština",
+    "description": "زبان چکی"
+  },
+  "danish": {
+    "message": "Dansk",
+    "description": "زبان دانمارکی"
+  },
+  "greek": {
+    "message": "Ελληνικά",
+    "description": "زبان یونانی"
+  },
+  "estonian": {
+    "message": "Eesti",
+    "description": "زبان استونیایی"
+  },
+  "ukrainian": {
+    "message": "Українська",
+    "description": "زبان اوکراینی"
+  },
+  "polish": {
+    "message": "Polski",
+    "description": "زبان لهستانی"
+  },
+  "turkish": {
+    "message": "Türkçe",
+    "description": "زبان ترکی"
+  },
+  "swedish": {
+    "message": "Svenska",
+    "description": "زبان سوئدی"
+  },
+  "slovak": {
+    "message": "Slovenčina",
+    "description": "زبان اسلواکی"
+  },
+  "romanian": {
+    "message": "Română",
+    "description": "زبان رومانیایی"
+  },
+  "norwegian": {
+    "message": "Norsk",
+    "description": "زبان نروژی"
+  },
+  "lithuanian": {
+    "message": "Lietuvių",
+    "description": "زبان لیتوانیایی"
+  },
+  "finnish": {
+    "message": "Suomi",
+    "description": "زبان فنلاندی"
+  },
+  "enable_sound_notifications": {
+    "message": "فعال کردن اعلان های صوتی به طور پیش فرض:",
+    "description": "برچسب کلید اعلان های صوتی"
+  },
+  "auto_restore_timers": {
+    "message": "بازیابی خودکار تایمرها هنگام راه اندازی مجدد مرورگر:",
+    "description": "برچسب کلید بازیابی خودکار تایمرها"
+  },
+  "sound_notifications_desc": {
+    "message": "این پیش فرض کلید صدا را در پنجره بازشو برای تایمرهای جدید تنظیم می کند.",
+    "description": "توضیحات اعلان های صوتی"
+  },
+  "auto_restore_desc": {
+    "message": "از سرگیری خودکار تایمرهای فعال هنگام راه اندازی مجدد مرورگر.",
+    "description": "توضیحات بازیابی خودکار تایمرها"
+  },
+  "bypass_cache_on_refresh": {
+    "message": "Hard Refresh (Bypass Cache):",
+    "description": "Hard refresh checkbox label"
+  },
+  "bypass_cache_on_refresh_desc": {
+    "message": "پیش‌فرض برای زبانه‌های جدید و قواعد زمان‌بندی‌شده. وقتی روشن باشد، بازخوانی‌ها حافظه پنهان را نادیده می‌گیرند (معادل Ctrl+Shift+R)؛ وقتی خاموش باشد، یک بارگذاری مجدد عادی از منابع ذخیره‌شده در حافظه پنهان استفاده می‌کند. هر زبانه و قاعده می‌تواند این تنظیم را با حالت بازخوانی مخصوص خود لغو کند.",
+    "description": "Hard refresh description"
+  },
+  "refresh_mode": {
+    "message": "حالت بازخوانی:",
+    "description": "Refresh mode selector label (popup and schedule modal)"
+  },
+  "refresh_mode_default": {
+    "message": "پیش‌فرض",
+    "description": "Refresh mode option: inherit the global hard-refresh setting"
+  },
+  "refresh_mode_hard": {
+    "message": "سخت (نادیده گرفتن حافظه پنهان)",
+    "description": "Refresh mode option: always hard reload bypassing cache"
+  },
+  "refresh_mode_normal": {
+    "message": "عادی (استفاده از حافظه پنهان)",
+    "description": "Refresh mode option: always normal reload using cache"
+  },
+  "edit_scheduled": {
+    "message": "ویرایش بازخوانی زمان‌بندی‌شده",
+    "description": "Title of the modal when editing an existing scheduled refresh rule"
+  },
+  "settings_management": {
+    "message": "مدیریت تنظیمات",
+    "description": "عنوان بخش مدیریت تنظیمات"
+  },
+  "export_settings": {
+    "message": "صادر کردن تنظیمات",
+    "description": "دکمه صادر کردن تنظیمات"
+  },
+  "import_settings": {
+    "message": "وارد کردن تنظیمات",
+    "description": "دکمه وارد کردن تنظیمات"
+  },
+  "settings_management_desc": {
+    "message": "تنظیمات جهانی خود را از جمله تنظیمات پوسته، قوانین URL و بازخوانی های برنامه ریزی شده صادر یا وارد کنید. این به شما امکان می دهد از پیکربندی خود نسخه پشتیبان تهیه کرده یا تنظیمات را بین دستگاه ها منتقل کنید.",
+    "description": "توضیحات مدیریت تنظیمات"
+  },
+  "url_whitelist_blacklist": {
+    "message": "لیست سفید و سیاه URL",
+    "description": "عنوان بخش قوانین URL"
+  },
+  "whitelist_urls": {
+    "message": "URL های لیست سفید (یکی در هر خط، از regex پشتیبانی می شود):",
+    "description": "برچسب URL های لیست سفید"
+  },
+  "whitelist_placeholder": {
+    "message": "به عنوان مثال، https://www.example.com/specific-page\n^https://mail.google.com/.*",
+    "description": "مکان نگهدار URL های لیست سفید"
+  },
+  "whitelist_desc": {
+    "message": "اگر لیست سفید خالی نباشد، فقط URL هایی که با این الگوها مطابقت دارند بازخوانی می شوند.",
+    "description": "توضیحات URL های لیست سفید"
+  },
+  "blacklist_urls": {
+    "message": "URL های لیست سیاه (یکی در هر خط، از regex پشتیبانی می شود):",
+    "description": "برچسب URL های لیست سیاه"
+  },
+  "blacklist_placeholder": {
+    "message": "به عنوان مثال، https://www.example.com/dont-refresh\n.*.somesite.com/.*",
+    "description": "مکان نگهدار URL های لیست سیاه"
+  },
+  "blacklist_desc": {
+    "message": "URL هایی که با این الگوها مطابقت دارند هرگز بازخوانی نمی شوند، حتی اگر در لیست سفید یا برنامه ریزی شده باشند.",
+    "description": "توضیحات URL های لیست سیاه"
+  },
+  "save_url_rules": {
+    "message": "ذخیره قوانین URL",
+    "description": "دکمه ذخیره قوانین URL"
+  },
+  "scheduled_refreshes_title": {
+    "message": "بازخوانی های برنامه ریزی شده",
+    "description": "عنوان بخش بازخوانی های برنامه ریزی شده"
+  },
+  "scheduled_desc": {
+    "message": "URL های خاصی را برای بازخوانی خودکار در فواصل زمانی مشخص تعریف کنید. این تنظیمات در جلسات مرورگر باقی می مانند و با باز شدن URL منطبق فعال می شوند.",
+    "description": "توضیحات بازخوانی های برنامه ریزی شده"
+  },
+  "add_new_scheduled": {
+    "message": "افزودن بازخوانی برنامه ریزی شده جدید",
+    "description": "عنوان فرم افزودن بازخوانی برنامه ریزی شده جدید"
+  },
+  "scheduled_url": {
+    "message": "URL (تطابق دقیق یا الگوی ساده مانند example.com/path*):",
+    "description": "برچسب URL برنامه ریزی شده"
+  },
+  "scheduled_url_placeholder": {
+    "message": "https://www.example.com/data",
+    "description": "مکان نگهدار URL برنامه ریزی شده"
+  },
+  "refresh_interval": {
+    "message": "فاصله زمانی بازخوانی:",
+    "description": "برچسب فاصله زمانی بازخوانی"
+  },
+  "seconds_30": {
+    "message": "30 ثانیه",
+    "description": "30 ثانیه"
+  },
+  "minute_1": {
+    "message": "1 دقیقه",
+    "description": "1 دقیقه"
+  },
+  "minutes_3": {
+    "message": "3 دقیقه",
+    "description": "3 دقیقه"
+  },
+  "minutes_5": {
+    "message": "5 دقیقه",
+    "description": "5 دقیقه"
+  },
+  "minutes_10": {
+    "message": "10 دقیقه",
+    "description": "10 دقیقه"
+  },
+  "minutes_15": {
+    "message": "15 دقیقه",
+    "description": "15 دقیقه"
+  },
+  "minutes_30": {
+    "message": "30 دقیقه",
+    "description": "30 دقیقه"
+  },
+  "hour_1": {
+    "message": "1 ساعت",
+    "description": "1 ساعت"
+  },
+  "hours_3": {
+    "message": "3 ساعت",
+    "description": "3 ساعت"
+  },
+  "hours_6": {
+    "message": "6 ساعت",
+    "description": "6 ساعت"
+  },
+  "hours_12": {
+    "message": "12 ساعت",
+    "description": "12 ساعت"
+  },
+  "hours_24": {
+    "message": "24 ساعت",
+    "description": "24 ساعت"
+  },
+  "unit_sec_short": {
+    "message": "ث",
+    "description": "Short suffix for seconds (compact format)"
+  },
+  "unit_min_short": {
+    "message": "د",
+    "description": "Short suffix for minutes (compact format)"
+  },
+  "unit_hour_short": {
+    "message": "س",
+    "description": "Short suffix for hours (compact format)"
+  },
+  "unit_day_short": {
+    "message": "ر",
+    "description": "Short suffix for days (compact format)"
+  },
+  "custom": {
+    "message": "سفارشی",
+    "description": "فاصله زمانی سفارشی"
+  },
+  "custom_interval": {
+    "message": "فاصله زمانی سفارشی:",
+    "description": "برچسب فاصله زمانی سفارشی"
+  },
+  "enabled": {
+    "message": "فعال:",
+    "description": "برچسب کلید فعال"
+  },
+  "add_schedule": {
+    "message": "افزودن برنامه",
+    "description": "دکمه افزودن برنامه"
+  },
+  "current_schedules": {
+    "message": "برنامه های فعلی",
+    "description": "عنوان لیست برنامه های فعلی"
+  },
+  "no_schedules": {
+    "message": "هنوز هیچ برنامه ای تعریف نشده است.",
+    "description": "پیام برای عدم وجود برنامه"
+  },
+  "usage_statistics": {
+    "message": "آمار استفاده",
+    "description": "عنوان بخش آمار"
+  },
+  "general_statistics": {
+    "message": "آمار عمومی",
+    "description": "عنوان آمار عمومی"
+  },
+  "total_refreshes": {
+    "message": "مجموع بازخوانی ها",
+    "description": "برچسب مجموع بازخوانی ها"
+  },
+  "active_time": {
+    "message": "زمان فعال",
+    "description": "برچسب زمان فعال"
+  },
+  "average_interval": {
+    "message": "فاصله زمانی متوسط",
+    "description": "برچسب فاصله زمانی متوسط"
+  },
+  "unique_urls": {
+    "message": "URL های منحصر به فرد",
+    "description": "برچسب URL های منحصر به فرد"
+  },
+  "detailed_statistics": {
+    "message": "آمار دقیق",
+    "description": "عنوان آمار دقیق"
+  },
+  "last_7_days": {
+    "message": "7 روز گذشته",
+    "description": "7 روز گذشته"
+  },
+  "all_time": {
+    "message": "همه زمان ها",
+    "description": "همه زمان ها"
+  },
+  "url": {
+    "message": "URL",
+    "description": "سرصفحه ستون URL"
+  },
+  "refreshes": {
+    "message": "بازخوانی ها",
+    "description": "سرصفحه ستون بازخوانی ها"
+  },
+  "avg_interval": {
+    "message": "فاصله متوسط",
+    "description": "سرصفحه ستون فاصله متوسط"
+  },
+  "last_refresh": {
+    "message": "آخرین بازخوانی",
+    "description": "سرصفحه ستون آخرین بازخوانی"
+  },
+  "success_rate": {
+    "message": "نرخ موفقیت",
+    "description": "سرصفحه ستون نرخ موفقیت"
+  },
+  "statistics_management": {
+    "message": "مدیریت آمار",
+    "description": "عنوان بخش مدیریت آمار"
+  },
+  "export_statistics": {
+    "message": "صادر کردن آمار",
+    "description": "دکمه صادر کردن آمار"
+  },
+  "reset_all_data": {
+    "message": "بازنشانی همه داده ها",
+    "description": "دکمه بازنشانی همه داده ها"
+  },
+  "export_statistics_desc": {
+    "message": "آمار استفاده خود را صادر کرده یا تمام داده های جمع آوری شده را بازنشانی کنید.",
+    "description": "توضیحات صادر کردن آمار"
+  },
+  "activity_log_title": {
+    "message": "گزارش فعالیت",
+    "description": "عنوان بخش گزارش فعالیت"
+  },
+  "show_logs_for": {
+    "message": "نمایش گزارش ها برای:",
+    "description": "برچسب فیلتر گزارش"
+  },
+  "today": {
+    "message": "امروز",
+    "description": "امروز"
+  },
+  "yesterday": {
+    "message": "دیروز",
+    "description": "دیروز"
+  },
+  "last_3_days": {
+    "message": "3 روز گذشته",
+    "description": "3 روز گذشته"
+  },
+  "refresh": {
+    "message": "بازخوانی",
+    "description": "دکمه بازخوانی"
+  },
+  "export_log": {
+    "message": "صادر کردن گزارش",
+    "description": "دکمه صادر کردن گزارش"
+  },
+  "clear_log": {
+    "message": "پاک کردن گزارش",
+    "description": "دکمه پاک کردن گزارش"
+  },
+  "language_changed": {
+    "message": "زبان تغییر کرد. لطفاً صفحات برنامه افزودنی را برای دیدن تغییرات دوباره بارگیری کنید.",
+    "description": "پیام تغییر زبان"
+  },
+  "status": {
+    "message": "وضعیت",
+    "description": "برچسب وضعیت"
+  },
+  "idle": {
+    "message": "بیکار",
+    "description": "وضعیت بیکار"
+  },
+  "time_until_refresh": {
+    "message": "زمان تا بازخوانی بعدی",
+    "description": "برچسب تایمر شمارش معکوس"
+  },
+  "presets": {
+    "message": "از پیش تنظیم شده ها",
+    "description": "عنوان بخش از پیش تنظیم شده ها"
+  },
+  "custom_interval_placeholder": {
+    "message": "ثانیه (به عنوان مثال، 45)",
+    "description": "مکان نگهدار فاصله زمانی سفارشی"
+  },
+  "set_custom": {
+    "message": "تنظیم سفارشی",
+    "description": "دکمه تنظیم فاصله زمانی سفارشی"
+  },
+  "start": {
+    "message": "شروع",
+    "description": "دکمه شروع"
+  },
+  "pause": {
+    "message": "مکث",
+    "description": "دکمه مکث"
+  },
+  "stop": {
+    "message": "توقف",
+    "description": "دکمه توقف"
+  },
+  "sound_notification": {
+    "message": "اعلان صوتی:",
+    "description": "برچسب اعلان صوتی"
+  },
+  "max_schedules_reached": {
+    "message": "به حداکثر حد {max} بازخوانی برنامه ریزی شده رسیده اید. لطفاً قبل از افزودن موارد جدید، برخی از برنامه های موجود را حذف کنید.",
+    "description": "پیام خطا هنگام رسیدن به حداکثر حد برنامه ها"
+  },
+  "duplicate_schedule_url": {
+    "message": "این آدرس قبلاً در لیست زمان‌بندی وجود دارد.",
+    "description": "پیام خطا هنگام تلاش برای افزودن آدرس تکراری"
+  },
+  "search_schedules_placeholder": {
+    "message": "جستجوی برنامه ها بر اساس URL...",
+    "description": "مکان نگهدار فیلد جستجوی برنامه ها"
+  },
+  "search_results": {
+    "message": "پیدا شد: {count} از {total} برنامه",
+    "description": "اطلاعات نتایج جستجو"
+  },
+  "no_search_results": {
+    "message": "هیچ نتیجه ای برای \"{query}\" یافت نشد",
+    "description": "پیام زمانی که جستجو نتیجه ای ندارد"
+  },
+  "cancel": {
+    "message": "لغو",
+    "description": "Cancel button"
+  },
+  "delete": {
+    "message": "حذف",
+    "description": "Delete button"
+  },
+  "edit": {
+    "message": "ویرایش",
+    "description": "Edit button"
+  },
+  "enable": {
+    "message": "فعال‌سازی",
+    "description": "Enable button"
+  },
+  "disable": {
+    "message": "غیرفعال‌سازی",
+    "description": "Disable button"
+  },
+  "clear": {
+    "message": "پاک کردن",
+    "description": "Clear button"
+  },
+  "reset": {
+    "message": "بازنشانی",
+    "description": "Reset button"
+  },
+  "status_enabled": {
+    "message": "فعال",
+    "description": "Enabled status badge for a schedule"
+  },
+  "status_disabled": {
+    "message": "غیرفعال",
+    "description": "Disabled status badge for a schedule"
+  },
+  "update_schedule": {
+    "message": "به‌روزرسانی زمان‌بندی",
+    "description": "Update schedule button (edit mode)"
+  },
+  "clear_search": {
+    "message": "پاک کردن جستجو",
+    "description": "Clear search button tooltip"
+  },
+  "storage_usage_label": {
+    "message": "مصرف فضای ذخیره‌سازی:",
+    "description": "Storage usage label in statistics"
+  },
+  "pagination_first": {
+    "message": "صفحه اول",
+    "description": "Pagination: first page button tooltip"
+  },
+  "pagination_prev": {
+    "message": "قبلی",
+    "description": "Pagination: previous page button tooltip"
+  },
+  "pagination_next": {
+    "message": "بعدی",
+    "description": "Pagination: next page button tooltip"
+  },
+  "pagination_last": {
+    "message": "صفحه آخر",
+    "description": "Pagination: last page button tooltip"
+  },
+  "pagination_shown_entries": {
+    "message": "نمایش {start}-{end} از {total} مورد",
+    "description": "Pagination info for tables/logs"
+  },
+  "pagination_shown_schedules": {
+    "message": "نمایش {start}-{end} از {total} زمان‌بندی",
+    "description": "Pagination info for schedules list"
+  },
+  "pagination_shown_schedules_found": {
+    "message": "نمایش {start}-{end} از {total} زمان‌بندی یافت‌شده",
+    "description": "Pagination info for filtered schedules list"
+  },
+  "clear_log_confirm": {
+    "message": "آیا مطمئن هستید که می‌خواهید گزارش فعالیت را پاک کنید؟ این عمل قابل بازگشت نیست.",
+    "description": "Confirm dialog message when clearing the activity log"
+  },
+  "log_cleared": {
+    "message": "گزارش فعالیت پاک شد.",
+    "description": "Toast after clearing the activity log"
+  },
+  "log_load_error": {
+    "message": "خطا در بارگذاری گزارش‌ها",
+    "description": "Toast when activity logs fail to load"
+  },
+  "log_no_data": {
+    "message": "داده‌ای موجود نیست",
+    "description": "Shown in the log date-range field when there are no logs"
+  },
+  "log_no_entries": {
+    "message": "موردی برای نمایش وجود ندارد.",
+    "description": "Shown in the log container when there are no log entries"
+  },
+  "log_no_export": {
+    "message": "گزارشی برای خروجی‌گرفتن وجود ندارد",
+    "description": "Toast when there are no logs to export"
+  },
+  "log_exported": {
+    "message": "گزارش‌ها با موفقیت خروجی گرفته شد!",
+    "description": "Toast after exporting logs"
+  },
+  "log_export_error": {
+    "message": "خطا در خروجی‌گرفتن گزارش‌ها",
+    "description": "Toast when log export fails"
+  },
+  "log_entries_count": {
+    "message": "{count} مورد",
+    "description": "Activity log entry count label"
+  },
+  "stat_today": {
+    "message": "+{count} امروز",
+    "description": "Statistics change indicator for today's accumulation"
+  },
+  "stat_no_activity": {
+    "message": "بدون فعالیت",
+    "description": "Statistics change indicator when there is no activity today"
+  },
+  "stat_no_new": {
+    "message": "بدون مورد جدید",
+    "description": "Statistics change indicator when there are no new URLs today"
+  },
+  "stat_stable": {
+    "message": "پایدار",
+    "description": "Statistics interval trend indicator"
+  },
+  "stat_no_data": {
+    "message": "داده‌ای برای نمایش وجود ندارد",
+    "description": "Shown in the statistics table when there is no data"
+  },
+  "stat_never": {
+    "message": "هرگز",
+    "description": "Shown when a URL has never been refreshed"
+  },
+  "stat_export_success": {
+    "message": "آمار با موفقیت خروجی گرفته شد!",
+    "description": "Toast after exporting statistics"
+  },
+  "stat_export_error": {
+    "message": "خطا در خروجی‌گرفتن آمار",
+    "description": "Toast when statistics export fails"
+  },
+  "stat_reset_confirm": {
+    "message": "آیا مطمئن هستید که می‌خواهید تمام آمار را بازنشانی کنید؟ این عمل قابل بازگشت نیست.",
+    "description": "Confirm dialog message when resetting statistics"
+  },
+  "stat_reset_confirm_title": {
+    "message": "بازنشانی آمار",
+    "description": "Confirm dialog title when resetting statistics"
+  },
+  "stat_reset_success": {
+    "message": "آمار با موفقیت بازنشانی شد!",
+    "description": "Toast after resetting statistics"
+  },
+  "stat_reset_error": {
+    "message": "خطا در بازنشانی آمار",
+    "description": "Toast when statistics reset fails"
+  },
+  "stat_error": {
+    "message": "خطا",
+    "description": "Placeholder shown in stat cards when loading fails"
+  },
+  "invalid_schedule_input": {
+    "message": "یک نشانی اینترنتی معتبر و یک بازه زمانی مثبت وارد کنید (ثانیه > ۰).",
+    "description": "Validation toast when adding a schedule with bad input"
+  },
+  "delete_schedule_confirm": {
+    "message": "آیا مطمئن هستید که می‌خواهید این زمان‌بندی را حذف کنید؟",
+    "description": "Confirm dialog message when deleting a schedule"
+  },
+  "delete_schedule_title": {
+    "message": "حذف زمان‌بندی",
+    "description": "Confirm dialog title when deleting a schedule"
+  },
+  "url_rules_saved": {
+    "message": "قوانین نشانی اینترنتی ذخیره شد!",
+    "description": "Toast after saving URL rules"
+  },
+  "profile_exported": {
+    "message": "تنظیمات با موفقیت خروجی گرفته شد!",
+    "description": "Toast after exporting settings profile"
+  },
+  "profile_imported": {
+    "message": "تنظیمات با موفقیت وارد شد!",
+    "description": "Toast after importing settings profile"
+  },
+  "profile_invalid": {
+    "message": "قالب فایل تنظیمات نامعتبر یا خالی است.",
+    "description": "Toast when imported settings file is invalid"
+  },
+  "profile_import_error": {
+    "message": "خطا در وارد کردن تنظیمات. برای جزئیات کنسول را ببینید.",
+    "description": "Toast when settings import fails"
+  },
+  "settings_save_error": {
+    "message": "Failed to save settings",
+    "description": "Toast shown when saving global settings to storage fails"
+  },
+  "min_interval_warning": {
+    "message": "حداقل بازه زمانی ۳۰ ثانیه است.",
+    "description": "Validation message when the chosen interval is below the 30s Chrome alarm minimum"
+  },
+  "status_active": {
+    "message": "Active",
+    "description": "Popup status label shown when a tab is actively refreshing"
+  },
+  "popup_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Popup error when there is no usable active tab"
+  },
+  "popup_tab_error": {
+    "message": "Failed to get active tab.",
+    "description": "Popup error when querying the active tab fails"
+  },
+  "persian": {
+    "message": "فارسی",
+    "description": "Persian language"
+  },
+  "jitter_mode": {
+    "message": "فاصله تصادفی:",
+    "description": "Label for the per-tab/per-rule interval randomization (jitter) mode selector."
+  },
+  "jitter_mode_default": {
+    "message": "پیش‌فرض",
+    "description": "Jitter mode option: inherit the global randomization setting."
+  },
+  "jitter_mode_on": {
+    "message": "روشن",
+    "description": "Jitter mode option: force interval randomization on."
+  },
+  "jitter_mode_off": {
+    "message": "خاموش",
+    "description": "Jitter mode option: force interval randomization off."
+  },
+  "interval_jitter_enabled": {
+    "message": "فاصله تصادفی:",
+    "description": "Label for the global toggle that randomizes the refresh interval."
+  },
+  "interval_jitter_percent": {
+    "message": "پراکندگی (±٪):",
+    "description": "Label for the global jitter strength input (percent)."
+  },
+  "interval_jitter_desc": {
+    "message": "هر بازخوانی را با درصد تصادفی ± تغییر دهید تا بارگذاری‌ها دقیقاً طبق یک زمان‌بندی ثابت انجام نشوند (به جلوگیری از تشخیص ضد ربات در صف‌ها، شارژ مجدد موجودی و حراج‌ها کمک می‌کند). جایگزینی برای هر زبانه و هر قانون در دسترس است.",
+    "description": "Description of the interval randomization (jitter) feature in settings."
+  },
+  "jitter_badge": {
+    "message": "تصادفی",
+    "description": "Popup pill word shown before the jitter percent on an active tab (e.g. 'Random +/-20%')."
+  },
+  "privacy_badge": {
+    "message": "بدون دسترسی به محتوای صفحه",
+    "description": "Popup privacy badge label"
+  },
+  "privacy_badge_tooltip": {
+    "message": "این افزونه فقط زبانه‌ها را بازنگری می‌کند و نمی‌تواند محتوای صفحه‌های شما را بخواند.",
+    "description": "Popup privacy badge tooltip"
+  },
+  "privacy_card_title": {
+    "message": "حریم خصوصی، اصل بنیادین ما",
+    "description": "Settings page privacy card title"
+  },
+  "privacy_card_text": {
+    "message": "این افزونه فقط زبانه‌های شما را بازنگری می‌کند. هیچ دسترسی‌ای به محتوای وب‌سایت‌هایی که بازدید می‌کنید درخواست نمی‌کند و قواعد و آمار شما روی همین دستگاه باقی می‌ماند.",
+    "description": "Settings page privacy card body text"
+  },
+  "privacy_point_no_host": {
+    "message": "بدون دسترسی «خواندن داده‌های شما در همهٔ وب‌سایت‌ها»",
+    "description": "Settings page privacy card bullet: no host permission"
+  },
+  "privacy_point_local": {
+    "message": "داده‌های شما هرگز برای ما ارسال نمی‌شود",
+    "description": "Settings page privacy card bullet: data is never sent to the developers"
+  },
+  "privacy_point_no_tracking": {
+    "message": "بدون سرور خارجی، بدون ردیابی، بدون تله‌متری",
+    "description": "Settings page privacy card bullet: no tracking"
+  },
+  "auto": {
+    "message": "خودکار",
+    "description": "Auto theme (follow the system color-scheme preference)"
+  },
+  "rate_card_title": {
+    "message": "از این افزونه لذت می‌برید؟",
+    "description": "Title of the rate-us card in settings (General tab)"
+  },
+  "rate_card_text": {
+    "message": "یک امتیاز سریع در Chrome Web Store به دیگران کمک می‌کند آن را پیدا کنند و از توسعه پشتیبانی می‌کند. فقط چند ثانیه طول می‌کشد.",
+    "description": "Body text of the rate-us card in settings (General tab)"
+  },
+  "rate_us_button": {
+    "message": "امتیازدهی در Chrome Web Store",
+    "description": "Label of the link to the Chrome Web Store listing (rate-us card)"
+  },
+  "rate_how_summary": {
+    "message": "روش ثبت نظر",
+    "description": "Summary/toggle label of the collapsible 'how to leave a review' block (rate-us card, settings)"
+  },
+  "rate_how_step1": {
+    "message": "صفحهٔ افزونه را در Chrome Web Store باز کنید",
+    "description": "Step 1 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step2": {
+    "message": "به برگهٔ «نظرها» بروید و روی «نوشتن نظر» کلیک کنید",
+    "description": "Step 2 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step3": {
+    "message": "یک امتیاز ★ انتخاب کنید و چند کلمه بنویسید",
+    "description": "Step 3 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_step4": {
+    "message": "روی «انتشار» کلیک کنید",
+    "description": "Step 4 of the 'how to leave a review' instructions (rate-us card, settings)"
+  },
+  "rate_how_note": {
+    "message": "نیازمند ورود با حساب Google · هر کاربر فقط یک نظر (بعداً قابل ویرایش) · بهتر است با رایانه انجام شود",
+    "description": "Footnote under the 'how to leave a review' steps (rate-us card, settings)"
+  },
+  "recover_mode": {
+    "message": "بازیابی خودکار هنگام خطا:",
+    "description": "Label for the per-tab/per-rule auto-recovery mode selector (popup and schedule modal)."
+  },
+  "recover_mode_default": {
+    "message": "پیش‌فرض",
+    "description": "Auto-recovery mode option: inherit the global setting."
+  },
+  "recover_mode_on": {
+    "message": "روشن",
+    "description": "Auto-recovery mode option: always on."
+  },
+  "recover_mode_off": {
+    "message": "خاموش",
+    "description": "Auto-recovery mode option: always off."
+  },
+  "auto_recover_enabled": {
+    "message": "بازیابی خودکار هنگام خطای بارگذاری:",
+    "description": "General-tab checkbox label that enables auto-recovery globally."
+  },
+  "auto_recover_desc": {
+    "message": "به‌طور خودکار سربرگ نظارت‌شده‌ای را که صفحه‌اش بارگذاری نشده (بدون اتصال، خطای DNS، اتمام زمان) یا در حال بارگذاری گیر کرده است، دوباره بارگذاری می‌کند. تلاش را با زمان‌بندی فزاینده ادامه می‌دهد (پس از حدود ۳۰ ثانیه، سپس ۱، ۲، ۵، ۱۰ و ۳۰ دقیقه) و پس از آن هر ۳۰ دقیقه یک‌بار، تا زمانی که صفحه بارگذاری شود یا شما آن را خاموش کنید. به یک مجوز یک‌باره نیاز دارد و فقط روی سربرگ‌های نظارت‌شده کار می‌کند. تنظیمات اختصاصی برای هر سربرگ و هر قانون در دسترس است.",
+    "description": "Description of the auto-recovery setting on the General tab."
+  },
+  "recover_permission_denied": {
+    "message": "بازیابی خودکار به مجوز اضافی نیاز دارد که داده نشد.",
+    "description": "Toast/status shown when the user declines the webNavigation permission required for auto-recovery."
+  },
+  "recover_perm_dialog_title": {
+    "message": "بازیابی خودکار فعال شود؟",
+    "description": "Title of the dialog shown before requesting the webNavigation permission for auto-recovery."
+  },
+  "recover_perm_dialog_body": {
+    "message": "برای تشخیص زمانی که بارگذاری یک زبانهٔ تحت نظارت ناموفق می‌شود، افزونه به مجوز «webNavigation» مرورگر نیاز دارد. Chrome آن را با عنوان «خواندن تاریخچهٔ مرور شما» نشان می‌دهد، اما افزونه تنها از آن برای تشخیص بارگذاری‌های ناموفق استفاده می‌کند و همچنان نمی‌تواند محتوای صفحه‌های شما را بخواند. برای اعطای آن روی «فعال‌سازی» کلیک کنید.",
+    "description": "Body text of the dialog explaining the webNavigation permission before the browser prompt."
+  },
+  "pause_while_active_enabled": {
+    "message": "توقف موقت وقتی فعال هستم:",
+    "description": "General-tab checkbox label for the smart-pause setting (skip a refresh while the user is active)."
+  },
+  "pause_while_active_desc": {
+    "message": "وقتی به‌طور فعال از زبانه‌ای که در حال مشاهده‌اش هستید استفاده می‌کنید (تایپ می‌کنید یا ماوس را حرکت می‌دهید)، بارگذاری مجدد زمان‌بندی‌شدهٔ آن زبانه نادیده گرفته می‌شود و در فاصلهٔ زمانی بعدی دوباره تلاش می‌شود تا یک به‌روزرسانی خودکار هرگز کاری را که انجام می‌دهید قطع نکند. این قابلیت از حالت بی‌کاری مرورگر استفاده می‌کند و فقط برای زبانهٔ فعال اعمال می‌شود — زبانه‌های پس‌زمینه طبق برنامه به‌روزرسانی می‌شوند.",
+    "description": "Description of the smart-pause setting on the General tab."
+  },
+  "resume": {
+    "message": "ازسرگیری",
+    "description": "Resume menu item / button (resume a paused auto-refresh timer)"
+  },
+  "overlapping_schedule_url": {
+    "message": "این نشانی وب با یک قانون زمان‌بندی موجود ({url}) هم‌پوشانی دارد. الگو را تغییر دهید تا از به‌روزرسانی‌های تکراری جلوگیری شود.",
+    "description": "Error shown when a new or edited schedule rule would refresh the same page(s) as an existing rule."
+  },
+  "invalid_schedule_url": {
+    "message": "یک نشانی وب معتبر وارد کنید، برای مثال example.com یا https://example.com/page.",
+    "description": "Error shown when a schedule rule's URL is not a valid website address."
+  },
+  "command_toggle_refresh": {
+    "message": "شروع یا توقف به‌روزرسانی خودکار در برگه فعلی",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that starts or stops auto-refresh on the current tab."
+  },
+  "command_toggle_pause": {
+    "message": "توقف موقت یا از سرگیری به‌روزرسانی خودکار در برگه فعلی",
+    "description": "Keyboard shortcut description shown on chrome://extensions/shortcuts for the command that pauses or resumes auto-refresh on the current tab."
+  },
+  "bulk_heading": {
+    "message": "همه برگه‌های این پنجره",
+    "description": "Popup heading for the section that starts/stops auto-refresh on every tab of the current window."
+  },
+  "bulk_start_window": {
+    "message": "شروع همه",
+    "description": "Popup button that starts auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_stop_window": {
+    "message": "توقف همه",
+    "description": "Popup button that stops auto-refresh on every refreshable tab of the current window."
+  },
+  "bulk_result": {
+    "message": "{started}/{total} شروع شد",
+    "description": "Popup summary after a bulk start: how many tabs were started out of the total. {started} and {total} are numbers."
+  },
+  "bulk_result_stop": {
+    "message": "{stopped}/{total} متوقف شد",
+    "description": "Popup summary after a bulk stop: how many tabs were stopped out of the total. {stopped} and {total} are numbers."
+  },
+  "bulk_skipped": {
+    "message": "{skipped} رد شد",
+    "description": "Popup fragment appended to a bulk result: how many tabs were skipped (not refreshable). {skipped} is a number."
+  },
+  "bulk_failed": {
+    "message": "{failed} ناموفق",
+    "description": "Popup fragment appended to a bulk result: how many tabs failed. {failed} is a number."
+  },
+  "bulk_capped": {
+    "message": "{capped} بیش از حد",
+    "description": "Popup fragment appended to a bulk result: how many tabs were not started because the active-timer limit was reached. {capped} is a number."
+  },
+  "bulk_none_eligible": {
+    "message": "برگه واجد شرایطی نیست",
+    "description": "Popup message when a bulk action found no eligible (refreshable) tabs to act on."
+  },
+  "bulk_error": {
+    "message": "خطا",
+    "description": "Popup prefix shown when a bulk action failed to reach the background service worker."
+  },
+  "command_bulk_window": {
+    "message": "شروع یا توقف به‌روزرسانی خودکار در همه برگه‌های پنجره",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the current window."
+  },
+  "bulk_group_button": {
+    "message": "گروه این برگه",
+    "description": "Popup button that starts/stops auto-refresh on every tab in the active tab's tab group. Shown only when the active tab is in a group."
+  },
+  "bulk_group_none": {
+    "message": "این برگه در هیچ گروهی نیست",
+    "description": "Popup message shown when a group bulk action was invoked on a tab that is not in any tab group."
+  },
+  "command_bulk_group": {
+    "message": "شروع یا توقف به‌روزرسانی خودکار در همه برگه‌های گروه",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts for the command that starts/stops auto-refresh on all tabs in the active tab's group."
+  },
+  "interval_range": {
+    "message": "بازه فاصله تصادفی",
+    "description": "Popup heading for the section that starts auto-refresh with a random interval that varies between a minimum and a maximum."
+  },
+  "interval_range_min": {
+    "message": "حداقل، ث",
+    "description": "Placeholder for the minimum-seconds input of the random interval range."
+  },
+  "interval_range_max": {
+    "message": "حداکثر، ث",
+    "description": "Placeholder for the maximum-seconds input of the random interval range."
+  },
+  "interval_range_invalid": {
+    "message": "یک بازه معتبر وارد کنید: ۳۰ تا ۸۶۴۰۰ ثانیه، حداقل نه بیشتر از حداکثر",
+    "description": "Popup error shown when the entered random interval range is invalid (not whole numbers, out of the 30s..24h range, or min greater than max)."
+  },
+  "set_range": {
+    "message": "تنظیم بازه",
+    "description": "Popup button that starts auto-refresh using the entered random interval range."
+  },
+  "shortcuts_heading": {
+    "message": "میان‌برهای صفحه‌کلید",
+    "description": "Heading of the settings-page card that lists the extension's keyboard shortcuts."
+  },
+  "shortcuts_customize": {
+    "message": "سفارشی‌سازی میان‌برها",
+    "description": "Label of the button that opens Chrome's shortcut-customization page."
+  },
+  "shortcuts_not_set": {
+    "message": "تنظیم‌نشده",
+    "description": "Shown instead of a key combination when a command has no shortcut assigned."
+  },
+  "shortcuts_hint": {
+    "message": "میان‌برها را در صفحه میان‌برهای Chrome تغییر دهید یا اضافه کنید.",
+    "description": "Hint under the shortcuts list telling the user where to change or add shortcuts."
+  },
+  "refreshes_and_rules": {
+    "message": "به‌روزرسانی‌ها و قوانین",
+    "description": "Label of the merged settings tab that holds scheduled refreshes and URL rules."
+  },
+  "popup_advanced": {
+    "message": "پیشرفته",
+    "description": "Label of the collapsible \"Advanced\" section in the popup that holds the interval range and the per-tab options."
+  }
+}
