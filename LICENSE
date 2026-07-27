@@ -6,23 +6,29 @@ It is NOT open-source software; only the limited rights below are granted.
 
 0. Scope. These terms govern this repository and any copy of the software
    obtained from it, and they serve as the end-user licence for Chrome Web Store
-   packages published on or after the date of this notice. They do not purport to
-   withdraw rights already granted to anyone who installed an earlier release
-   from the Chrome Web Store under the Store's own terms.
+   packages published on or after 27 July 2026. They do not purport to withdraw
+   rights already granted to anyone who installed an earlier release from the
+   Chrome Web Store under the Store's own terms.
 
 1. Permitted use. You may (a) view, read, and study the source code in this
    repository; and (b) download and run the extension for your own private,
    personal, non-commercial use (e.g. loading it unpacked in your own browser).
 
-2. Restrictions. Except as permitted above, as permitted in sections 3 and 4, and
-   except where applicable law grants a right that cannot lawfully be waived, and
-   without prior written permission of the copyright holder, you may NOT:
-   (a) copy, redistribute, publish, upload, sublicense, or sell this software or
-   any part or derivative of it — in particular you may NOT submit or publish it,
-   or any modified or rebranded version, to the Chrome Web Store or any other
-   browser-extension marketplace, app store, website, or distribution platform;
-   (b) use it or any derivative for any commercial purpose; or (c) remove or
-   alter this notice or the copyright notice.
+2. Restrictions. Without prior written permission of the copyright holder, you
+   may NOT: (a) copy, redistribute, publish, upload, sublicense, or sell this
+   software or any part or derivative of it — in particular you may NOT submit or
+   publish it, or any modified or rebranded version, to the Chrome Web Store or
+   any other browser-extension marketplace, app store, website, or distribution
+   platform; or (b) use it or any derivative for any commercial purpose.
+
+   Paragraphs (a) and (b) do not apply to what section 1 permits, to what
+   sections 3 and 4 permit, or where applicable law grants a right that cannot
+   lawfully be waived.
+
+   Separately, and subject only to rights that applicable law does not permit to
+   be waived, you may NOT remove or alter this notice or the copyright notice.
+   That applies to every copy, including a fork or a contribution made under
+   sections 3 and 4.
 
 3. Hosting platform. This repository is hosted publicly on GitHub, and doing so
    necessarily grants rights under GitHub's Terms of Service — both to other
@@ -30,9 +36,11 @@ It is NOT open-source software; only the limited rights below are granted.
    within GitHub, and to GitHub itself and its affiliates, whose granted rights
    include use of public content in ways the copyright holder does not control.
    Section 2 does not restrict those platform rights, and to that extent the
-   restrictions in section 2 cannot be, and are not, absolute. Those rights do
-   not extend to distribution outside the platform, and every other restriction
-   in section 2 continues to apply to any such copy or fork.
+   restrictions in section 2 cannot be, and are not, absolute. As between you and
+   the copyright holder, a fork you create under those platform rights remains
+   subject to section 2: it does not entitle you to distribute the software
+   outside GitHub, to publish it to any store or platform, or to use it
+   commercially.
 
 4. Contributions. Solely for the purpose of preparing and submitting a
    contribution to this repository — an issue reproduction, a patch, or a pull
