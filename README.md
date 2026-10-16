@@ -6,7 +6,7 @@
   <a href="https://chromewebstore.google.com/detail/auto-refresh-page-monitor/mhmkhlbgacabeffhkalebjnbnfakfdbj"><img src="https://img.shields.io/chrome-web-store/v/mhmkhlbgacabeffhkalebjnbnfakfdbj?label=Chrome%20Web%20Store&color=4285F4&logo=googlechrome&logoColor=white" alt="Chrome Web Store"></a>
   <a href="https://chromewebstore.google.com/detail/auto-refresh-page-monitor/mhmkhlbgacabeffhkalebjnbnfakfdbj"><img src="https://img.shields.io/chrome-web-store/users/mhmkhlbgacabeffhkalebjnbnfakfdbj?label=users&color=34A853&logo=googlechrome&logoColor=white" alt="Chrome Web Store users"></a>
   <a href="https://github.com/kirillDevPro/auto-refresh-page-monitor/actions/workflows/ci.yml"><img src="https://github.com/kirillDevPro/auto-refresh-page-monitor/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="#status"><img src="https://img.shields.io/badge/verified%20working-2026--10--11-16A34A" alt="Verified working: 2026-10-11"></a>
+  <a href="#status"><img src="https://img.shields.io/badge/verified%20working-2026--10--16-16A34A" alt="Verified working: 2026-10-16"></a>
   <img src="https://img.shields.io/badge/Manifest-V3-4285F4" alt="Manifest V3">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-source--available%20%C2%B7%20personal%20use-2563EB" alt="License: source-available, personal use only"></a>
   <img src="https://img.shields.io/badge/host%20permissions-none-16A34A" alt="No host permissions">
@@ -33,7 +33,7 @@ Maintained and working. A headless check loads the current build into Chromium e
 that a scheduled tab reloads on time. Commits are rare because the extension is stable,
 not because the project is abandoned.
 
-Verified working: 2026-10-11
+Verified working: 2026-10-16
 
 ## Features
 
